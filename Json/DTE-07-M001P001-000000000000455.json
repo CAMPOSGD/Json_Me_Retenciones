@@ -1,0 +1,82 @@
+{
+  "": {
+    "identificacion": {
+      "version": 1,
+      "ambiente": "01",
+      "tipoDte": "07",
+      "numeroControl": "DTE-07-M001P001-000000000000455",
+      "codigoGeneracion": "D26FD4DF-C532-4E7E-A50D-D0132F93C865",
+      "tipoModelo": 1,
+      "tipoOperacion": 1,
+      "tipoContingencia": null,
+      "motivoContin": null,
+      "fecEmi": "2025-10-02",
+      "horEmi": "15:35:28",
+      "tipoMoneda": "USD"
+    },
+    "emisor": {
+      "nit": "06141012650020",
+      "nrc": "226076",
+      "nombre": "IMPRENTA WILBOT, S. A.",
+      "codActividad": "18110",
+      "descActividad": "Impresión",
+      "nombreComercial": "IMPRENTA WILBOT, S. A.",
+      "tipoEstablecimiento": "02",
+      "direccion": {
+        "departamento": "06",
+        "municipio": "23",
+        "complemento": "25 AV. SUR # 480"
+      },
+      "telefono": "00000000",
+      "codigoMH": null,
+      "codigo": "0001",
+      "puntoVentaMH": null,
+      "puntoVenta": "1",
+      "correo": "wilbot@gmail.com"
+    },
+    "receptor": {
+      "tipoDocumento": "36",
+      "numDocumento": "06141511770020",
+      "nrc": "16128",
+      "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+      "codActividad": "46599",
+      "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+      "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+      "direccion": {
+        "departamento": "06",
+        "municipio": "23",
+        "complemento": "Blvd. Venezuela Nº 3077"
+      },
+      "telefono": "25250800",
+      "correo": "raul.guevara@cerosa.com"
+    },
+    "cuerpoDocumento": [
+      {
+        "numItem": 1,
+        "tipoDte": "03",
+        "tipoDoc": 2,
+        "numDocumento": "6B0A53F0-7250-4551-92D7-6AF3D72D694F",
+        "fechaEmision": "2025-10-02",
+        "montoSujetoGrav": 248.0,
+        "codigoRetencionMH": "22",
+        "ivaRetenido": 2.48,
+        "descripcion": "RETENCION DEL 1% SOBRE CCF# 6458"
+      }
+    ],
+    "resumen": {
+      "totalSujetoRetencion": 248.0,
+      "totalIVAretenido": 2.48,
+      "totalIVAretenidoLetras": "DOS 48 /100"
+    },
+    "apendice": null,
+    "extension": {
+      "nombEntrega": null,
+      "docuEntrega": null,
+      "nombRecibe": null,
+      "docuRecibe": null,
+      "observaciones": null
+    }
+  },
+  "firma": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAxLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDciLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDA0NTUiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkQyNkZENERGLUM1MzItNEU3RS1BNTBELUQwMTMyRjkzQzg2NSIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI1LTEwLTAyIiwKICAgICJob3JFbWkiIDogIjE1OjM1OjI4IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA2MTQxMDEyNjUwMDIwIiwKICAgICJucmMiIDogIjIyNjA3NiIsCiAgICAibm9tYnJlIiA6ICJJTVBSRU5UQSBXSUxCT1QsIFMuIEEuIiwKICAgICJjb2RBY3RpdmlkYWQiIDogIjE4MTEwIiwKICAgICJkZXNjQWN0aXZpZGFkIiA6ICJJbXByZXNpw7NuIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIklNUFJFTlRBIFdJTEJPVCwgUy4gQS4iLAogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iIDogIjAyIiwKICAgICJkaXJlY2Npb24iIDogewogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsCiAgICAgICJtdW5pY2lwaW8iIDogIjIzIiwKICAgICAgImNvbXBsZW1lbnRvIiA6ICIyNSBBVi4gU1VSICMgNDgwIgogICAgfSwKICAgICJ0ZWxlZm9ubyIgOiAiMDAwMDAwMDAiLAogICAgImNvZGlnb01IIiA6IG51bGwsCiAgICAiY29kaWdvIiA6ICIwMDAxIiwKICAgICJwdW50b1ZlbnRhTUgiIDogbnVsbCwKICAgICJwdW50b1ZlbnRhIiA6ICIxIiwKICAgICJjb3JyZW8iIDogIndpbGJvdEBnbWFpbC5jb20iCiAgfSwKICAicmVjZXB0b3IiIDogewogICAgInRpcG9Eb2N1bWVudG8iIDogIjM2IiwKICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwKICAgICJucmMiIDogIjE2MTI4IiwKICAgICJub21icmUiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICI0NjU5OSIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiVmVudGEgYWwgcG9yIG1heW9yIGRlIG90cm8gdGlwbyBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGNvbiBzdXMgYWNjZXNvcmlvcyB5IHBhcnRlcyIsCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6ICJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLAogICAgImRpcmVjY2lvbiIgOiB7CiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwKICAgICAgIm11bmljaXBpbyIgOiAiMjMiLAogICAgICAiY29tcGxlbWVudG8iIDogIkJsdmQuIFZlbmV6dWVsYSBOwrogMzA3NyIKICAgIH0sCiAgICAidGVsZWZvbm8iIDogIjI1MjUwODAwIiwKICAgICJjb3JyZW8iIDogInJhdWwuZ3VldmFyYUBjZXJvc2EuY29tIgogIH0sCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsKICAgICJudW1JdGVtIiA6IDEsCiAgICAidGlwb0R0ZSIgOiAiMDMiLAogICAgInRpcG9Eb2MiIDogMiwKICAgICJudW1Eb2N1bWVudG8iIDogIjZCMEE1M0YwLTcyNTAtNDU1MS05MkQ3LTZBRjNENzJENjk0RiIsCiAgICAiZmVjaGFFbWlzaW9uIiA6ICIyMDI1LTEwLTAyIiwKICAgICJtb250b1N1amV0b0dyYXYiIDogMjQ4LjAsCiAgICAiY29kaWdvUmV0ZW5jaW9uTUgiIDogIjIyIiwKICAgICJpdmFSZXRlbmlkbyIgOiAyLjQ4LAogICAgImRlc2NyaXBjaW9uIiA6ICJSRVRFTkNJT04gREVMIDElIFNPQlJFIENDRiMgNjQ1OCIKICB9IF0sCiAgInJlc3VtZW4iIDogewogICAgInRvdGFsU3VqZXRvUmV0ZW5jaW9uIiA6IDI0OC4wLAogICAgInRvdGFsSVZBcmV0ZW5pZG8iIDogMi40OCwKICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIiA6ICJET1MgNDggLzEwMCIKICB9LAogICJhcGVuZGljZSIgOiBudWxsLAogICJleHRlbnNpb24iIDogewogICAgIm5vbWJFbnRyZWdhIiA6IG51bGwsCiAgICAiZG9jdUVudHJlZ2EiIDogbnVsbCwKICAgICJub21iUmVjaWJlIiA6IG51bGwsCiAgICAiZG9jdVJlY2liZSIgOiBudWxsLAogICAgIm9ic2VydmFjaW9uZXMiIDogbnVsbAogIH0KfQ.NBb5cUX1aLvzKuaAMzsAzWWJFs5S6VbOBIlqTPFMUs8sH28i7nHlvZ-7u4PHY3T5iSZt2TBJ-YNSpqSV4Ig-FE4708OOGvvcoidK5xYTQCusK2CmCgaEO6l_l-s0AsNZZlPJuYf82RpfhFJ5a1V39ulTgXKzPnq28ztmPgoWZ7wdDUz9tfhqDn5-z4UhkThOuEfdNoBH5nuK-112Gmstmf8avF4rqr28AKAFLthjLLpr1vOEX2keprgxVl4svZ929-7RZmLpSYYBY_Sikj-hafOzSafMRdPfnonfUKUjvm7GFRkOqMEPtJzjYCrzF2LKxmeUpXGxULrFXDP8mZZO6w",
+  "SelloRecibido": "2025D87201CF41DC42259EFC36C4C1890155AUFN"
+}

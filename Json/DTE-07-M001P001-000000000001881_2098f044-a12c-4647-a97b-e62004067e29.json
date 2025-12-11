@@ -1,0 +1,89 @@
+{
+    "identificacion": {
+        "version": 1,
+        "ambiente": "01",
+        "tipoDte": "07",
+        "numeroControl": "DTE-07-M001P001-000000000001881",
+        "codigoGeneracion": "2098F044-A12C-4647-A97B-E62004067E29",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2025-11-28",
+        "horEmi": "15:36:19",
+        "tipoMoneda": "USD"
+    },
+    "emisor": {
+        "nit": "06142605660013",
+        "nrc": "4650",
+        "nombre": "INDUSTRIAS SINTENTICAS DE CENTRO AMERICA, S.A.",
+        "codActividad": "13120",
+        "descActividad": "Fabricación de telas",
+        "nombreComercial": "INSINCA, S.A.",
+        "tipoEstablecimiento": "02",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "21",
+            "complemento": "KILOMETRO 12½ CARRETERA TRONCAL DEL NORTE, SAN SALVADOR OESTE, SAN SALVADOR"
+        },
+        "telefono": "22160055",
+        "codigoMH": "M001",
+        "codigo": null,
+        "PuntoVentaMH": "P001",
+        "puntoVenta": null,
+        "correo": "facturae.insinca@insinca.com"
+    },
+    "receptor": {
+        "tipoDocumento": "36",
+        "numDocumento": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS S.A DE C.V.",
+        "codActividad": "46599",
+        "descActividad": "Venta al por  mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+        "nombreComercial": "CENTRAL DE RODAMIENTOS S.A DE C.V.",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "23",
+            "complemento": "BLVD. VENEZUELA #3077 San Salvador Centro"
+        },
+        "telefono": null,
+        "correo": "raul.guevara@cerosa.com"
+    },
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoDte": "03",
+            "tipoDoc": 2,
+            "numDocumento": "EF41E70A-5B7E-41C5-9157-84B99AF962CC",
+            "fechaEmision": "2025-11-26",
+            "montoSujetoGrav": 220.0,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 2.2,
+            "descripcion": "DTE   7738     26-11-2025 CR # 4594"
+        }
+    ],
+    "resumen": {
+        "totalSujetoRetencion": 220.0,
+        "totalIVAretenido": 2.2,
+        "totalIVAretenidoLetras": "DOS 20/100 DOLARES"
+    },
+    "extension": null,
+    "apendice": [
+        {
+            "campo": "N.Ret.",
+            "etiqueta": "correlativo",
+            "valor": "Z 4594"
+        },
+        {
+            "campo": "Elaborado Por:",
+            "etiqueta": "digitador",
+            "valor": "JOSSELINNE BARAHONA"
+        }
+    ],
+    "acuseMH": {
+        "version": "1",
+        "numValidacion": "20259B45B3261F59436D8B6D26B8C716026BTAPS",
+        "fhProcesamiento": "28/11/2025 15:36:19",
+        "firma": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAxLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDciLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDE4ODEiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIjIwOThGMDQ0LUExMkMtNDY0Ny1BOTdCLUU2MjAwNDA2N0UyOSIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI1LTExLTI4IiwKICAgICJob3JFbWkiIDogIjE1OjM2OjE5IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA2MTQyNjA1NjYwMDEzIiwKICAgICJucmMiIDogIjQ2NTAiLAogICAgIm5vbWJyZSIgOiAiSU5EVVNUUklBUyBTSU5URU5USUNBUyBERSBDRU5UUk8gQU1FUklDQSwgUy5BLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICIxMzEyMCIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiRmFicmljYWNpw7NuIGRlIHRlbGFzIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIklOU0lOQ0EsIFMuQS4iLAogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iIDogIjAyIiwKICAgICJkaXJlY2Npb24iIDogewogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsCiAgICAgICJtdW5pY2lwaW8iIDogIjIxIiwKICAgICAgImNvbXBsZW1lbnRvIiA6ICJLSUxPTUVUUk8gMTLCvSBDQVJSRVRFUkEgVFJPTkNBTCBERUwgTk9SVEUsIFNBTiBTQUxWQURPUiBPRVNURSwgU0FOIFNBTFZBRE9SIgogICAgfSwKICAgICJ0ZWxlZm9ubyIgOiAiMjIxNjAwNTUiLAogICAgImNvZGlnb01IIiA6ICJNMDAxIiwKICAgICJjb2RpZ28iIDogbnVsbCwKICAgICJwdW50b1ZlbnRhTUgiIDogIlAwMDEiLAogICAgInB1bnRvVmVudGEiIDogbnVsbCwKICAgICJjb3JyZW8iIDogImZhY3R1cmFlLmluc2luY2FAaW5zaW5jYS5jb20iCiAgfSwKICAicmVjZXB0b3IiIDogewogICAgInRpcG9Eb2N1bWVudG8iIDogIjM2IiwKICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwKICAgICJucmMiIDogIjE2MTI4IiwKICAgICJub21icmUiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MgUy5BIERFIEMuVi4iLAogICAgImNvZEFjdGl2aWRhZCIgOiAiNDY1OTkiLAogICAgImRlc2NBY3RpdmlkYWQiIDogIlZlbnRhIGFsIHBvciAgbWF5b3IgZGUgb3RybyB0aXBvIGRlIG1hcXVpbmFyaWEgeSBlcXVpcG8gY29uIHN1cyBhY2Nlc29yaW9zIHkgcGFydGVzIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MgUy5BIERFIEMuVi4iLAogICAgImRpcmVjY2lvbiIgOiB7CiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwKICAgICAgIm11bmljaXBpbyIgOiAiMjMiLAogICAgICAiY29tcGxlbWVudG8iIDogIkJMVkQuIFZFTkVaVUVMQSAjMzA3NyBTYW4gU2FsdmFkb3IgQ2VudHJvIgogICAgfSwKICAgICJ0ZWxlZm9ubyIgOiBudWxsLAogICAgImNvcnJlbyIgOiAicmF1bC5ndWV2YXJhQGNlcm9zYS5jb20iCiAgfSwKICAiY3VlcnBvRG9jdW1lbnRvIiA6IFsgewogICAgIm51bUl0ZW0iIDogMSwKICAgICJ0aXBvRHRlIiA6ICIwMyIsCiAgICAidGlwb0RvYyIgOiAyLAogICAgIm51bURvY3VtZW50byIgOiAiRUY0MUU3MEEtNUI3RS00MUM1LTkxNTctODRCOTlBRjk2MkNDIiwKICAgICJmZWNoYUVtaXNpb24iIDogIjIwMjUtMTEtMjYiLAogICAgIm1vbnRvU3VqZXRvR3JhdiIgOiAyMjAsCiAgICAiY29kaWdvUmV0ZW5jaW9uTUgiIDogIjIyIiwKICAgICJpdmFSZXRlbmlkbyIgOiAyLjIsCiAgICAiZGVzY3JpcGNpb24iIDogIkRURSAgIDc3MzggICAgIDI2LTExLTIwMjUgQ1IgIyA0NTk0IgogIH0gXSwKICAicmVzdW1lbiIgOiB7CiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iIDogMjIwLAogICAgInRvdGFsSVZBcmV0ZW5pZG8iIDogMi4yLAogICAgInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiIDogIkRPUyAyMC8xMDAgRE9MQVJFUyIKICB9LAogICJleHRlbnNpb24iIDogbnVsbCwKICAiYXBlbmRpY2UiIDogWyB7CiAgICAiY2FtcG8iIDogIk4uUmV0LiIsCiAgICAiZXRpcXVldGEiIDogImNvcnJlbGF0aXZvIiwKICAgICJ2YWxvciIgOiAiWiA0NTk0IgogIH0sIHsKICAgICJjYW1wbyIgOiAiRWxhYm9yYWRvIFBvcjoiLAogICAgImV0aXF1ZXRhIiA6ICJkaWdpdGFkb3IiLAogICAgInZhbG9yIiA6ICJKT1NTRUxJTk5FIEJBUkFIT05BIgogIH0gXQp9.kGrmA9S3thhBUysM4O8MHfhfS8RzALhwRbZqbef-dCL2J_PK9PWBZC8juvRylwtBNi8LFhHDzfnUCg6nMMYl4uO6JCPwqJwajaadpqF_4WmNY4WG9CHubIC2btYHXCNbBzE-VwJkMFpPmxSgP-hllyf1-A5Nn2RxR2hg7R1BA1pblJQc15b9Fk-iJDhZP180LjqoXvA4HFckaxoKDDiuT7YLlDLEjG5Lyv5pns6QAx3mqs_lmEmS30demqJVKB0sHTsB7wgYhLRvBbGdj6zkMN6JZL0yskYU9WMoOyozBNNUe4kZMT2PR3bU_p9Wn_8Xz4EmW6HqXHYireWN2yxCAA"
+    }
+}

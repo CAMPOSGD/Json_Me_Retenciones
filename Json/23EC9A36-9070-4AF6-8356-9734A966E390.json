@@ -1,0 +1,91 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000002286",
+    "codigoGeneracion": "23EC9A36-9070-4AF6-8356-9734A966E390",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-16",
+    "horEmi": "16:09:00",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06140911610019",
+    "nrc": "1732",
+    "nombre": "FERTILIZANTES DE C.A. (EL SALVADOR), S.A.",
+    "codActividad": "46211",
+    "descActividad": "Venta de productos para uso agropecuario",
+    "nombreComercial": "Oficina Central",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BO. EL CALVARIO, # 801, NIVEL NUEVE, CONDOMINIO TORRE ROBLE NORTE, DISTRITO DE SAN SALVADOR"
+    },
+    "telefono": "22340444",
+    "correo": "jargueta@fertica.com",
+    "codigoMH": "M001",
+    "codigo": "M001",
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD. VENEZUELA #3077, FRENTE A VIFRIO. SAN SALVADOR"
+    },
+    "telefono": "2525080022641556",
+    "correo": "raul.guevara@cerosa.com",
+    "nombreComercial": null
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "numDocumento": "7397",
+      "fechaEmision": "2025-11-11",
+      "montoSujetoGrav": 840.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 8.4,
+      "descripcion": "APIM-25064.-MI1.-SOLICITUD 2005503. PEDIDO 20006221. CENTRAL RODAMIENTOS CCF# DTE-7397 BASADO EN PEDIDO DE ENTRADA DE MERCANCÍAS R.M. # 57070-5004630."
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 840.0,
+    "totalIVAretenido": 8.4,
+    "totalIVAretenidoLetras": "ocho dólares con cuarenta centavos"
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "AP1",
+      "etiqueta": "No interno SAP",
+      "valor": "1022237"
+    },
+    {
+      "campo": "AP2",
+      "etiqueta": "Codigo de proveedor",
+      "valor": "P00078"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJ2ZXJzaW9uIjoxLCJhbWJpZW50ZSI6IjAxIiwidGlwb0R0ZSI6IjA3IiwibnVtZXJvQ29udHJvbCI6IkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDIyODYiLCJjb2RpZ29HZW5lcmFjaW9uIjoiMjNFQzlBMzYtOTA3MC00QUY2LTgzNTYtOTczNEE5NjZFMzkwIiwidGlwb01vZGVsbyI6MSwidGlwb09wZXJhY2lvbiI6MSwidGlwb0NvbnRpbmdlbmNpYSI6bnVsbCwibW90aXZvQ29udGluIjpudWxsLCJmZWNFbWkiOiIyMDI1LTExLTE2IiwiaG9yRW1pIjoiMTY6MDk6MDAiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImVtaXNvciI6eyJuaXQiOiIwNjE0MDkxMTYxMDAxOSIsIm5yYyI6IjE3MzIiLCJub21icmUiOiJGRVJUSUxJWkFOVEVTIERFIEMuQS4gKEVMIFNBTFZBRE9SKSwgUy5BLiIsImNvZEFjdGl2aWRhZCI6IjQ2MjExIiwiZGVzY0FjdGl2aWRhZCI6IlZlbnRhIGRlIHByb2R1Y3RvcyBwYXJhIHVzbyBhZ3JvcGVjdWFyaW8iLCJub21icmVDb21lcmNpYWwiOiJPZmljaW5hIENlbnRyYWwiLCJ0aXBvRXN0YWJsZWNpbWllbnRvIjoiMDIiLCJkaXJlY2Npb24iOnsiZGVwYXJ0YW1lbnRvIjoiMDYiLCJtdW5pY2lwaW8iOiIyMyIsImNvbXBsZW1lbnRvIjoiQk8uIEVMIENBTFZBUklPLCAjIDgwMSwgTklWRUwgTlVFVkUsIENPTkRPTUlOSU8gVE9SUkUgUk9CTEUgTk9SVEUsIERJU1RSSVRPIERFIFNBTiBTQUxWQURPUiJ9LCJ0ZWxlZm9ubyI6IjIyMzQwNDQ0IiwiY29ycmVvIjoiamFyZ3VldGFAZmVydGljYS5jb20iLCJjb2RpZ29NSCI6Ik0wMDEiLCJjb2RpZ28iOiJNMDAxIiwicHVudG9WZW50YU1IIjpudWxsLCJwdW50b1ZlbnRhIjpudWxsfSwicmVjZXB0b3IiOnsidGlwb0RvY3VtZW50byI6IjM2IiwibnVtRG9jdW1lbnRvIjoiMDYxNDE1MTE3NzAwMjAiLCJucmMiOiIxNjEyOCIsIm5vbWJyZSI6IkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsImNvZEFjdGl2aWRhZCI6IjQ2NTk5IiwiZGVzY0FjdGl2aWRhZCI6IlZlbnRhIGFsIHBvciBtYXlvciBkZSBvdHJvIHRpcG8gZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBjb24gc3VzIGFjY2Vzb3Jpb3MgeSBwYXJ0ZXMiLCJkaXJlY2Npb24iOnsiZGVwYXJ0YW1lbnRvIjoiMDYiLCJtdW5pY2lwaW8iOiIyMyIsImNvbXBsZW1lbnRvIjoiQkxWRC4gVkVORVpVRUxBICMzMDc3LCBGUkVOVEUgQSBWSUZSSU8uIFNBTiBTQUxWQURPUiJ9LCJ0ZWxlZm9ubyI6IjI1MjUwODAwMjI2NDE1NTYiLCJjb3JyZW8iOiJyYXVsLmd1ZXZhcmFAY2Vyb3NhLmNvbSIsIm5vbWJyZUNvbWVyY2lhbCI6bnVsbH0sImN1ZXJwb0RvY3VtZW50byI6W3sibnVtSXRlbSI6MSwidGlwb0R0ZSI6IjAzIiwidGlwb0RvYyI6MSwibnVtRG9jdW1lbnRvIjoiNzM5NyIsImZlY2hhRW1pc2lvbiI6IjIwMjUtMTEtMTEiLCJtb250b1N1amV0b0dyYXYiOjg0MC4wLCJjb2RpZ29SZXRlbmNpb25NSCI6IjIyIiwiaXZhUmV0ZW5pZG8iOjguNCwiZGVzY3JpcGNpb24iOiJBUElNLTI1MDY0Li1NSTEuLVNPTElDSVRVRCAyMDA1NTAzLiBQRURJRE8gMjAwMDYyMjEuIENFTlRSQUwgUk9EQU1JRU5UT1MgQ0NGIyBEVEUtNzM5NyBCQVNBRE8gRU4gUEVESURPIERFIEVOVFJBREEgREUgTUVSQ0FOQ8ONQVMgUi5NLiAjIDU3MDcwLTUwMDQ2MzAuIn1dLCJyZXN1bWVuIjp7InRvdGFsU3VqZXRvUmV0ZW5jaW9uIjo4NDAuMCwidG90YWxJVkFyZXRlbmlkbyI6OC40LCJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIjoib2NobyBkw7NsYXJlcyBjb24gY3VhcmVudGEgY2VudGF2b3MifSwiZXh0ZW5zaW9uIjp7Im5vbWJFbnRyZWdhIjpudWxsLCJkb2N1RW50cmVnYSI6bnVsbCwibm9tYlJlY2liZSI6bnVsbCwiZG9jdVJlY2liZSI6bnVsbCwib2JzZXJ2YWNpb25lcyI6bnVsbH0sImFwZW5kaWNlIjpbeyJjYW1wbyI6IkFQMSIsImV0aXF1ZXRhIjoiTm8gaW50ZXJubyBTQVAiLCJ2YWxvciI6IjEwMjIyMzcifSx7ImNhbXBvIjoiQVAyIiwiZXRpcXVldGEiOiJDb2RpZ28gZGUgcHJvdmVlZG9yIiwidmFsb3IiOiJQMDAwNzgifV19.SMN6ovtgqyLgqkT7TIGwbgTyWYQQQ-1D1lhtZaKqKcokAU27YSWVX0iQf0LWJjW0LLJtyWdG99704f-vqR_WV6aJo4t_dsRhRYO7IWSLfC4Xt_jiDrw6Cvr7oFn-26DE0YrqyEGS2-fTHrIfkpmb1ilK7oxcYsPVGaBnHQc6Q1LguVRC6k26da5_8cRo4pXdUAhlEM39O_cARhCAHzn7bAOs7Q9luNkbYcyNFDUkHXF8jp9wnMtTesPAMeQ94aP6KZ1rNQBA6yCUQKUGXBNsFZzZLiL5YNkORW4lsztSnfla7ORAOx4mfGtAKJONneS89rXhSSQdXWAw_ZUTkG2b_w",
+  "selloRecibido": "202504CA1DB48A3E460C8D68FEBF3F8C45AAATBG"
+}

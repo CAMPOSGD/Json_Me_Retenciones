@@ -1,0 +1,105 @@
+{
+    "emisor": {
+        "nit": "06142101931049",
+        "nrc": "739430",
+        "nombre": "PRODUCTOS ALIMENTICIOS BOCADELI, S.A. DE C.V.",
+        "codActividad": "10799",
+        "descActividad": "Elaboración de productos alimenticios ncp",
+        "nombreComercial": "PRODUCTOS ALIMENTICIOS BOCADELI, S.A. DE C.V.",
+        "tipoEstablecimiento": "02",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "22",
+            "complemento": "FINAL AVENIDA CERRO VERDE COLONIA SIERRA MORENA II"
+        },
+        "telefono": "22979000",
+        "correo": "recepcion.dte@bocadeli.com",
+        "codigoMH": null,
+        "codigo": null,
+        "puntoVentaMH": null,
+        "puntoVenta": null
+    },
+    "receptor": {
+        "tipoDocumento": "36",
+        "numDocumento": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS  S.A. DE C.V.",
+        "codActividad": "46599",
+        "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+        "nombreComercial": "CENTRAL DE RODAMIENTOS  S.A. DE C.V.",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "14",
+            "complemento": "BOULEVARD VENEZUELA No.3077 SAN SALVADOR EL SALVADOR"
+        },
+        "telefono": "25250800",
+        "correo": "raul.guevara@cerosa.com"
+    },
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoDte": "03",
+            "tipoDoc": 1,
+            "numDocumento": "DTE-7951",
+            "fechaEmision": "2025-12-05",
+            "descripcion": "",
+            "montoSujetoGrav": 1191,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 11.91
+        }
+    ],
+    "resumen": {
+        "totalSujetoRetencion": 1191,
+        "totalIVAretenido": 11.91,
+        "totalIVAretenidoLetras": "ONCE 91/100 DOLARES"
+    },
+    "extension": null,
+    "identificacion": {
+        "motivoContin": null,
+        "version": 1,
+        "ambiente": "01",
+        "tipoDte": "07",
+        "numeroControl": "DTE-07-M001P026-000000000006613",
+        "codigoGeneracion": "A64EB72E-2966-47A1-B24F-30432BE35683",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "fecEmi": "2025-12-08",
+        "horEmi": "14:33:35",
+        "tipoMoneda": "USD"
+    },
+    "apendice": [
+        {
+            "campo": "Proveedor",
+            "etiqueta": "Nombre del Proveedor",
+            "valor": "CENTRAL DE RODAMIENTOS  S.A. DE C.V."
+        },
+        {
+            "campo": "Sucursal",
+            "etiqueta": "Nombre Sucursal",
+            "valor": "SAN SALVADOR"
+        },
+        {
+            "campo": "Proveedor",
+            "etiqueta": "Proveedor/Beneficiario",
+            "valor": "466 CENTRAL DE RODAMIENTOS  S.A. DE C.V."
+        },
+        {
+            "campo": "Doc_Interno",
+            "etiqueta": "No. Documento Interno",
+            "valor": "64688-FECR-14631"
+        }
+    ],
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "A64EB72E-2966-47A1-B24F-30432BE35683",
+    "selloRecibido": "202523F067937D5342648810FA3F2104AFA5FQWK",
+    "fhProcesamiento": "08/12/2025 14:33:35",
+    "clasificaMsg": "10",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": [],
+    "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJlbWlzb3IiOnsibml0IjoiMDYxNDIxMDE5MzEwNDkiLCJucmMiOiI3Mzk0MzAiLCJub21icmUiOiJQUk9EVUNUT1MgQUxJTUVOVElDSU9TIEJPQ0FERUxJLCBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiIxMDc5OSIsImRlc2NBY3RpdmlkYWQiOiJFbGFib3JhY2lcdTAwZjNuIGRlIHByb2R1Y3RvcyBhbGltZW50aWNpb3MgbmNwIiwibm9tYnJlQ29tZXJjaWFsIjoiUFJPRFVDVE9TIEFMSU1FTlRJQ0lPUyBCT0NBREVMSSwgUy5BLiBERSBDLlYuIiwidGlwb0VzdGFibGVjaW1pZW50byI6IjAyIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjIiLCJjb21wbGVtZW50byI6IkZJTkFMIEFWRU5JREEgQ0VSUk8gVkVSREUgQ09MT05JQSBTSUVSUkEgTU9SRU5BIElJIn0sInRlbGVmb25vIjoiMjI5NzkwMDAiLCJjb3JyZW8iOiJyZWNlcGNpb24uZHRlQGJvY2FkZWxpLmNvbSIsImNvZGlnb01IIjpudWxsLCJjb2RpZ28iOm51bGwsInB1bnRvVmVudGFNSCI6bnVsbCwicHVudG9WZW50YSI6bnVsbH0sInJlY2VwdG9yIjp7InRpcG9Eb2N1bWVudG8iOiIzNiIsIm51bURvY3VtZW50byI6IjA2MTQxNTExNzcwMDIwIiwibnJjIjoiMTYxMjgiLCJub21icmUiOiJDRU5UUkFMIERFIFJPREFNSUVOVE9TICBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiI0NjU5OSIsImRlc2NBY3RpdmlkYWQiOiJWZW50YSBhbCBwb3IgbWF5b3IgZGUgb3RybyB0aXBvIGRlIG1hcXVpbmFyaWEgeSBlcXVpcG8gY29uIHN1cyBhY2Nlc29yaW9zIHkgcGFydGVzIiwibm9tYnJlQ29tZXJjaWFsIjoiQ0VOVFJBTCBERSBST0RBTUlFTlRPUyAgUy5BLiBERSBDLlYuIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMTQiLCJjb21wbGVtZW50byI6IkJPVUxFVkFSRCBWRU5FWlVFTEEgTm8uMzA3NyBTQU4gU0FMVkFET1IgRUwgU0FMVkFET1IifSwidGVsZWZvbm8iOiIyNTI1MDgwMCIsImNvcnJlbyI6InJhdWwuZ3VldmFyYUBjZXJvc2EuY29tIn0sImN1ZXJwb0RvY3VtZW50byI6W3sibnVtSXRlbSI6MSwidGlwb0R0ZSI6IjAzIiwidGlwb0RvYyI6MSwibnVtRG9jdW1lbnRvIjoiRFRFLTc5NTEiLCJmZWNoYUVtaXNpb24iOiIyMDI1LTEyLTA1IiwiZGVzY3JpcGNpb24iOiIiLCJtb250b1N1amV0b0dyYXYiOjExOTEsImNvZGlnb1JldGVuY2lvbk1IIjoiMjIiLCJpdmFSZXRlbmlkbyI6MTEuOTF9XSwicmVzdW1lbiI6eyJ0b3RhbFN1amV0b1JldGVuY2lvbiI6MTE5MSwidG90YWxJVkFyZXRlbmlkbyI6MTEuOTEsInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiOiJPTkNFIDkxXC8xMDAgRE9MQVJFUyJ9LCJleHRlbnNpb24iOm51bGwsImlkZW50aWZpY2FjaW9uIjp7Im1vdGl2b0NvbnRpbiI6bnVsbCwidmVyc2lvbiI6MSwiYW1iaWVudGUiOiIwMSIsInRpcG9EdGUiOiIwNyIsIm51bWVyb0NvbnRyb2wiOiJEVEUtMDctTTAwMVAwMjYtMDAwMDAwMDAwMDA2NjEzIiwiY29kaWdvR2VuZXJhY2lvbiI6IkE2NEVCNzJFLTI5NjYtNDdBMS1CMjRGLTMwNDMyQkUzNTY4MyIsInRpcG9Nb2RlbG8iOjEsInRpcG9PcGVyYWNpb24iOjEsInRpcG9Db250aW5nZW5jaWEiOm51bGwsImZlY0VtaSI6IjIwMjUtMTItMDgiLCJob3JFbWkiOiIxNDozMzozNSIsInRpcG9Nb25lZGEiOiJVU0QifSwiYXBlbmRpY2UiOlt7ImNhbXBvIjoiUHJvdmVlZG9yIiwiZXRpcXVldGEiOiJOb21icmUgZGVsIFByb3ZlZWRvciIsInZhbG9yIjoiQ0VOVFJBTCBERSBST0RBTUlFTlRPUyAgUy5BLiBERSBDLlYuIn0seyJjYW1wbyI6IlN1Y3Vyc2FsIiwiZXRpcXVldGEiOiJOb21icmUgU3VjdXJzYWwiLCJ2YWxvciI6IlNBTiBTQUxWQURPUiJ9LHsiY2FtcG8iOiJQcm92ZWVkb3IiLCJldGlxdWV0YSI6IlByb3ZlZWRvclwvQmVuZWZpY2lhcmlvIiwidmFsb3IiOiI0NjYgQ0VOVFJBTCBERSBST0RBTUlFTlRPUyAgUy5BLiBERSBDLlYuIn0seyJjYW1wbyI6IkRvY19JbnRlcm5vIiwiZXRpcXVldGEiOiJOby4gRG9jdW1lbnRvIEludGVybm8iLCJ2YWxvciI6IjY0Njg4LUZFQ1ItMTQ2MzEifV19.V4K5VwqxKdpy0nD1rVyKb1fPWMSpVPd-Va9ICU75vNM07OcAcnLU61_Ox8OXRUg9D78CiYCbGNsh2hxc6AIQMm5rm_r_XkKapke6eyKGWaH2jhFzItqpbau6oLaUKCipSeZa5KK2K5VIdsdmXCDWGpvqpPWU_9Y7wEqCcqBP0X2qsNOrZF53sUsf8aD7fK91tOwg4BTLVMin2top_kjbHfEySSOQYQJ78vqQeoPxixePitLG4S3QIoFvq0ky5Y-m3zyv7VVgUeWZZd0Hm41wEQa1jgFMczemzTCG4heIQFRuoqIxXW5fCtGg0jUCYbPt1gibAAjZYd2sSCBATkCUMA"
+}

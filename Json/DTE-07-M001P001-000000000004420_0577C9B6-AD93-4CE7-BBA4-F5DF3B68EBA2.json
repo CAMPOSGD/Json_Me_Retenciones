@@ -1,0 +1,93 @@
+﻿{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000004420",
+    "codigoGeneracion": "0577C9B6-AD93-4CE7-BBA4-F5DF3B68EBA2",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-12-03",
+    "horEmi": "13:14:33",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06142910640026",
+    "nrc": "44059",
+    "nombre": "SARAM, S.A. DE C.V",
+    "codActividad": "01460",
+    "descActividad": "Cría de aves de corral y producción de huevos",
+    "nombreComercial": "SARAM, S.A. DE C.V",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "03",
+      "complemento": "KM 27 1/2 CARRETERA A SONSONTE"
+    },
+    "telefono": "23464800",
+    "correo": "atencionalcliente@mor.com.sv",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "Central de Rodamientos S.A. de C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": " ",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "Boulevar Venizuela, Colonia Roma No 3077, San Salvador"
+    },
+    "telefono": "25250800",
+    "correo": "raul.guevara@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "39B6EFE5-0D5F-4300-B449-D3690332AF98",
+      "fechaEmision": "2025-12-02",
+      "montoSujetoGrav": 325.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 3.25,
+      "descripcion": "COMPROBANTE DE RETENCION"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 325.0,
+    "totalIVAretenido": 3.25,
+    "totalIVAretenidoLetras": "TRES CON 25/100 DOLARES"
+  },
+  "extension": null,
+  "apendice": [
+    {
+      "campo": "Documento_Interno",
+      "etiqueta": "Documento Interno",
+      "valor": "CR-10418"
+    }
+  ],
+  "respuestaHacienda": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": "2",
+    "estado": "PROCESADO",
+    "codigoGeneracion": "0577C9B6-AD93-4CE7-BBA4-F5DF3B68EBA2",
+    "selloRecibido": "20252EE295F3EC734483988AB842DF0F03117IN8",
+    "fhProcesamiento": "03/12/2025 13:14:34",
+    "clasificaMsg": "10",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": null
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.ew0KICAiaWRlbnRpZmljYWNpb24iOiB7DQogICAgInZlcnNpb24iOiAxLA0KICAgICJhbWJpZW50ZSI6ICIwMSIsDQogICAgInRpcG9EdGUiOiAiMDciLA0KICAgICJudW1lcm9Db250cm9sIjogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDQ0MjAiLA0KICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIjA1NzdDOUI2LUFEOTMtNENFNy1CQkE0LUY1REYzQjY4RUJBMiIsDQogICAgInRpcG9Nb2RlbG8iOiAxLA0KICAgICJ0aXBvT3BlcmFjaW9uIjogMSwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiI6IG51bGwsDQogICAgImZlY0VtaSI6ICIyMDI1LTEyLTAzIiwNCiAgICAiaG9yRW1pIjogIjEzOjE0OjMzIiwNCiAgICAidGlwb01vbmVkYSI6ICJVU0QiDQogIH0sDQogICJlbWlzb3IiOiB7DQogICAgIm5pdCI6ICIwNjE0MjkxMDY0MDAyNiIsDQogICAgIm5yYyI6ICI0NDA1OSIsDQogICAgIm5vbWJyZSI6ICJTQVJBTSwgUy5BLiBERSBDLlYiLA0KICAgICJjb2RBY3RpdmlkYWQiOiAiMDE0NjAiLA0KICAgICJkZXNjQWN0aXZpZGFkIjogIkNyw61hIGRlIGF2ZXMgZGUgY29ycmFsIHkgcHJvZHVjY2nDs24gZGUgaHVldm9zIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIjogIlNBUkFNLCBTLkEuIERFIEMuViIsDQogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iOiAiMDEiLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA1IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMDMiLA0KICAgICAgImNvbXBsZW1lbnRvIjogIktNIDI3IDEvMiBDQVJSRVRFUkEgQSBTT05TT05URSINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyI6ICIyMzQ2NDgwMCIsDQogICAgImNvcnJlbyI6ICJhdGVuY2lvbmFsY2xpZW50ZUBtb3IuY29tLnN2IiwNCiAgICAiY29kaWdvTUgiOiBudWxsLA0KICAgICJjb2RpZ28iOiBudWxsLA0KICAgICJwdW50b1ZlbnRhTUgiOiBudWxsLA0KICAgICJwdW50b1ZlbnRhIjogbnVsbA0KICB9LA0KICAicmVjZXB0b3IiOiB7DQogICAgInRpcG9Eb2N1bWVudG8iOiAiMzYiLA0KICAgICJudW1Eb2N1bWVudG8iOiAiMDYxNDE1MTE3NzAwMjAiLA0KICAgICJucmMiOiAiMTYxMjgiLA0KICAgICJub21icmUiOiAiQ2VudHJhbCBkZSBSb2RhbWllbnRvcyBTLkEuIGRlIEMuVi4iLA0KICAgICJjb2RBY3RpdmlkYWQiOiAiNDY1OTkiLA0KICAgICJkZXNjQWN0aXZpZGFkIjogIlZlbnRhIGFsIHBvciBtYXlvciBkZSBvdHJvIHRpcG8gZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBjb24gc3VzIGFjY2Vzb3Jpb3MgeSBwYXJ0ZXMiLA0KICAgICJub21icmVDb21lcmNpYWwiOiAiICIsDQogICAgImRpcmVjY2lvbiI6IHsNCiAgICAgICJkZXBhcnRhbWVudG8iOiAiMDYiLA0KICAgICAgIm11bmljaXBpbyI6ICIyMyIsDQogICAgICAiY29tcGxlbWVudG8iOiAiQm91bGV2YXIgVmVuaXp1ZWxhLCBDb2xvbmlhIFJvbWEgTm8gMzA3NywgU2FuIFNhbHZhZG9yIg0KICAgIH0sDQogICAgInRlbGVmb25vIjogIjI1MjUwODAwIiwNCiAgICAiY29ycmVvIjogInJhdWwuZ3VldmFyYUBjZXJvc2EuY29tIg0KICB9LA0KICAiY3VlcnBvRG9jdW1lbnRvIjogWw0KICAgIHsNCiAgICAgICJudW1JdGVtIjogMSwNCiAgICAgICJ0aXBvRHRlIjogIjAzIiwNCiAgICAgICJ0aXBvRG9jIjogMiwNCiAgICAgICJudW1Eb2N1bWVudG8iOiAiMzlCNkVGRTUtMEQ1Ri00MzAwLUI0NDktRDM2OTAzMzJBRjk4IiwNCiAgICAgICJmZWNoYUVtaXNpb24iOiAiMjAyNS0xMi0wMiIsDQogICAgICAibW9udG9TdWpldG9HcmF2IjogMzI1LjAsDQogICAgICAiY29kaWdvUmV0ZW5jaW9uTUgiOiAiMjIiLA0KICAgICAgIml2YVJldGVuaWRvIjogMy4yNSwNCiAgICAgICJkZXNjcmlwY2lvbiI6ICJDT01QUk9CQU5URSBERSBSRVRFTkNJT04iDQogICAgfQ0KICBdLA0KICAicmVzdW1lbiI6IHsNCiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iOiAzMjUuMCwNCiAgICAidG90YWxJVkFyZXRlbmlkbyI6IDMuMjUsDQogICAgInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiOiAiVFJFUyBDT04gMjUvMTAwIERPTEFSRVMiDQogIH0sDQogICJleHRlbnNpb24iOiBudWxsLA0KICAiYXBlbmRpY2UiOiBbDQogICAgew0KICAgICAgImNhbXBvIjogIkRvY3VtZW50b19JbnRlcm5vIiwNCiAgICAgICJldGlxdWV0YSI6ICJEb2N1bWVudG8gSW50ZXJubyIsDQogICAgICAidmFsb3IiOiAiQ1ItMTA0MTgiDQogICAgfQ0KICBdDQp9.DQ53jhxTMEJ0IvAPV-LxLvpYlRm0mlD0FMrmtKah3e3Cr6nJqtn_dUl8UMSoVIwzv3FiuZPbCfU8u4GlYZMENjdUP3IQ-HkrEQoZE5m_gD0iEzOYoGXH5EKTPaY6pkj9iZ7cxkhq6-6Gy7ExEDKO_HhaFBpsLKsiAcYuAlUCtLNlpmVbma4cZYXPlLC0g22jPSUlxonlzRUMh3fIC5ERGRdD9ImyLjH9aGaZTuFXJE_c-ZVvvtosPMsrNqi--nXl67Z1M1PbkakAldcJWM-eeIpHFIwns61SMX3AuXY8M6cqlvl7FG-XDl7B3p2uka0P8oyF4nDjMXWsE4vrRVEWrA",
+  "selloRecibido": "20252EE295F3EC734483988AB842DF0F03117IN8"
+}

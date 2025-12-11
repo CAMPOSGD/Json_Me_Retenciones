@@ -1,0 +1,117 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000001187",
+    "codigoGeneracion": "D972B97D-329F-4899-A965-631A284D7031",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-28",
+    "horEmi": "14:03:54",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06143101041023",
+    "code": "EMPAQSA",
+    "nrc": "1549959",
+    "nombre": "Empaques y Sabores S.A de C.V",
+    "codActividad": "82929",
+    "descActividad": "Servicio de envase y empaque ncp",
+    "nombreComercial": "Empaques y Sabores S.A de C.V",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "Av. y Pje Las Bugambilias #15A, Col. San Francisco"
+    },
+    "telefono": "22672600",
+    "correo": "f.electronica@empaqsa.com",
+    "codigoMH": "M001",
+    "codigo": null,
+    "puntoVentaMH": "P001",
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "Central de Rodamientos, S.A. de C.V. ",
+    "codActividad": "33200",
+    "descActividad": "Instalación de maquinaria y equipo industrial",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "Blvd. Venezuela #3077"
+    },
+    "telefono": "25250800",
+    "correo": "raul.guevara@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "numDocumento": "DTE-03-M001P001-000000000007708",
+      "fechaEmision": "2025-11-25",
+      "montoSujetoGrav": 200.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.0,
+      "descripcion": "Retención del 1% IVA"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 200.0,
+    "totalIVAretenido": 2.0,
+    "totalIVAretenidoLetras": "***DOS CON 00/100 CENTAVOS DOLAR US"
+  },
+  "extension": {
+    "nombEntrega": "Oscar Romero",
+    "docuEntrega": "06415223-3",
+    "nombRecibe": "Francisco Linares",
+    "docuRecibe": "0006852-4",
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "FiltroDocConsulta",
+      "etiqueta": "FiltroDocConsulta",
+      "valor": "(CAT-DOC)|(ING)"
+    },
+    {
+      "campo": "repGraInfoAdic",
+      "etiqueta": "repGraInfoAdic",
+      "valor": " | |Grande|24-000000000002553"
+    },
+    {
+      "campo": "repGraInfoFex",
+      "etiqueta": "repGraInfoFex",
+      "valor": " | |(CONTRATO)|Mundial| "
+    },
+    {
+      "campo": "repGraInternalEmail",
+      "etiqueta": "repGraInternalEmail",
+      "valor": "oscarromero@empaqsa.com| "
+    }
+  ],
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "D972B97D-329F-4899-A965-631A284D7031",
+    "numeroControl": "DTE-07-M001P001-000000000001187",
+    "selloRecibido": "20253A2823E17C05458D8863C9083BAD0A61GBLA",
+    "fhProcesamiento": "01/12/2025 14:04:05",
+    "codigoMsg": "002",
+    "descripcionMsg": "RECIBIDO CON OBSERVACIONES",
+    "observaciones": [
+      "identificacion.fecEmi Difiere de la fecha de envío."
+    ]
+  },
+  "codigoEmpresa": "EMPAQSA",
+  "token": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iIDogew0KICAgICJ2ZXJzaW9uIiA6IDEsDQogICAgImFtYmllbnRlIiA6ICIwMSIsDQogICAgInRpcG9EdGUiIDogIjA3IiwNCiAgICAibnVtZXJvQ29udHJvbCIgOiAiRFRFLTA3LU0wMDFQMDAxLTAwMDAwMDAwMDAwMTE4NyIsDQogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkQ5NzJCOTdELTMyOUYtNDg5OS1BOTY1LTYzMUEyODRENzAzMSIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJmZWNFbWkiIDogIjIwMjUtMTEtMjgiLA0KICAgICJob3JFbWkiIDogIjE0OjAzOjU0IiwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIg0KICB9LA0KICAicmVjZXB0b3IiIDogew0KICAgICJ0aXBvRG9jdW1lbnRvIiA6ICIzNiIsDQogICAgIm51bURvY3VtZW50byIgOiAiMDYxNDE1MTE3NzAwMjAiLA0KICAgICJucmMiIDogIjE2MTI4IiwNCiAgICAibm9tYnJlIiA6ICJDZW50cmFsIGRlIFJvZGFtaWVudG9zLCBTLkEuIGRlIEMuVi4gIiwNCiAgICAiY29kQWN0aXZpZGFkIiA6ICIzMzIwMCIsDQogICAgImRlc2NBY3RpdmlkYWQiIDogIkluc3RhbGFjacOzbiBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGluZHVzdHJpYWwiLA0KICAgICJub21icmVDb21lcmNpYWwiIDogbnVsbCwNCiAgICAiZGlyZWNjaW9uIiA6IHsNCiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iIDogIjIzIiwNCiAgICAgICJjb21wbGVtZW50byIgOiAiQmx2ZC4gVmVuZXp1ZWxhICMzMDc3Ig0KICAgIH0sDQogICAgInRlbGVmb25vIiA6ICIyNTI1MDgwMCIsDQogICAgImNvcnJlbyIgOiAicmF1bC5ndWV2YXJhQGNlcm9zYS5jb20iDQogIH0sDQogICJjdWVycG9Eb2N1bWVudG8iIDogWyB7DQogICAgIm51bUl0ZW0iIDogMSwNCiAgICAidGlwb0R0ZSIgOiAiMDMiLA0KICAgICJ0aXBvRG9jIiA6IDEsDQogICAgIm51bURvY3VtZW50byIgOiAiRFRFLTAzLU0wMDFQMDAxLTAwMDAwMDAwMDAwNzcwOCIsDQogICAgImZlY2hhRW1pc2lvbiIgOiAiMjAyNS0xMS0yNSIsDQogICAgIm1vbnRvU3VqZXRvR3JhdiIgOiAyMDAuMCwNCiAgICAiY29kaWdvUmV0ZW5jaW9uTUgiIDogIjIyIiwNCiAgICAiaXZhUmV0ZW5pZG8iIDogMi4wLA0KICAgICJkZXNjcmlwY2lvbiIgOiAiUmV0ZW5jacOzbiBkZWwgMSUgSVZBIg0KICB9IF0sDQogICJyZXN1bWVuIiA6IHsNCiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iIDogMjAwLjAsDQogICAgInRvdGFsSVZBcmV0ZW5pZG8iIDogMi4wLA0KICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIiA6ICIqKipET1MgQ09OIDAwLzEwMCBDRU5UQVZPUyBET0xBUiBVUyINCiAgfSwNCiAgImV4dGVuc2lvbiIgOiB7DQogICAgIm5vbWJFbnRyZWdhIiA6ICJPc2NhciBSb21lcm8iLA0KICAgICJkb2N1RW50cmVnYSIgOiAiMDY0MTUyMjMtMyIsDQogICAgIm5vbWJSZWNpYmUiIDogIkZyYW5jaXNjbyBMaW5hcmVzIiwNCiAgICAiZG9jdVJlY2liZSIgOiAiMDAwNjg1Mi00IiwNCiAgICAib2JzZXJ2YWNpb25lcyIgOiBudWxsDQogIH0sDQogICJhcGVuZGljZSIgOiBbIHsNCiAgICAiY2FtcG8iIDogIkZpbHRyb0RvY0NvbnN1bHRhIiwNCiAgICAiZXRpcXVldGEiIDogIkZpbHRyb0RvY0NvbnN1bHRhIiwNCiAgICAidmFsb3IiIDogIihDQVQtRE9DKXwoSU5HKSINCiAgfSwgew0KICAgICJjYW1wbyIgOiAicmVwR3JhSW5mb0FkaWMiLA0KICAgICJldGlxdWV0YSIgOiAicmVwR3JhSW5mb0FkaWMiLA0KICAgICJ2YWxvciIgOiAiIHwgfEdyYW5kZXwyNC0wMDAwMDAwMDAwMDI1NTMiDQogIH0sIHsNCiAgICAiY2FtcG8iIDogInJlcEdyYUluZm9GZXgiLA0KICAgICJldGlxdWV0YSIgOiAicmVwR3JhSW5mb0ZleCIsDQogICAgInZhbG9yIiA6ICIgfCB8KENPTlRSQVRPKXxNdW5kaWFsfCAiDQogIH0sIHsNCiAgICAiY2FtcG8iIDogInJlcEdyYUludGVybmFsRW1haWwiLA0KICAgICJldGlxdWV0YSIgOiAicmVwR3JhSW50ZXJuYWxFbWFpbCIsDQogICAgInZhbG9yIiA6ICJvc2NhcnJvbWVyb0BlbXBhcXNhLmNvbXwgIg0KICB9IF0sDQogICJlbWlzb3IiIDogew0KICAgICJuaXQiIDogIjA2MTQzMTAxMDQxMDIzIiwNCiAgICAibnJjIiA6ICIxNTQ5OTU5IiwNCiAgICAibm9tYnJlIiA6ICJFbXBhcXVlcyB5IFNhYm9yZXMgUy5BIGRlIEMuViIsDQogICAgImNvZEFjdGl2aWRhZCIgOiAiODI5MjkiLA0KICAgICJkZXNjQWN0aXZpZGFkIiA6ICJTZXJ2aWNpbyBkZSBlbnZhc2UgeSBlbXBhcXVlIG5jcCIsDQogICAgIm5vbWJyZUNvbWVyY2lhbCIgOiAiRW1wYXF1ZXMgeSBTYWJvcmVzIFMuQSBkZSBDLlYiLA0KICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIiA6ICIwMiIsDQogICAgImRpcmVjY2lvbiIgOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsDQogICAgICAibXVuaWNpcGlvIiA6ICIyMyIsDQogICAgICAiY29tcGxlbWVudG8iIDogIkF2LiB5IFBqZSBMYXMgQnVnYW1iaWxpYXMgIzE1QSwgQ29sLiBTYW4gRnJhbmNpc2NvIg0KICAgIH0sDQogICAgInRlbGVmb25vIiA6ICIyMjY3MjYwMCIsDQogICAgImNvcnJlbyIgOiAiZi5lbGVjdHJvbmljYUBlbXBhcXNhLmNvbSIsDQogICAgImNvZGlnb01IIiA6ICJNMDAxIiwNCiAgICAiY29kaWdvIiA6IG51bGwsDQogICAgInB1bnRvVmVudGFNSCIgOiAiUDAwMSIsDQogICAgInB1bnRvVmVudGEiIDogbnVsbA0KICB9DQp9.XxdphveAyatjtS5cfuD5awZkpQjn4Z_AJmcYSTu9hDM_IA_njw2WPgIqGMdp7WgmxGSyF1iIUQCN19-2rTghMDHABgy9G5aGkRAH_JQgtkhgTDiUfHaZPfq4skC6I-zEtucmvVWM3ErlR3rqa7AGuEzkX11E7YtJ-SukB7VArRH9G52sQM2MBIiIqxfZlbtHwdORvoWr3pN8H2kkA2U2GCkj1W_D8N_OnilUkfgf-Un5dnPOCTYmvi1glRSOk0vFtRAtGUAndVE_TLtpM4LScb_EZkh-X_Mv6vR24qShZd8aN5ot6djJXfa6hliWkUrn_t-xW4CTHj-7JJDxsl_gNw"
+}
