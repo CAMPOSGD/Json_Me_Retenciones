@@ -1,0 +1,86 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000001061",
+    "codigoGeneracion": "C5D598D6-0748-4E1A-B57E-4B35189EBBF4",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-10-31",
+    "horEmi": "10:50:00",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06140212051010",
+    "nrc": "1690160",
+    "nombre": "ECO FOODS, S.A. DE C.V.",
+    "codActividad": "10799",
+    "descActividad": "Elaboración de productos alimenticios ncp",
+    "nombreComercial": "ECO FOODS, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "26",
+      "complemento": "CALLE CIRCUNVALACION, POLG. D, PLAN INDUSTRIAL LA LAGUNA, # 1 "
+    },
+    "telefono": "22431143",
+    "correo": "facturacionelectronica@ecofoods.net",
+    "codigoMH": "M001",
+    "codigo": "M001",
+    "puntoVentaMH": "P001",
+    "puntoVenta": "P001"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD VENEZUELA 3077, SAN SALVADOR "
+    },
+    "telefono": "2525-0800",
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "871B748E-509E-4E94-9AD9-76552DA98410",
+      "fechaEmision": "2025-10-14",
+      "descripcion": "Documento Relacionado 871B748E-509E-4E94-9AD9-76552DA98410",
+      "montoSujetoGrav": 1681.25,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 16.81
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 1681.25,
+    "totalIVAretenido": 16.81,
+    "totalIVAretenidoLetras": "DIECISEIS DOLARES CON OCHENTA Y UN CENTAVOS"
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "REFERENCIA_INTERNA",
+      "etiqueta": "Etiqueta de referencia interna",
+      "valor": "FRONT-000000000908277"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iOiB7DQogICAgInZlcnNpb24iOiAxLA0KICAgICJhbWJpZW50ZSI6ICIwMSIsDQogICAgInRpcG9EdGUiOiAiMDciLA0KICAgICJudW1lcm9Db250cm9sIjogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDEwNjEiLA0KICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIkM1RDU5OEQ2LTA3NDgtNEUxQS1CNTdFLTRCMzUxODlFQkJGNCIsDQogICAgInRpcG9Nb2RlbG8iOiAxLA0KICAgICJ0aXBvT3BlcmFjaW9uIjogMSwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiI6IG51bGwsDQogICAgImZlY0VtaSI6ICIyMDI1LTEwLTMxIiwNCiAgICAiaG9yRW1pIjogIjEwOjUwOjAwIiwNCiAgICAidGlwb01vbmVkYSI6ICJVU0QiDQogIH0sDQogICJlbWlzb3IiOiB7DQogICAgIm5pdCI6ICIwNjE0MDIxMjA1MTAxMCIsDQogICAgIm5yYyI6ICIxNjkwMTYwIiwNCiAgICAibm9tYnJlIjogIkVDTyBGT09EUywgUy5BLiBERSBDLlYuIiwNCiAgICAiY29kQWN0aXZpZGFkIjogIjEwNzk5IiwNCiAgICAiZGVzY0FjdGl2aWRhZCI6ICJFbGFib3JhY2nDs24gZGUgcHJvZHVjdG9zIGFsaW1lbnRpY2lvcyBuY3AiLA0KICAgICJub21icmVDb21lcmNpYWwiOiAiRUNPIEZPT0RTLCBTLkEuIERFIEMuVi4iLA0KICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIjogIjAyIiwNCiAgICAiZGlyZWNjaW9uIjogew0KICAgICAgImRlcGFydGFtZW50byI6ICIwNSIsDQogICAgICAibXVuaWNpcGlvIjogIjI2IiwNCiAgICAgICJjb21wbGVtZW50byI6ICJDQUxMRSBDSVJDVU5WQUxBQ0lPTiwgUE9MRy4gRCwgUExBTiBJTkRVU1RSSUFMIExBIExBR1VOQSwgIyAxICINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyI6ICIyMjQzMTE0MyIsDQogICAgImNvcnJlbyI6ICJmYWN0dXJhY2lvbmVsZWN0cm9uaWNhQGVjb2Zvb2RzLm5ldCIsDQogICAgImNvZGlnb01IIjogIk0wMDEiLA0KICAgICJjb2RpZ28iOiAiTTAwMSIsDQogICAgInB1bnRvVmVudGFNSCI6ICJQMDAxIiwNCiAgICAicHVudG9WZW50YSI6ICJQMDAxIg0KICB9LA0KICAicmVjZXB0b3IiOiB7DQogICAgInRpcG9Eb2N1bWVudG8iOiAiMzYiLA0KICAgICJudW1Eb2N1bWVudG8iOiAiMDYxNDE1MTE3NzAwMjAiLA0KICAgICJucmMiOiAiMTYxMjgiLA0KICAgICJub21icmUiOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYuIiwNCiAgICAiY29kQWN0aXZpZGFkIjogIjQ2NTk5IiwNCiAgICAiZGVzY0FjdGl2aWRhZCI6ICJWZW50YSBhbCBwb3IgbWF5b3IgZGUgb3RybyB0aXBvIGRlIG1hcXVpbmFyaWEgeSBlcXVpcG8gY29uIHN1cyBhY2Nlc29yaW9zIHkgcGFydGVzIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIjogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsDQogICAgImRpcmVjY2lvbiI6IHsNCiAgICAgICJkZXBhcnRhbWVudG8iOiAiMDYiLA0KICAgICAgIm11bmljaXBpbyI6ICIyMyIsDQogICAgICAiY29tcGxlbWVudG8iOiAiQkxWRCBWRU5FWlVFTEEgMzA3NywgU0FOIFNBTFZBRE9SICINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyI6ICIyNTI1LTA4MDAiLA0KICAgICJjb3JyZW8iOiAic2lsdmlhLmFyY2VAY2Vyb3NhLmNvbSINCiAgfSwNCiAgImN1ZXJwb0RvY3VtZW50byI6IFsNCiAgICB7DQogICAgICAibnVtSXRlbSI6IDEsDQogICAgICAidGlwb0R0ZSI6ICIwMyIsDQogICAgICAidGlwb0RvYyI6IDIsDQogICAgICAibnVtRG9jdW1lbnRvIjogIjg3MUI3NDhFLTUwOUUtNEU5NC05QUQ5LTc2NTUyREE5ODQxMCIsDQogICAgICAiZmVjaGFFbWlzaW9uIjogIjIwMjUtMTAtMTQiLA0KICAgICAgImRlc2NyaXBjaW9uIjogIkRvY3VtZW50byBSZWxhY2lvbmFkbyA4NzFCNzQ4RS01MDlFLTRFOTQtOUFEOS03NjU1MkRBOTg0MTAiLA0KICAgICAgIm1vbnRvU3VqZXRvR3JhdiI6IDE2ODEuMjUsDQogICAgICAiY29kaWdvUmV0ZW5jaW9uTUgiOiAiMjIiLA0KICAgICAgIml2YVJldGVuaWRvIjogMTYuODENCiAgICB9DQogIF0sDQogICJyZXN1bWVuIjogew0KICAgICJ0b3RhbFN1amV0b1JldGVuY2lvbiI6IDE2ODEuMjUsDQogICAgInRvdGFsSVZBcmV0ZW5pZG8iOiAxNi44MSwNCiAgICAidG90YWxJVkFyZXRlbmlkb0xldHJhcyI6ICJESUVDSVNFSVMgRE9MQVJFUyBDT04gT0NIRU5UQSBZIFVOIENFTlRBVk9TIg0KICB9LA0KICAiZXh0ZW5zaW9uIjogew0KICAgICJub21iRW50cmVnYSI6IG51bGwsDQogICAgImRvY3VFbnRyZWdhIjogbnVsbCwNCiAgICAibm9tYlJlY2liZSI6IG51bGwsDQogICAgImRvY3VSZWNpYmUiOiBudWxsLA0KICAgICJvYnNlcnZhY2lvbmVzIjogbnVsbA0KICB9LA0KICAiYXBlbmRpY2UiOiBbDQogICAgew0KICAgICAgImNhbXBvIjogIlJFRkVSRU5DSUFfSU5URVJOQSIsDQogICAgICAiZXRpcXVldGEiOiAiRXRpcXVldGEgZGUgcmVmZXJlbmNpYSBpbnRlcm5hIiwNCiAgICAgICJ2YWxvciI6ICJGUk9OVC0wMDAwMDAwMDA5MDgyNzciDQogICAgfQ0KICBdDQp9.exoI1hTn_ICGp52HJ8FJJ1c4svItO2BdcLefP0KMmeDf_c4nsLFSevqj_TMZqJWzdmZuZydSURnQSMDQm1B7PKMX-pnby6sFrOCD9XuH9bZJXj5B_saJsEdmWH5XVPerOR6nn1IQF6qstXe8_UcJqz_TbY92OGrs5C8-FzlFGIFaCCg15DSfBgPvQNDH7-PFhYbh5wcL_p-6HS3mLec5qd_AUoJ7hd1Um95XOCy9e-yyAxa74MBu2zYeBhw8l-Xv9gcdvX4eKoFky2APg20eIw9QmkuhI8-jh1pbL-cDcY4oajyCRwfKwq-pJvsAUxzxYmWlEBiE7GDOE_4gMQWiSw",
+  "selloRecibido": "2025B243466F32494C47B2A266D14E1C7972ENIR"
+}

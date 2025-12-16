@@ -1,0 +1,176 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "01",
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-M001P001-000000000007703",
+    "codigoGeneracion": "1C06FFA3-07CE-4F9A-94AF-6611F75A4EA7",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-25",
+    "horEmi": "14:29:43",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD. VENEZUELA N°3077, DISTRITO DE SAN SALVADOR"
+    },
+    "telefono": "25250800",
+    "codEstableMH": "M001",
+    "codEstable": "M001",
+    "codPuntoVentaMH": "P001",
+    "codPuntoVenta": "P001",
+    "correo": "informacion@cerosa.com"
+  },
+  "receptor": {
+    "nrc": "4898",
+    "nombre": "LA SULTANA S.A. DE C.V",
+    "codActividad": "10800",
+    "descActividad": "Elaboración de alimentos preparados para animales",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "26",
+      "complemento": "PSJ. B, CONTIGUO HARISA"
+    },
+    "telefono": "22021000",
+    "correo": "cmi-ventanillafisicasv@somoscmi.com",
+    "nit": "06142710600010",
+    "nombreComercial": "LA SULTANA S.A. DE C.V"
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null,
+    "placaVehiculo": null
+  },
+  "apendice": [
+    {
+      "campo": "AP1",
+      "etiqueta": "No. interno SAP",
+      "valor": "12011711"
+    },
+    {
+      "campo": "AP10",
+      "etiqueta": "Nombre Comercial",
+      "valor": "LA SULTANA S.A. DE C.V"
+    },
+    {
+      "campo": "AP2",
+      "etiqueta": "Referencia",
+      "valor": "5800"
+    },
+    {
+      "campo": "AP3",
+      "etiqueta": "Código de cliente",
+      "valor": "CNA0541"
+    },
+    {
+      "campo": "AP4",
+      "etiqueta": "Vendedor",
+      "valor": "07- Raul Gonzalez"
+    },
+    {
+      "campo": "AP5",
+      "etiqueta": "Condición de Pago",
+      "valor": "A 60 días"
+    },
+    {
+      "campo": "AP6",
+      "etiqueta": "Orden de Compra",
+      "valor": "2200058209"
+    },
+    {
+      "campo": "AP7",
+      "etiqueta": "Almacén",
+      "valor": "14"
+    },
+    {
+      "campo": "AP8",
+      "etiqueta": "Notas de Vendedor",
+      "valor": "no_aplica"
+    },
+    {
+      "campo": "AP9",
+      "etiqueta": "Telefonos",
+      "valor": "2243-0333"
+    }
+  ],
+  "ventaTercero": null,
+  "otrosDocumentos": null,
+  "cuerpoDocumento": [
+    {
+      "ventaGravada": 5890.0,
+      "ventaExenta": 0,
+      "ventaNoSuj": 0,
+      "noGravado": 0,
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "cantidad": 1.0,
+      "codigo": "RA10X16V1-WS1-E95841",
+      "codTributo": null,
+      "uniMedida": 59,
+      "descripcion": "RA10X16V1-WS1-E95841 Valvula compuerta cuadrada 16\", incluye Entrada de servicio HISS-10X16-E95780, Control de aire 4M375-24ES1-24VDC, Valvula 4LV375, Interruptor magnetico 4CC1A-SPST",
+      "precioUni": 5890.0,
+      "montoDescu": 0.0,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0,
+    "totalExenta": 0,
+    "totalGravada": 5890.0,
+    "subTotalVentas": 5890.0,
+    "descuNoSuj": 0,
+    "descuExenta": 0,
+    "descuGravada": 0.0,
+    "porcentajeDescuento": 0,
+    "totalDescu": 0.0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado",
+        "valor": 765.7
+      }
+    ],
+    "subTotal": 5890.0,
+    "ivaRete1": 58.9,
+    "reteRenta": 0,
+    "montoTotalOperacion": 6655.7,
+    "totalNoGravado": 0,
+    "totalPagar": 6596.8,
+    "totalLetras": "seis mil quinientos noventa y seis dólares con ochenta centavos",
+    "saldoFavor": 0.0,
+    "condicionOperacion": 2,
+    "pagos": [
+      {
+        "codigo": "13",
+        "montoPago": 6596.8,
+        "referencia": null,
+        "plazo": "01",
+        "periodo": 60
+      }
+    ],
+    "numPagoElectronico": null,
+    "ivaPerci1": 0
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJ2ZXJzaW9uIjozLCJhbWJpZW50ZSI6IjAxIiwidGlwb0R0ZSI6IjAzIiwibnVtZXJvQ29udHJvbCI6IkRURS0wMy1NMDAxUDAwMS0wMDAwMDAwMDAwMDc3MDMiLCJjb2RpZ29HZW5lcmFjaW9uIjoiMUMwNkZGQTMtMDdDRS00RjlBLTk0QUYtNjYxMUY3NUE0RUE3IiwidGlwb01vZGVsbyI6MSwidGlwb09wZXJhY2lvbiI6MSwidGlwb0NvbnRpbmdlbmNpYSI6bnVsbCwibW90aXZvQ29udGluIjpudWxsLCJmZWNFbWkiOiIyMDI1LTExLTI1IiwiaG9yRW1pIjoiMTQ6Mjk6NDMiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImRvY3VtZW50b1JlbGFjaW9uYWRvIjpudWxsLCJlbWlzb3IiOnsibml0IjoiMDYxNDE1MTE3NzAwMjAiLCJucmMiOiIxNjEyOCIsIm5vbWJyZSI6IkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsImNvZEFjdGl2aWRhZCI6IjQ2NTk5IiwiZGVzY0FjdGl2aWRhZCI6IlZlbnRhIGFsIHBvciBtYXlvciBkZSBvdHJvIHRpcG8gZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBjb24gc3VzIGFjY2Vzb3Jpb3MgeSBwYXJ0ZXMiLCJub21icmVDb21lcmNpYWwiOiJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLCJ0aXBvRXN0YWJsZWNpbWllbnRvIjoiMDIiLCJkaXJlY2Npb24iOnsiZGVwYXJ0YW1lbnRvIjoiMDYiLCJtdW5pY2lwaW8iOiIyMyIsImNvbXBsZW1lbnRvIjoiQkxWRC4gVkVORVpVRUxBIE7CsDMwNzcsIERJU1RSSVRPIERFIFNBTiBTQUxWQURPUiJ9LCJ0ZWxlZm9ubyI6IjI1MjUwODAwIiwiY29kRXN0YWJsZU1IIjoiTTAwMSIsImNvZEVzdGFibGUiOiJNMDAxIiwiY29kUHVudG9WZW50YU1IIjoiUDAwMSIsImNvZFB1bnRvVmVudGEiOiJQMDAxIiwiY29ycmVvIjoiaW5mb3JtYWNpb25AY2Vyb3NhLmNvbSJ9LCJyZWNlcHRvciI6eyJucmMiOiI0ODk4Iiwibm9tYnJlIjoiTEEgU1VMVEFOQSBTLkEuIERFIEMuViIsImNvZEFjdGl2aWRhZCI6IjEwODAwIiwiZGVzY0FjdGl2aWRhZCI6IkVsYWJvcmFjacOzbiBkZSBhbGltZW50b3MgcHJlcGFyYWRvcyBwYXJhIGFuaW1hbGVzIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA1IiwibXVuaWNpcGlvIjoiMjYiLCJjb21wbGVtZW50byI6IlBTSi4gQiwgQ09OVElHVU8gSEFSSVNBIn0sInRlbGVmb25vIjoiMjIwMjEwMDAiLCJjb3JyZW8iOiJjbWktdmVudGFuaWxsYWZpc2ljYXN2QHNvbW9zY21pLmNvbSIsIm5pdCI6IjA2MTQyNzEwNjAwMDEwIiwibm9tYnJlQ29tZXJjaWFsIjoiTEEgU1VMVEFOQSBTLkEuIERFIEMuViJ9LCJleHRlbnNpb24iOnsibm9tYkVudHJlZ2EiOm51bGwsImRvY3VFbnRyZWdhIjpudWxsLCJub21iUmVjaWJlIjpudWxsLCJkb2N1UmVjaWJlIjpudWxsLCJvYnNlcnZhY2lvbmVzIjpudWxsLCJwbGFjYVZlaGljdWxvIjpudWxsfSwiYXBlbmRpY2UiOlt7ImNhbXBvIjoiQVAxIiwiZXRpcXVldGEiOiJOby4gaW50ZXJubyBTQVAiLCJ2YWxvciI6IjEyMDExNzExIn0seyJjYW1wbyI6IkFQMTAiLCJldGlxdWV0YSI6Ik5vbWJyZSBDb21lcmNpYWwiLCJ2YWxvciI6IkxBIFNVTFRBTkEgUy5BLiBERSBDLlYifSx7ImNhbXBvIjoiQVAyIiwiZXRpcXVldGEiOiJSZWZlcmVuY2lhIiwidmFsb3IiOiI1ODAwIn0seyJjYW1wbyI6IkFQMyIsImV0aXF1ZXRhIjoiQ8OzZGlnbyBkZSBjbGllbnRlIiwidmFsb3IiOiJDTkEwNTQxIn0seyJjYW1wbyI6IkFQNCIsImV0aXF1ZXRhIjoiVmVuZGVkb3IiLCJ2YWxvciI6IjA3LSBSYXVsIEdvbnphbGV6In0seyJjYW1wbyI6IkFQNSIsImV0aXF1ZXRhIjoiQ29uZGljacOzbiBkZSBQYWdvIiwidmFsb3IiOiJBIDYwIGTDrWFzIn0seyJjYW1wbyI6IkFQNiIsImV0aXF1ZXRhIjoiT3JkZW4gZGUgQ29tcHJhIiwidmFsb3IiOiIyMjAwMDU4MjA5In0seyJjYW1wbyI6IkFQNyIsImV0aXF1ZXRhIjoiQWxtYWPDqW4iLCJ2YWxvciI6IjE0In0seyJjYW1wbyI6IkFQOCIsImV0aXF1ZXRhIjoiTm90YXMgZGUgVmVuZGVkb3IiLCJ2YWxvciI6Im5vX2FwbGljYSJ9LHsiY2FtcG8iOiJBUDkiLCJldGlxdWV0YSI6IlRlbGVmb25vcyIsInZhbG9yIjoiMjI0My0wMzMzIn1dLCJ2ZW50YVRlcmNlcm8iOm51bGwsIm90cm9zRG9jdW1lbnRvcyI6bnVsbCwiY3VlcnBvRG9jdW1lbnRvIjpbeyJ2ZW50YUdyYXZhZGEiOjU4OTAuMCwidmVudGFFeGVudGEiOjAsInZlbnRhTm9TdWoiOjAsIm5vR3JhdmFkbyI6MCwibnVtSXRlbSI6MSwidGlwb0l0ZW0iOjEsIm51bWVyb0RvY3VtZW50byI6bnVsbCwiY2FudGlkYWQiOjEuMCwiY29kaWdvIjoiUkExMFgxNlYxLVdTMS1FOTU4NDEiLCJjb2RUcmlidXRvIjpudWxsLCJ1bmlNZWRpZGEiOjU5LCJkZXNjcmlwY2lvbiI6IlJBMTBYMTZWMS1XUzEtRTk1ODQxIFZhbHZ1bGEgY29tcHVlcnRhIGN1YWRyYWRhIDE2XCIsIGluY2x1eWUgRW50cmFkYSBkZSBzZXJ2aWNpbyBISVNTLTEwWDE2LUU5NTc4MCwgQ29udHJvbCBkZSBhaXJlIDRNMzc1LTI0RVMxLTI0VkRDLCBWYWx2dWxhIDRMVjM3NSwgSW50ZXJydXB0b3IgbWFnbmV0aWNvIDRDQzFBLVNQU1QiLCJwcmVjaW9VbmkiOjU4OTAuMCwibW9udG9EZXNjdSI6MC4wLCJ0cmlidXRvcyI6WyIyMCJdLCJwc3YiOjB9XSwicmVzdW1lbiI6eyJ0b3RhbE5vU3VqIjowLCJ0b3RhbEV4ZW50YSI6MCwidG90YWxHcmF2YWRhIjo1ODkwLjAsInN1YlRvdGFsVmVudGFzIjo1ODkwLjAsImRlc2N1Tm9TdWoiOjAsImRlc2N1RXhlbnRhIjowLCJkZXNjdUdyYXZhZGEiOjAuMCwicG9yY2VudGFqZURlc2N1ZW50byI6MCwidG90YWxEZXNjdSI6MC4wLCJ0cmlidXRvcyI6W3siY29kaWdvIjoiMjAiLCJkZXNjcmlwY2lvbiI6IkltcHVlc3RvIGFsIFZhbG9yIEFncmVnYWRvIiwidmFsb3IiOjc2NS43fV0sInN1YlRvdGFsIjo1ODkwLjAsIml2YVJldGUxIjo1OC45LCJyZXRlUmVudGEiOjAsIm1vbnRvVG90YWxPcGVyYWNpb24iOjY2NTUuNywidG90YWxOb0dyYXZhZG8iOjAsInRvdGFsUGFnYXIiOjY1OTYuOCwidG90YWxMZXRyYXMiOiJzZWlzIG1pbCBxdWluaWVudG9zIG5vdmVudGEgeSBzZWlzIGTDs2xhcmVzIGNvbiBvY2hlbnRhIGNlbnRhdm9zIiwic2FsZG9GYXZvciI6MC4wLCJjb25kaWNpb25PcGVyYWNpb24iOjIsInBhZ29zIjpbeyJjb2RpZ28iOiIxMyIsIm1vbnRvUGFnbyI6NjU5Ni44LCJyZWZlcmVuY2lhIjpudWxsLCJwbGF6byI6IjAxIiwicGVyaW9kbyI6NjB9XSwibnVtUGFnb0VsZWN0cm9uaWNvIjpudWxsLCJpdmFQZXJjaTEiOjB9fQ.d1YyGD5zY7VQ890buNfcJks2NT7X_y0BGrE-S_TF1aHDzONoCcpr2i3irI0Faq6xX54yiPuoPSm0VVFZCe83n1ckY7ugIrsMo6zDvjaLRl3msAa7hrYshoWPTTVyUex9Ho1-xQKc45fx283AbY1Cu2TTDFVg4OKqcY4nUJ_sG44kwxGymHHw30deWT_8M61rrnemSmQW1bRRMPpfEqRVtzMjLawBwFSk5VCRXAlOYvZOiNmXdT8ADxLpMCaeLqtUeuHoVc6I5euIODPc-kdo5eeVMHFJabMeN66vSJexOgmhvMEK69Jo2sMGPZJp337VvVxRniV-oTd4bSrdU-HJcg",
+  "selloRecibido": "2025F97DE03E6EBD4D9686F24B0EAA1720FDTJQT"
+}

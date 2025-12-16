@@ -1,0 +1,87 @@
+﻿{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000000802",
+    "codigoGeneracion": "834D8746-25B5-4732-8190-7224DF226810",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-17",
+    "horEmi": "14:13:40",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "05112807580014",
+    "nrc": "94",
+    "nombre": "SUMMA INDUSTRIAL, S.A. DE C.V.",
+    "codActividad": "10401",
+    "descActividad": "Fabricación de aceites y grasas vegetales y animales comestibles",
+    "nombreComercial": "SUMMA INDUSTRIAL, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "28",
+      "complemento": "KM. 10 1/4 CARRETERA AL PUERTO DE LA LIBERTAD, SANTA TECLA"
+    },
+    "telefono": "22127000",
+    "correo": "dte@summa.com.sv",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD. VENEZUELA No.3077,, SAN SALVADOR"
+    },
+    "telefono": "22230331",
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "4F3585FA-67FC-4A3D-A061-C5990C90731E",
+      "fechaEmision": "2025-11-08",
+      "montoSujetoGrav": 246.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.46,
+      "descripcion": "RETENCIÓN DEL 1% IVA SEGÚN DTE CCF # 7334"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 246.0,
+    "totalIVAretenido": 2.46,
+    "totalIVAretenidoLetras": "DOS DOLARES, CON 46/100 CENTAVOS."
+  },
+  "extension": null,
+  "apendice": null,
+  "respuestaHacienda": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": "2",
+    "estado": "PROCESADO",
+    "codigoGeneracion": "834D8746-25B5-4732-8190-7224DF226810",
+    "selloRecibido": "2025F4DBD099C2BC4815A9BCCB39EED4654E50BK",
+    "fhProcesamiento": "17/11/2025 14:34:09",
+    "clasificaMsg": "10",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": null
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.ew0KICAiaWRlbnRpZmljYWNpb24iOiB7DQogICAgInZlcnNpb24iOiAxLA0KICAgICJhbWJpZW50ZSI6ICIwMSIsDQogICAgInRpcG9EdGUiOiAiMDciLA0KICAgICJudW1lcm9Db250cm9sIjogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDA4MDIiLA0KICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIjgzNEQ4NzQ2LTI1QjUtNDczMi04MTkwLTcyMjRERjIyNjgxMCIsDQogICAgInRpcG9Nb2RlbG8iOiAxLA0KICAgICJ0aXBvT3BlcmFjaW9uIjogMSwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiI6IG51bGwsDQogICAgImZlY0VtaSI6ICIyMDI1LTExLTE3IiwNCiAgICAiaG9yRW1pIjogIjE0OjEzOjQwIiwNCiAgICAidGlwb01vbmVkYSI6ICJVU0QiDQogIH0sDQogICJlbWlzb3IiOiB7DQogICAgIm5pdCI6ICIwNTExMjgwNzU4MDAxNCIsDQogICAgIm5yYyI6ICI5NCIsDQogICAgIm5vbWJyZSI6ICJTVU1NQSBJTkRVU1RSSUFMLCBTLkEuIERFIEMuVi4iLA0KICAgICJjb2RBY3RpdmlkYWQiOiAiMTA0MDEiLA0KICAgICJkZXNjQWN0aXZpZGFkIjogIkZhYnJpY2FjacOzbiBkZSBhY2VpdGVzIHkgZ3Jhc2FzIHZlZ2V0YWxlcyB5IGFuaW1hbGVzIGNvbWVzdGlibGVzIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIjogIlNVTU1BIElORFVTVFJJQUwsIFMuQS4gREUgQy5WLiIsDQogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iOiAiMDIiLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA1IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMjgiLA0KICAgICAgImNvbXBsZW1lbnRvIjogIktNLiAxMCAxLzQgQ0FSUkVURVJBIEFMIFBVRVJUTyBERSBMQSBMSUJFUlRBRCwgU0FOVEEgVEVDTEEiDQogICAgfSwNCiAgICAidGVsZWZvbm8iOiAiMjIxMjcwMDAiLA0KICAgICJjb3JyZW8iOiAiZHRlQHN1bW1hLmNvbS5zdiIsDQogICAgImNvZGlnb01IIjogbnVsbCwNCiAgICAiY29kaWdvIjogbnVsbCwNCiAgICAicHVudG9WZW50YU1IIjogbnVsbCwNCiAgICAicHVudG9WZW50YSI6IG51bGwNCiAgfSwNCiAgInJlY2VwdG9yIjogew0KICAgICJ0aXBvRG9jdW1lbnRvIjogIjM2IiwNCiAgICAibnVtRG9jdW1lbnRvIjogIjA2MTQxNTExNzcwMDIwIiwNCiAgICAibnJjIjogIjE2MTI4IiwNCiAgICAibm9tYnJlIjogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsDQogICAgImNvZEFjdGl2aWRhZCI6ICI0NjU5OSIsDQogICAgImRlc2NBY3RpdmlkYWQiOiAiVmVudGEgYWwgcG9yIG1heW9yIGRlIG90cm8gdGlwbyBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGNvbiBzdXMgYWNjZXNvcmlvcyB5IHBhcnRlcyIsDQogICAgIm5vbWJyZUNvbWVyY2lhbCI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMjMiLA0KICAgICAgImNvbXBsZW1lbnRvIjogIkJMVkQuIFZFTkVaVUVMQSBOby4zMDc3LCwgU0FOIFNBTFZBRE9SIg0KICAgIH0sDQogICAgInRlbGVmb25vIjogIjIyMjMwMzMxIiwNCiAgICAiY29ycmVvIjogInNpbHZpYS5hcmNlQGNlcm9zYS5jb20iDQogIH0sDQogICJjdWVycG9Eb2N1bWVudG8iOiBbDQogICAgew0KICAgICAgIm51bUl0ZW0iOiAxLA0KICAgICAgInRpcG9EdGUiOiAiMDMiLA0KICAgICAgInRpcG9Eb2MiOiAyLA0KICAgICAgIm51bURvY3VtZW50byI6ICI0RjM1ODVGQS02N0ZDLTRBM0QtQTA2MS1DNTk5MEM5MDczMUUiLA0KICAgICAgImZlY2hhRW1pc2lvbiI6ICIyMDI1LTExLTA4IiwNCiAgICAgICJtb250b1N1amV0b0dyYXYiOiAyNDYuMCwNCiAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsDQogICAgICAiaXZhUmV0ZW5pZG8iOiAyLjQ2LA0KICAgICAgImRlc2NyaXBjaW9uIjogIlJFVEVOQ0nDk04gREVMIDElIElWQSBTRUfDmk4gRFRFIENDRiAjIDczMzQiDQogICAgfQ0KICBdLA0KICAicmVzdW1lbiI6IHsNCiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iOiAyNDYuMCwNCiAgICAidG90YWxJVkFyZXRlbmlkbyI6IDIuNDYsDQogICAgInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiOiAiRE9TIERPTEFSRVMsIENPTiA0Ni8xMDAgQ0VOVEFWT1MuIg0KICB9LA0KICAiZXh0ZW5zaW9uIjogbnVsbCwNCiAgImFwZW5kaWNlIjogbnVsbA0KfQ.YWtnXddXlS5bk6M2Kd7B7CMXroiCxyVegX2x1wAfye1Es7E-RVIL3EcnwH7mHif7VBoVLFeC06agUFiZ1UBs1qgS_WFqtOLmdjXhpj6VJlNlII1BtXsK6QDUW4Mtbm682KZOCe3y_GtguV0NgZ19Fm5h_W3cN5w-TUYydtQBPWmVDAwrRuZF0TFvVzF7Cn20IWxXfqux4mNy6glaY30uJSlA7t_grJesh--ylsQ5SFzKsLSEmuvQhSnIDF5oB3xrJMAK0_XhFc2VDrb8SfWDOXwJMs3omc9i3hw38ojujRGOWEPTNNKbuNe9RAnLDfoqLnPGn3QjCd_RPEF5DULk7w",
+  "selloRecibido": "2025F4DBD099C2BC4815A9BCCB39EED4654E50BK"
+}

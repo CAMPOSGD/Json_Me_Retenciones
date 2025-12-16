@@ -1,0 +1,93 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P002-000000000001054",
+    "codigoGeneracion": "86B872B3-7509-4495-9187-4279F27A1B2D",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "fecEmi": "2025-10-31",
+    "horEmi": "00:00:00",
+    "tipoMoneda": "USD",
+    "tipoContingencia": null,
+    "motivoContin": null
+  },
+  "emisor": {
+    "nit": "06141612061020",
+    "nrc": "1764690",
+    "nombre": "DE LA PEÑA, S.A. DE C.V.",
+    "codActividad": "23990",
+    "descActividad": "Fabricación de productos minerales no metálicos ncp",
+    "nombreComercial": "DE LA PEÑA, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "11",
+      "complemento": "13 Calle Oriente y Av. Santa Teresa Polig. C-1, Residencial Santa Teresa, #18"
+    },
+    "telefono": "22414500",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null,
+    "correo": "contabilidad@grupo-precasa.com"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "codActividad": "10005",
+    "descActividad": "Otros",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "Blvd. Venezuela No. 3077"
+    },
+    "telefono": "25250800",
+    "correo": "silvia.arce@cerosa.com "
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "8CDA6757-2EBB-4A34-B292-01E639525200",
+      "fechaEmision": "2025-10-23",
+      "montoSujetoGrav": 1375.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 13.75,
+      "descripcion": "CCF 8CDA6757-2EBB-4A34-B292-01E639525200 del 29/10/2025"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 1375.0,
+    "totalIVAretenido": 13.75,
+    "totalIVAretenidoLetras": "Trece Dólar(es)  con 75/100 centavos."
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": null,
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "86B872B3-7509-4495-9187-4279F27A1B2D",
+    "selloRecibido": "202528ED08244CA9477A9F17E3F0FB53D499HMQE",
+    "fhProcesamiento": "08/11/2025 09:03:38",
+    "clasificaMsg": "10",
+    "codigoMsg": "002",
+    "descripcionMsg": "RECIBIDO CON OBSERVACIONES",
+    "observaciones": [
+      "identificacion.fecEmi Difiere de la fecha de envío."
+    ]
+  }
+}

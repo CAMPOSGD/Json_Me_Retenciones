@@ -1,0 +1,94 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P010-000000000010871",
+    "codigoGeneracion": "359910A9-A847-4F1C-88D2-A6CF961A9E52",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-28",
+    "horEmi": "14:38:08",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06142801660014",
+    "nrc": "4952",
+    "nombre": "CORPORACION INDUSTRIAL CENTROAMERICANA, S.A. DE C.V.",
+    "codActividad": "24100",
+    "descActividad": "Industrias básicas de hierro y acero",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "23",
+      "complemento": "CARR. A QUEZALTEPEQUE KM. 26, CTON. SANTA ROSA EDIF. CORINCA, ENTRADA A QUEZALTEPEQUE Y DESVIO AL SITIO DEL NINO, QUEZALTEPEQUE, LA LIBERTAD NORTE"
+    },
+    "telefono": "23102033",
+    "correo": "fac.eventas@corinca.com.sv",
+    "nombreComercial": "CORINCA",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS,S.A.DE C.V.",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD VENEZUELA, SAN SALVADOR"
+    },
+    "telefono": "25250832",
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "numDocumento": "DTE-7776",
+      "fechaEmision": "2025-11-28",
+      "montoSujetoGrav": 280.4,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.8,
+      "descripcion": "CCF#DTE-7776"
+    },
+    {
+      "numItem": 2,
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "numDocumento": "DTE-7779",
+      "fechaEmision": "2025-11-28",
+      "montoSujetoGrav": 211.5,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.12,
+      "descripcion": "CCF#DTE-7779"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 491.9,
+    "totalIVAretenido": 4.92,
+    "totalIVAretenidoLetras": "CUATRO CON 92/100"
+  },
+  "extension": {
+    "nombEntrega": "CLAUDIA GARCIA",
+    "docuEntrega": "05537535-3",
+    "nombRecibe": "CENTRAL DE RODAMIENTOS,S.A.DE C.V.",
+    "docuRecibe": "06141511770020",
+    "observaciones": null
+  },
+  "apendice": null,
+  "acuseMH": {
+    "version": "2",
+    "numValidacion": "2025EE3EB1AD9C7D43C6978EE22B74D78605LGJI",
+    "fhProcesamiento": "28/11/2025 14:46:22"
+  }
+}

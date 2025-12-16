@@ -1,0 +1,86 @@
+﻿{
+  "apendice": [
+    {
+      "campo": "NumeroInterno",
+      "etiqueta": "NumeroInterno",
+      "valor": "64419"
+    }
+  ],
+  "cuerpoDocumento": [
+    {
+      "codigoRetencionMH": "22",
+      "descripcion": "IVA 1% Anticipo: 08D1D650-4F39",
+      "fechaEmision": "2025-09-26",
+      "ivaRetenido": 4.75,
+      "montoSujetoGrav": 475.0,
+      "numDocumento": "08D1D650-4F39-4ADC-BC91-EBA8EC609C12",
+      "numItem": 1,
+      "tipoDoc": 1,
+      "tipoDte": "03"
+    }
+  ],
+  "emisor": {
+    "codActividad": "22209",
+    "codigo": "0000",
+    "codigoMH": "M001",
+    "correo": "info@iberplastic.com",
+    "descActividad": "Fabricación de productos plásticos n.c.p.",
+    "direccion": {
+      "complemento": "CARR. AL PUERTO DE LA LIBERTAD KM. 24 ½",
+      "departamento": "05",
+      "municipio": "26"
+    },
+    "nit": "06142808971047",
+    "nombre": "IBERPLASTIC, S.A.DE C.V.",
+    "nombreComercial": "IBERPLASTIC, S.A.DE C.V.",
+    "nrc": "1040421",
+    "puntoVenta": "M001P001",
+    "puntoVentaMH": "P001",
+    "telefono": "23276700",
+    "tipoEstablecimiento": "02"
+  },
+  "extension": {
+    "docuEntrega": "041458880",
+    "docuRecibe": "06141511770020",
+    "nombEntrega": "ALFREDO FLORES",
+    "nombRecibe": "CENTRAL DE RODAMIENTOS, S.A DE C.V",
+    "observaciones": ""
+  },
+  "identificacion": {
+    "ambiente": "01",
+    "codigoGeneracion": "15F0FD55-2D8D-45AC-A065-C21F98126780",
+    "fecEmi": "2025-11-27",
+    "horEmi": "09:09:32",
+    "motivoContin": null,
+    "numeroControl": "DTE-07-M001P001-000000000004613",
+    "tipoContingencia": null,
+    "tipoDte": "07",
+    "tipoModelo": 1,
+    "tipoMoneda": "USD",
+    "tipoOperacion": 1,
+    "version": 1
+  },
+  "receptor": {
+    "codActividad": "46599",
+    "correo": "silvia.arce@cerosa.com",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "direccion": {
+      "complemento": "Boulevard Venezuela, Bulevar Arturo Castellanos 3077",
+      "departamento": "06",
+      "municipio": "23"
+    },
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A DE C.V",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A DE C.V",
+    "nrc": "16128",
+    "numDocumento": "06141511770020",
+    "telefono": "22230331",
+    "tipoDocumento": "36"
+  },
+  "resumen": {
+    "totalIVAretenido": 4.75,
+    "totalIVAretenidoLetras": "CUATRO CON 75/100 USD",
+    "totalSujetoRetencion": 475.0
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiYXBlbmRpY2UiIDogWyB7DQogICAgImNhbXBvIiA6ICJOdW1lcm9JbnRlcm5vIiwNCiAgICAiZXRpcXVldGEiIDogIk51bWVyb0ludGVybm8iLA0KICAgICJ2YWxvciIgOiAiNjQ0MTkiDQogIH0gXSwNCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsNCiAgICAiY29kaWdvUmV0ZW5jaW9uTUgiIDogIjIyIiwNCiAgICAiZGVzY3JpcGNpb24iIDogIklWQSAxJSBBbnRpY2lwbzogMDhEMUQ2NTAtNEYzOSIsDQogICAgImZlY2hhRW1pc2lvbiIgOiAiMjAyNS0wOS0yNiIsDQogICAgIml2YVJldGVuaWRvIiA6IDQuNzUsDQogICAgIm1vbnRvU3VqZXRvR3JhdiIgOiA0NzUsDQogICAgIm51bURvY3VtZW50byIgOiAiMDhEMUQ2NTAtNEYzOS00QURDLUJDOTEtRUJBOEVDNjA5QzEyIiwNCiAgICAibnVtSXRlbSIgOiAxLA0KICAgICJ0aXBvRG9jIiA6IDEsDQogICAgInRpcG9EdGUiIDogIjAzIg0KICB9IF0sDQogICJlbWlzb3IiIDogew0KICAgICJjb2RBY3RpdmlkYWQiIDogIjIyMjA5IiwNCiAgICAiY29kaWdvIiA6ICIwMDAwIiwNCiAgICAiY29kaWdvTUgiIDogIk0wMDEiLA0KICAgICJjb3JyZW8iIDogImluZm9AaWJlcnBsYXN0aWMuY29tIiwNCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiRmFicmljYWNpw7NuIGRlIHByb2R1Y3RvcyBwbMOhc3RpY29zIG4uYy5wLiIsDQogICAgImRpcmVjY2lvbiIgOiB7DQogICAgICAiY29tcGxlbWVudG8iIDogIkNBUlIuIEFMIFBVRVJUTyBERSBMQSBMSUJFUlRBRCBLTS4gMjQgwr0iLA0KICAgICAgImRlcGFydGFtZW50byIgOiAiMDUiLA0KICAgICAgIm11bmljaXBpbyIgOiAiMjYiDQogICAgfSwNCiAgICAibml0IiA6ICIwNjE0MjgwODk3MTA0NyIsDQogICAgIm5vbWJyZSIgOiAiSUJFUlBMQVNUSUMsIFMuQS5ERSBDLlYuIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6ICJJQkVSUExBU1RJQywgUy5BLkRFIEMuVi4iLA0KICAgICJucmMiIDogIjEwNDA0MjEiLA0KICAgICJwdW50b1ZlbnRhIiA6ICJNMDAxUDAwMSIsDQogICAgInB1bnRvVmVudGFNSCIgOiAiUDAwMSIsDQogICAgInRlbGVmb25vIiA6ICIyMzI3NjcwMCIsDQogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iIDogIjAyIg0KICB9LA0KICAiZXh0ZW5zaW9uIiA6IHsNCiAgICAiZG9jdUVudHJlZ2EiIDogIjA0MTQ1ODg4MCIsDQogICAgImRvY3VSZWNpYmUiIDogIjA2MTQxNTExNzcwMDIwIiwNCiAgICAibm9tYkVudHJlZ2EiIDogIkFMRlJFRE8gRkxPUkVTIiwNCiAgICAibm9tYlJlY2liZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BIERFIEMuViIsDQogICAgIm9ic2VydmFjaW9uZXMiIDogIiINCiAgfSwNCiAgImlkZW50aWZpY2FjaW9uIiA6IHsNCiAgICAiYW1iaWVudGUiIDogIjAxIiwNCiAgICAiY29kaWdvR2VuZXJhY2lvbiIgOiAiMTVGMEZENTUtMkQ4RC00NUFDLUEwNjUtQzIxRjk4MTI2NzgwIiwNCiAgICAiZmVjRW1pIiA6ICIyMDI1LTExLTI3IiwNCiAgICAiaG9yRW1pIiA6ICIwOTowOTozMiIsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJudW1lcm9Db250cm9sIiA6ICJEVEUtMDctTTAwMVAwMDEtMDAwMDAwMDAwMDA0NjEzIiwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSIgOiBudWxsLA0KICAgICJ0aXBvRHRlIiA6ICIwNyIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIiwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ2ZXJzaW9uIiA6IDENCiAgfSwNCiAgInJlY2VwdG9yIiA6IHsNCiAgICAiY29kQWN0aXZpZGFkIiA6ICI0NjU5OSIsDQogICAgImNvcnJlbyIgOiAic2lsdmlhLmFyY2VAY2Vyb3NhLmNvbSIsDQogICAgImRlc2NBY3RpdmlkYWQiIDogIlZlbnRhIGFsIHBvciBtYXlvciBkZSBvdHJvIHRpcG8gZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBjb24gc3VzIGFjY2Vzb3Jpb3MgeSBwYXJ0ZXMiLA0KICAgICJkaXJlY2Npb24iIDogew0KICAgICAgImNvbXBsZW1lbnRvIiA6ICJCb3VsZXZhcmQgVmVuZXp1ZWxhLCBCdWxldmFyIEFydHVybyBDYXN0ZWxsYW5vcyAzMDc3IiwNCiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iIDogIjIzIg0KICAgIH0sDQogICAgIm5vbWJyZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BIERFIEMuViIsDQogICAgIm5vbWJyZUNvbWVyY2lhbCIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BIERFIEMuViIsDQogICAgIm5yYyIgOiAiMTYxMjgiLA0KICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwNCiAgICAidGVsZWZvbm8iIDogIjIyMjMwMzMxIiwNCiAgICAidGlwb0RvY3VtZW50byIgOiAiMzYiDQogIH0sDQogICJyZXN1bWVuIiA6IHsNCiAgICAidG90YWxJVkFyZXRlbmlkbyIgOiA0Ljc1LA0KICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIiA6ICJDVUFUUk8gQ09OIDc1LzEwMCBVU0QiLA0KICAgICJ0b3RhbFN1amV0b1JldGVuY2lvbiIgOiA0NzUNCiAgfQ0KfQ.YMk8KBbKLGVBPrTdnEW0ir1uJVCt6-P8X5G38N074cDrnJO_DiHqCWjZjR423JttLuSXkZeWEsnDjdf-wOLJ2qU7jQ1pbUqrPK9tVy7cb27GP15i9bsL-1Mb662Ri7lnOPcKPxH8iEOklicF7XJWLXJNReZg1w3mf-T5i9DETc1lqKY-xatkoUoRMoHR4ADVftRoTyV45kJ-V-9_Yp-lGARVSJlUNYv3EgJHReltcA8ZkTSXW9BmpySE-15H8bxdUSvPH3Qdr5z0WZjDuWJQ1xg-7PhTGFyh2VUEZ4WC0JlGJKcuAXTEqSXqRm4dPg2W-OYC_WbL7lT3_IspIiWG7Q",
+  "selloRecibido": "2025F1A1E7E9C6C5452499CFBD2E298AD5C9SSXW"
+}

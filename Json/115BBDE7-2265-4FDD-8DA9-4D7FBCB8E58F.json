@@ -1,0 +1,151 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "01",
+    "tipoDte": "05",
+    "numeroControl": "DTE-05-M001P001-000000000000372",
+    "codigoGeneracion": "115BBDE7-2265-4FDD-8DA9-4D7FBCB8E58F",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-12-01",
+    "horEmi": "08:43:51",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD. VENEZUELA N°3077, DISTRITO DE SAN SALVADOR"
+    },
+    "telefono": "25250800",
+    "correo": "informacion@cerosa.com"
+  },
+  "receptor": {
+    "nrc": "4898",
+    "nombre": "LA SULTANA S.A. DE C.V",
+    "codActividad": "10800",
+    "descActividad": "Elaboración de alimentos preparados para animales",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "26",
+      "complemento": "PSJ. B, CONTIGUO HARISA"
+    },
+    "telefono": "2202100022430333",
+    "correo": "cmi-ventanillafisicasv@somoscmi.com",
+    "nit": "06142710600010",
+    "nombreComercial": "LA SULTANA S.A. DE C.V"
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "AP1",
+      "etiqueta": "No interno SAP",
+      "valor": "1000598"
+    },
+    {
+      "campo": "AP10",
+      "etiqueta": "Nombre Comercial",
+      "valor": "LA SULTANA S.A. DE C.V"
+    },
+    {
+      "campo": "AP2",
+      "etiqueta": "Referencia",
+      "valor": "5801"
+    },
+    {
+      "campo": "AP3",
+      "etiqueta": "Código de cliente",
+      "valor": "CNA0541"
+    },
+    {
+      "campo": "AP4",
+      "etiqueta": "Vendedor",
+      "valor": "24- Oscar Ramos"
+    },
+    {
+      "campo": "AP5",
+      "etiqueta": "Condición de Pago",
+      "valor": "CONTADO"
+    },
+    {
+      "campo": "AP6",
+      "etiqueta": "Notas de Vendedor",
+      "valor": "no_aplica"
+    },
+    {
+      "campo": "AP9",
+      "etiqueta": "Telefonos",
+      "valor": "22021000 / 22430333"
+    }
+  ],
+  "ventaTercero": null,
+  "documentoRelacionado": [
+    {
+      "tipoDocumento": "03",
+      "tipoGeneracion": 2,
+      "numeroDocumento": "C205B00E-A61F-476F-AEBE-81E97844A178",
+      "fechaEmision": "2025-11-25"
+    }
+  ],
+  "cuerpoDocumento": [
+    {
+      "ventaGravada": 5890.0,
+      "ventaExenta": 0.0,
+      "ventaNoSuj": 0.0,
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": "C205B00E-A61F-476F-AEBE-81E97844A178",
+      "cantidad": 1.0,
+      "codigo": "RA10X16V1-WS1-E95841",
+      "codTributo": null,
+      "uniMedida": 59,
+      "descripcion": "RA10X16V1-WS1-E95841 Valvula compuerta cuadrada 16\", incluye Entrada de servicio HISS-10X16-E95780, Control de aire 4M375-24ES1-24VDC, Valvula 4LV375, Interruptor magnetico 4CC1A-SPST",
+      "precioUni": 5890.0,
+      "montoDescu": 0.0,
+      "tributos": [
+        "20"
+      ]
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.0,
+    "totalExenta": 0.0,
+    "totalGravada": 5890.0,
+    "subTotalVentas": 5890.0,
+    "descuNoSuj": 0,
+    "descuExenta": 0,
+    "descuGravada": 0.0,
+    "totalDescu": 0.0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado",
+        "valor": 765.7
+      }
+    ],
+    "subTotal": 5890.0,
+    "ivaRete1": 58.9,
+    "reteRenta": 0,
+    "montoTotalOperacion": 6596.8,
+    "totalLetras": "seis mil quinientos noventa y seis dólares con ochenta centavos",
+    "condicionOperacion": 2,
+    "ivaPerci1": 0
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJ2ZXJzaW9uIjozLCJhbWJpZW50ZSI6IjAxIiwidGlwb0R0ZSI6IjA1IiwibnVtZXJvQ29udHJvbCI6IkRURS0wNS1NMDAxUDAwMS0wMDAwMDAwMDAwMDAzNzIiLCJjb2RpZ29HZW5lcmFjaW9uIjoiMTE1QkJERTctMjI2NS00RkRELThEQTktNEQ3RkJDQjhFNThGIiwidGlwb01vZGVsbyI6MSwidGlwb09wZXJhY2lvbiI6MSwidGlwb0NvbnRpbmdlbmNpYSI6bnVsbCwibW90aXZvQ29udGluIjpudWxsLCJmZWNFbWkiOiIyMDI1LTEyLTAxIiwiaG9yRW1pIjoiMDg6NDM6NTEiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImVtaXNvciI6eyJuaXQiOiIwNjE0MTUxMTc3MDAyMCIsIm5yYyI6IjE2MTI4Iiwibm9tYnJlIjoiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYuIiwiY29kQWN0aXZpZGFkIjoiNDY1OTkiLCJkZXNjQWN0aXZpZGFkIjoiVmVudGEgYWwgcG9yIG1heW9yIGRlIG90cm8gdGlwbyBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGNvbiBzdXMgYWNjZXNvcmlvcyB5IHBhcnRlcyIsIm5vbWJyZUNvbWVyY2lhbCI6IkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsInRpcG9Fc3RhYmxlY2ltaWVudG8iOiIwMiIsImRpcmVjY2lvbiI6eyJkZXBhcnRhbWVudG8iOiIwNiIsIm11bmljaXBpbyI6IjIzIiwiY29tcGxlbWVudG8iOiJCTFZELiBWRU5FWlVFTEEgTsKwMzA3NywgRElTVFJJVE8gREUgU0FOIFNBTFZBRE9SIn0sInRlbGVmb25vIjoiMjUyNTA4MDAiLCJjb3JyZW8iOiJpbmZvcm1hY2lvbkBjZXJvc2EuY29tIn0sInJlY2VwdG9yIjp7Im5yYyI6IjQ4OTgiLCJub21icmUiOiJMQSBTVUxUQU5BIFMuQS4gREUgQy5WIiwiY29kQWN0aXZpZGFkIjoiMTA4MDAiLCJkZXNjQWN0aXZpZGFkIjoiRWxhYm9yYWNpw7NuIGRlIGFsaW1lbnRvcyBwcmVwYXJhZG9zIHBhcmEgYW5pbWFsZXMiLCJkaXJlY2Npb24iOnsiZGVwYXJ0YW1lbnRvIjoiMDUiLCJtdW5pY2lwaW8iOiIyNiIsImNvbXBsZW1lbnRvIjoiUFNKLiBCLCBDT05USUdVTyBIQVJJU0EifSwidGVsZWZvbm8iOiIyMjAyMTAwMDIyNDMwMzMzIiwiY29ycmVvIjoiY21pLXZlbnRhbmlsbGFmaXNpY2FzdkBzb21vc2NtaS5jb20iLCJuaXQiOiIwNjE0MjcxMDYwMDAxMCIsIm5vbWJyZUNvbWVyY2lhbCI6IkxBIFNVTFRBTkEgUy5BLiBERSBDLlYifSwiZXh0ZW5zaW9uIjp7Im5vbWJFbnRyZWdhIjpudWxsLCJkb2N1RW50cmVnYSI6bnVsbCwibm9tYlJlY2liZSI6bnVsbCwiZG9jdVJlY2liZSI6bnVsbCwib2JzZXJ2YWNpb25lcyI6bnVsbH0sImFwZW5kaWNlIjpbeyJjYW1wbyI6IkFQMSIsImV0aXF1ZXRhIjoiTm8gaW50ZXJubyBTQVAiLCJ2YWxvciI6IjEwMDA1OTgifSx7ImNhbXBvIjoiQVAxMCIsImV0aXF1ZXRhIjoiTm9tYnJlIENvbWVyY2lhbCIsInZhbG9yIjoiTEEgU1VMVEFOQSBTLkEuIERFIEMuViJ9LHsiY2FtcG8iOiJBUDIiLCJldGlxdWV0YSI6IlJlZmVyZW5jaWEiLCJ2YWxvciI6IjU4MDEifSx7ImNhbXBvIjoiQVAzIiwiZXRpcXVldGEiOiJDw7NkaWdvIGRlIGNsaWVudGUiLCJ2YWxvciI6IkNOQTA1NDEifSx7ImNhbXBvIjoiQVA0IiwiZXRpcXVldGEiOiJWZW5kZWRvciIsInZhbG9yIjoiMjQtIE9zY2FyIFJhbW9zIn0seyJjYW1wbyI6IkFQNSIsImV0aXF1ZXRhIjoiQ29uZGljacOzbiBkZSBQYWdvIiwidmFsb3IiOiJDT05UQURPIn0seyJjYW1wbyI6IkFQNiIsImV0aXF1ZXRhIjoiTm90YXMgZGUgVmVuZGVkb3IiLCJ2YWxvciI6Im5vX2FwbGljYSJ9LHsiY2FtcG8iOiJBUDkiLCJldGlxdWV0YSI6IlRlbGVmb25vcyIsInZhbG9yIjoiMjIwMjEwMDAgLyAyMjQzMDMzMyJ9XSwidmVudGFUZXJjZXJvIjpudWxsLCJkb2N1bWVudG9SZWxhY2lvbmFkbyI6W3sidGlwb0RvY3VtZW50byI6IjAzIiwidGlwb0dlbmVyYWNpb24iOjIsIm51bWVyb0RvY3VtZW50byI6IkMyMDVCMDBFLUE2MUYtNDc2Ri1BRUJFLTgxRTk3ODQ0QTE3OCIsImZlY2hhRW1pc2lvbiI6IjIwMjUtMTEtMjUifV0sImN1ZXJwb0RvY3VtZW50byI6W3sidmVudGFHcmF2YWRhIjo1ODkwLjAsInZlbnRhRXhlbnRhIjowLjAsInZlbnRhTm9TdWoiOjAuMCwibnVtSXRlbSI6MSwidGlwb0l0ZW0iOjEsIm51bWVyb0RvY3VtZW50byI6IkMyMDVCMDBFLUE2MUYtNDc2Ri1BRUJFLTgxRTk3ODQ0QTE3OCIsImNhbnRpZGFkIjoxLjAsImNvZGlnbyI6IlJBMTBYMTZWMS1XUzEtRTk1ODQxIiwiY29kVHJpYnV0byI6bnVsbCwidW5pTWVkaWRhIjo1OSwiZGVzY3JpcGNpb24iOiJSQTEwWDE2VjEtV1MxLUU5NTg0MSBWYWx2dWxhIGNvbXB1ZXJ0YSBjdWFkcmFkYSAxNlwiLCBpbmNsdXllIEVudHJhZGEgZGUgc2VydmljaW8gSElTUy0xMFgxNi1FOTU3ODAsIENvbnRyb2wgZGUgYWlyZSA0TTM3NS0yNEVTMS0yNFZEQywgVmFsdnVsYSA0TFYzNzUsIEludGVycnVwdG9yIG1hZ25ldGljbyA0Q0MxQS1TUFNUIiwicHJlY2lvVW5pIjo1ODkwLjAsIm1vbnRvRGVzY3UiOjAuMCwidHJpYnV0b3MiOlsiMjAiXX1dLCJyZXN1bWVuIjp7InRvdGFsTm9TdWoiOjAuMCwidG90YWxFeGVudGEiOjAuMCwidG90YWxHcmF2YWRhIjo1ODkwLjAsInN1YlRvdGFsVmVudGFzIjo1ODkwLjAsImRlc2N1Tm9TdWoiOjAsImRlc2N1RXhlbnRhIjowLCJkZXNjdUdyYXZhZGEiOjAuMCwidG90YWxEZXNjdSI6MC4wLCJ0cmlidXRvcyI6W3siY29kaWdvIjoiMjAiLCJkZXNjcmlwY2lvbiI6IkltcHVlc3RvIGFsIFZhbG9yIEFncmVnYWRvIiwidmFsb3IiOjc2NS43fV0sInN1YlRvdGFsIjo1ODkwLjAsIml2YVJldGUxIjo1OC45LCJyZXRlUmVudGEiOjAsIm1vbnRvVG90YWxPcGVyYWNpb24iOjY1OTYuOCwidG90YWxMZXRyYXMiOiJzZWlzIG1pbCBxdWluaWVudG9zIG5vdmVudGEgeSBzZWlzIGTDs2xhcmVzIGNvbiBvY2hlbnRhIGNlbnRhdm9zIiwiY29uZGljaW9uT3BlcmFjaW9uIjoyLCJpdmFQZXJjaTEiOjB9fQ.h4A5wKy3whPodwiL6V5TMRGvWwQMTxblJ61OG0POu7IIzW1gZ_EL7kd8zxcnRPzhkB-frKUKF41Gf9ZRoedbjEAUct7xv0ZQQkdKjMeKIbTdbT38hKEtdk2WV4HV8fe9E2gmrEbrd0ckR8jGEEF5quNuUTFXLccNYKi8mrjcr1_ALB69iq0g0pWHRILJZNIpWPnTvlQzMKYgyQVeVQkpUy9HmKMVgttjpDW4Tnsi94GeTNaI4whJVJglwMfgOseHDPm0z1wsYZxOEBEIa8z2fq_7MyGW90Woj94dwAv2-sSFfvwRD5evXOijGCLI30Nfto6Ze9dNy0RJQsutDXJOMg",
+  "selloRecibido": "20256F673605590048C5B6716C1CBB0388BE17CQ"
+}

@@ -1,0 +1,91 @@
+﻿{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P002-000000000000122",
+    "codigoGeneracion": "2B22166E-FC8D-49C7-A20E-D0814F17C2EC",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-30",
+    "horEmi": "09:39:24",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06142808001021",
+    "nrc": "1251368",
+    "nombre": "Cajas Plegadizas, S.A. DE C.V.",
+    "codActividad": "17020",
+    "descActividad": "FABRICACIÓN DE PAPEL Y CARTÓN ONDULADO Y ENVASES DE PAPEL Y CARTÓN",
+    "nombreComercial": "Cajas Plegadizas, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "telefono": "22516100",
+    "correo": "atencionalcliente@smurfitkappa.com.sv",
+    "codigoMH": "M001",
+    "codigo": "0000",
+    "puntoVentaMH": "P002",
+    "puntoVenta": "000000000000000",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "22",
+      "complemento": "BOULEVARD DEL EJERCITO NACIONAL KM. 7.5 SAN SALVADOR"
+    }
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS,S.A.DE C.V.",
+    "codActividad": "10005",
+    "descActividad": "Otros",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS,S.A.DE C.V.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "22",
+      "complemento": "BLVD.VENEZUELA No.3077"
+    },
+    "telefono": "22230331",
+    "correo": "Silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "9F93309F-FB45-47AD-BB2B-73B754EDB4D6",
+      "fechaEmision": "2025-09-08",
+      "montoSujetoGrav": 175.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 1.75,
+      "descripcion": "Retención IVA 1%"
+    },
+    {
+      "numItem": 2,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "97B1A073-3EEA-49DB-835E-EBEA09539A1D",
+      "fechaEmision": "2025-09-24",
+      "montoSujetoGrav": 1227.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 12.27,
+      "descripcion": "Retención IVA 1%"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 1402.0,
+    "totalIVAretenido": 14.02,
+    "totalIVAretenidoLetras": "CATORCE DOLARES CON 2/100"
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": null,
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyAgImlkZW50aWZpY2FjaW9uIjogeyAgICAidmVyc2lvbiI6IDEsICAgICJhbWJpZW50ZSI6ICIwMSIsICAgICJ0aXBvRHRlIjogIjA3IiwgICAgIm51bWVyb0NvbnRyb2wiOiAiRFRFLTA3LU0wMDFQMDAyLTAwMDAwMDAwMDAwMDEyMiIsICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIjJCMjIxNjZFLUZDOEQtNDlDNy1BMjBFLUQwODE0RjE3QzJFQyIsICAgICJ0aXBvTW9kZWxvIjogMSwgICAgInRpcG9PcGVyYWNpb24iOiAxLCAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsICAgICJtb3Rpdm9Db250aW4iOiBudWxsLCAgICAiZmVjRW1pIjogIjIwMjUtMTEtMzAiLCAgICAiaG9yRW1pIjogIjA5OjM5OjI0IiwgICAgInRpcG9Nb25lZGEiOiAiVVNEIiAgfSwgICJlbWlzb3IiOiB7ICAgICJuaXQiOiAiMDYxNDI4MDgwMDEwMjEiLCAgICAibnJjIjogIjEyNTEzNjgiLCAgICAibm9tYnJlIjogIkNhamFzIFBsZWdhZGl6YXMsIFMuQS4gREUgQy5WLiIsICAgICJjb2RBY3RpdmlkYWQiOiAiMTcwMjAiLCAgICAiZGVzY0FjdGl2aWRhZCI6ICJGQUJSSUNBQ0nDk04gREUgUEFQRUwgWSBDQVJUw5NOIE9ORFVMQURPIFkgRU5WQVNFUyBERSBQQVBFTCBZIENBUlTDk04iLCAgICAibm9tYnJlQ29tZXJjaWFsIjogIkNhamFzIFBsZWdhZGl6YXMsIFMuQS4gREUgQy5WLiIsICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIjogIjAyIiwgICAgInRlbGVmb25vIjogIjIyNTE2MTAwIiwgICAgImNvcnJlbyI6ICJhdGVuY2lvbmFsY2xpZW50ZUBzbXVyZml0a2FwcGEuY29tLnN2IiwgICAgImNvZGlnb01IIjogIk0wMDEiLCAgICAiY29kaWdvIjogIjAwMDAiLCAgICAicHVudG9WZW50YU1IIjogIlAwMDIiLCAgICAicHVudG9WZW50YSI6ICIwMDAwMDAwMDAwMDAwMDAiLCAgICAiZGlyZWNjaW9uIjogeyAgICAgICJkZXBhcnRhbWVudG8iOiAiMDYiLCAgICAgICJtdW5pY2lwaW8iOiAiMjIiLCAgICAgICJjb21wbGVtZW50byI6ICJCT1VMRVZBUkQgREVMIEVKRVJDSVRPIE5BQ0lPTkFMIEtNLiA3LjUgU0FOIFNBTFZBRE9SIiAgICB9ICB9LCAgInJlY2VwdG9yIjogeyAgICAidGlwb0RvY3VtZW50byI6ICIzNiIsICAgICJudW1Eb2N1bWVudG8iOiAiMDYxNDE1MTE3NzAwMjAiLCAgICAibnJjIjogIjE2MTI4IiwgICAgIm5vbWJyZSI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE9TLFMuQS5ERSBDLlYuIiwgICAgImNvZEFjdGl2aWRhZCI6ICIxMDAwNSIsICAgICJkZXNjQWN0aXZpZGFkIjogIk90cm9zIiwgICAgIm5vbWJyZUNvbWVyY2lhbCI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE9TLFMuQS5ERSBDLlYuIiwgICAgImRpcmVjY2lvbiI6IHsgICAgICAiZGVwYXJ0YW1lbnRvIjogIjA2IiwgICAgICAibXVuaWNpcGlvIjogIjIyIiwgICAgICAiY29tcGxlbWVudG8iOiAiQkxWRC5WRU5FWlVFTEEgTm8uMzA3NyIgICAgfSwgICAgInRlbGVmb25vIjogIjIyMjMwMzMxIiwgICAgImNvcnJlbyI6ICJTaWx2aWEuYXJjZUBjZXJvc2EuY29tIiAgfSwgICJjdWVycG9Eb2N1bWVudG8iOiBbICAgIHsgICAgICAibnVtSXRlbSI6IDEsICAgICAgInRpcG9EdGUiOiAiMDMiLCAgICAgICJ0aXBvRG9jIjogMiwgICAgICAibnVtRG9jdW1lbnRvIjogIjlGOTMzMDlGLUZCNDUtNDdBRC1CQjJCLTczQjc1NEVEQjRENiIsICAgICAgImZlY2hhRW1pc2lvbiI6ICIyMDI1LTA5LTA4IiwgICAgICAibW9udG9TdWpldG9HcmF2IjogMTc1LjAwLCAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsICAgICAgIml2YVJldGVuaWRvIjogMS43NSwgICAgICAiZGVzY3JpcGNpb24iOiAiUmV0ZW5jacOzbiBJVkEgMSUiICAgIH0sICAgIHsgICAgICAibnVtSXRlbSI6IDIsICAgICAgInRpcG9EdGUiOiAiMDMiLCAgICAgICJ0aXBvRG9jIjogMiwgICAgICAibnVtRG9jdW1lbnRvIjogIjk3QjFBMDczLTNFRUEtNDlEQi04MzVFLUVCRUEwOTUzOUExRCIsICAgICAgImZlY2hhRW1pc2lvbiI6ICIyMDI1LTA5LTI0IiwgICAgICAibW9udG9TdWpldG9HcmF2IjogMTIyNy4wMCwgICAgICAiY29kaWdvUmV0ZW5jaW9uTUgiOiAiMjIiLCAgICAgICJpdmFSZXRlbmlkbyI6IDEyLjI3LCAgICAgICJkZXNjcmlwY2lvbiI6ICJSZXRlbmNpw7NuIElWQSAxJSIgICAgfSAgXSwgICJyZXN1bWVuIjogeyAgICAidG90YWxTdWpldG9SZXRlbmNpb24iOiAxNDAyLjAwLCAgICAidG90YWxJVkFyZXRlbmlkbyI6IDE0LjAyLCAgICAidG90YWxJVkFyZXRlbmlkb0xldHJhcyI6ICJDQVRPUkNFIERPTEFSRVMgQ09OIDIvMTAwIiAgfSwgICJleHRlbnNpb24iOiB7ICAgICJub21iRW50cmVnYSI6IG51bGwsICAgICJkb2N1RW50cmVnYSI6IG51bGwsICAgICJub21iUmVjaWJlIjogbnVsbCwgICAgImRvY3VSZWNpYmUiOiBudWxsLCAgICAib2JzZXJ2YWNpb25lcyI6IG51bGwgIH0sICAiYXBlbmRpY2UiOiBudWxsfQ.YSJE7GyP6UZS5sb0x3Omos0FyZDsnSqj5cpvGpAcYvzIsKPTcLpojeQM9ilKpmCEUKR9x627O9VIAoJ129_d8qSA5OmSaDXQOeJTPWjGOXtycyUGWkCBjOJVCmsVRTkTFGUhkQPfx2WC1qO-uaT5NcNq8unCvKO5OSkYuDAwP1nMiYEtE0j6GR_JPHAx6eZm1eUFQ1CfETKqHINPjJDQpW-JQoVRwJyj93Aluh1J_h-KKBDNGY75FSX6yByhM7M8mzxttc_Ib5iwufpo5wAG7-JKlWTVpiFJig68qHvPS8QzKkDLRhkhQwH93ndQOJIFZLwiJaJ-3jFVeFp0VZ3uQw",
+  "selloRecibido": "20250B5F3654577D46E4AE11277A76BA5268IALO"
+}

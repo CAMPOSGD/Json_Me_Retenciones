@@ -1,0 +1,148 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P002-000000000001181",
+    "codigoGeneracion": "DA4D4B01-C7FA-4878-8DA7-A89B72DC29C6",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "fecEmi": "2025-11-30",
+    "horEmi": "00:00:00",
+    "tipoMoneda": "USD",
+    "tipoContingencia": null,
+    "motivoContin": null
+  },
+  "emisor": {
+    "nit": "06141612061020",
+    "nrc": "1764690",
+    "nombre": "DE LA PEÑA, S.A. DE C.V.",
+    "codActividad": "23990",
+    "descActividad": "Fabricación de productos minerales no metálicos ncp",
+    "nombreComercial": "DE LA PEÑA, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "11",
+      "complemento": "13 Calle Oriente y Av. Santa Teresa Polig. C-1, Residencial Santa Teresa, #18"
+    },
+    "telefono": "22414500",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null,
+    "correo": "contabilidad@grupo-precasa.com"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "codActividad": "10005",
+    "descActividad": "Otros",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "Blvd. Venezuela No. 3077"
+    },
+    "telefono": "25250800",
+    "correo": "silvia.arce@cerosa.com "
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "4D558DE1-62A9-46D6-9DC6-6A8120A485AF",
+      "fechaEmision": "2025-11-08",
+      "montoSujetoGrav": 1571.5,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 15.72,
+      "descripcion": "CCF 4D558DE1-62A9-46D6-9DC6-6A8120A485AF del 08/11/2025"
+    },
+    {
+      "numItem": 2,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "B28377CD-04ED-41D5-BE67-E1C30C5F2A0A",
+      "fechaEmision": "2025-11-13",
+      "montoSujetoGrav": 550.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 5.5,
+      "descripcion": "CCF B28377CD-04ED-41D5-BE67-E1C30C5F2A0A del 13/11/2025"
+    },
+    {
+      "numItem": 3,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "D59AFDC5-E4DF-461F-AF6C-39FD1CA0A1B3",
+      "fechaEmision": "2025-11-27",
+      "montoSujetoGrav": 825.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 8.25,
+      "descripcion": "CCF D59AFDC5-E4DF-461F-AF6C-39FD1CA0A1B3 del 27/11/2025"
+    },
+    {
+      "numItem": 4,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "9F8F173A-63DC-4921-B42C-33D1637F5A55",
+      "fechaEmision": "2025-11-27",
+      "montoSujetoGrav": 895.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 8.95,
+      "descripcion": "CCF 9F8F173A-63DC-4921-B42C-33D1637F5A55 del 27/11/2025"
+    },
+    {
+      "numItem": 5,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "1D65F344-AD5C-4F05-BC5C-D01DB181243E",
+      "fechaEmision": "2025-11-27",
+      "montoSujetoGrav": 225.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.25,
+      "descripcion": "CCF 1D65F344-AD5C-4F05-BC5C-D01DB181243E del 27/11/2025"
+    },
+    {
+      "numItem": 6,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "2AD4FBC3-82BF-42AB-A6C7-C5D16A327F82",
+      "fechaEmision": "2025-11-27",
+      "montoSujetoGrav": 1800.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 18.0,
+      "descripcion": "CCF 2AD4FBC3-82BF-42AB-A6C7-C5D16A327F82 del 27/11/2025"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 5866.5,
+    "totalIVAretenido": 58.67,
+    "totalIVAretenidoLetras": "Cincuenta y Ocho Dólar(es)  con 67/100 centavos."
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": null,
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "DA4D4B01-C7FA-4878-8DA7-A89B72DC29C6",
+    "selloRecibido": "202590448BDAA86A4D25A6F40EA4B3C45C0DLG2R",
+    "fhProcesamiento": "08/12/2025 14:39:54",
+    "clasificaMsg": "10",
+    "codigoMsg": "002",
+    "descripcionMsg": "RECIBIDO CON OBSERVACIONES",
+    "observaciones": [
+      "identificacion.fecEmi Difiere de la fecha de envío."
+    ]
+  }
+}

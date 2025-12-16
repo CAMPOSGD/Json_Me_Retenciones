@@ -1,0 +1,80 @@
+{
+  "selloRecibido": "2025716F05B7E49D46A9980FDD7F878562B4I2RK",
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAxLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDciLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDE0ODMiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkE0NkQ0RTY0LTQ0ODUtNDFCNC04MjQ4LTE1MkQyRTk4REQ3MiIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI1LTExLTE5IiwKICAgICJob3JFbWkiIDogIjE0OjQ2OjA2IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA2MTQwNDExODgxMDE0IiwKICAgICJucmMiIDogIjIzMTQ1MiIsCiAgICAibm9tYnJlIiA6ICJDT05EVVNBTCwgUy5BLiBERSBDLlYuIiwKICAgICJjb2RBY3RpdmlkYWQiIDogIjI3OTAwIiwKICAgICJkZXNjQWN0aXZpZGFkIiA6ICJGYWJyaWNhY2nDs24gZGUgb3Ryb3MgdGlwb3MgZGUgZXF1aXBvIGVsw6ljdHJpY28iLAogICAgIm5vbWJyZUNvbWVyY2lhbCIgOiAiRU5FUldJUkUiLAogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iIDogIjAyIiwKICAgICJkaXJlY2Npb24iIDogewogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsCiAgICAgICJtdW5pY2lwaW8iIDogIjI0IiwKICAgICAgImNvbXBsZW1lbnRvIiA6ICJLTSAxNSBBVVRPUElTVEEgQUwgQUVST1BVRVJUTyBJTlRFUk5BQ0lPTkFMIgogICAgfSwKICAgICJ0ZWxlZm9ubyIgOiAiMjIxMzU5OTkiLAogICAgImNvZGlnb01IIiA6IG51bGwsCiAgICAiY29kaWdvIiA6IG51bGwsCiAgICAicHVudG9WZW50YU1IIiA6IG51bGwsCiAgICAicHVudG9WZW50YSIgOiBudWxsLAogICAgImNvcnJlbyIgOiAiZmFjdHVyYUBlbmVyd2lyZS5jb20iCiAgfSwKICAicmVjZXB0b3IiIDogewogICAgInRpcG9Eb2N1bWVudG8iIDogIjM2IiwKICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwKICAgICJucmMiIDogIjE2MTI4IiwKICAgICJub21icmUiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICI0NjU5OSIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiVmVudGEgYWwgcG9yIG1heW9yIGRlIG90cm8gdGlwbyBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGNvbiBzdXMgYWNjZXNvcmlvcyB5IHBhcnRlcyIsCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6IG51bGwsCiAgICAiZGlyZWNjaW9uIiA6IHsKICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLAogICAgICAibXVuaWNpcGlvIiA6ICIxNCIsCiAgICAgICJjb21wbGVtZW50byIgOiAiQkxWRC4gVkVORVpVRUxBIENPTC4gUk9NQSBOwrAgMzA3NyIKICAgIH0sCiAgICAidGVsZWZvbm8iIDogIjI1MjUwODAwIiwKICAgICJjb3JyZW8iIDogInNpbHZpYS5hcmNlQGNlcm9zYS5jb20iCiAgfSwKICAiY3VlcnBvRG9jdW1lbnRvIiA6IFsgewogICAgIm51bUl0ZW0iIDogMSwKICAgICJ0aXBvRHRlIiA6ICIwMyIsCiAgICAidGlwb0RvYyIgOiAyLAogICAgIm51bURvY3VtZW50byIgOiAiNDVCNTU1NEUtRkJCMi00Q0FCLTg5MDYtQzYwMURFRTBFQTA3IiwKICAgICJmZWNoYUVtaXNpb24iIDogIjIwMjUtMTEtMTEiLAogICAgIm1vbnRvU3VqZXRvR3JhdiIgOiAyMDMuNTIsCiAgICAiY29kaWdvUmV0ZW5jaW9uTUgiIDogIjIyIiwKICAgICJpdmFSZXRlbmlkbyIgOiAyLjA0LAogICAgImRlc2NyaXBjaW9uIiA6ICI0LTA4NjAtNU0tSkFTT04gTWFuZ2EgZGUgc2luY3JvbmlzbW8sIDg2MC01TSwgTG9uZ2l0dWQgZXh0ZXJuYSA4NjAgbW0sIG51bWVybyBkZVxuZGllbnRlcyAxNzIsIGphc29uIDMwIG1tcyAiCiAgfSBdLAogICJyZXN1bWVuIiA6IHsKICAgICJ0b3RhbFN1amV0b1JldGVuY2lvbiIgOiAyMDMuNTIsCiAgICAidG90YWxJVkFyZXRlbmlkbyIgOiAyLjA0LAogICAgInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiIDogIkRPUyBDT04gMDQvMTAwIETDk0xBUkVTLiIKICB9LAogICJleHRlbnNpb24iIDogewogICAgIm5vbWJFbnRyZWdhIiA6IG51bGwsCiAgICAiZG9jdUVudHJlZ2EiIDogbnVsbCwKICAgICJub21iUmVjaWJlIiA6IG51bGwsCiAgICAiZG9jdVJlY2liZSIgOiBudWxsLAogICAgIm9ic2VydmFjaW9uZXMiIDogbnVsbAogIH0sCiAgImFwZW5kaWNlIiA6IG51bGwKfQ.g-k1ff0rdCle81-OVRgPp_Xvv5OG-fRtxRpEa8QQFPsbzYmg7dcNeC65Fu7hwW7n5wK9FzXaZmQg57hL9_lUIzbXXtOIctMArIaA8vFRIbmP1eXAjrshQwVWKifSc36tMSGTEEQym1gSG0ZsfdlrLXWJ3M9bre_ViYVAT60UxCvEtORbE63DNUEnzTt-yafhCgB7UpdkgVpwG8RO7G6KRNibCCnhZDNZWMqNBtgyJGQXd8hU4lfuv782p1tK_w3lBu1hFRD92gYwr6h8CXRuOv1EW4gI_-9_FP2g8FhDa9tshxl9Fh9waQtEeJ8ZxqCXJclxa8rFnDExP78GX8KgwQ",
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000001483",
+    "codigoGeneracion": "A46D4E64-4485-41B4-8248-152D2E98DD72",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-19",
+    "horEmi": "14:46:06",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06140411881014",
+    "nrc": "231452",
+    "nombre": "CONDUSAL, S.A. DE C.V.",
+    "codActividad": "27900",
+    "descActividad": "Fabricación de otros tipos de equipo eléctrico",
+    "nombreComercial": "ENERWIRE",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "24",
+      "complemento": "KM 15 AUTOPISTA AL AEROPUERTO INTERNACIONAL"
+    },
+    "telefono": "22135999",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null,
+    "correo": "factura@enerwire.com"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "BLVD. VENEZUELA COL. ROMA N° 3077"
+    },
+    "telefono": "25250800",
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "45B5554E-FBB2-4CAB-8906-C601DEE0EA07",
+      "fechaEmision": "2025-11-11",
+      "montoSujetoGrav": 203.52,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.04,
+      "descripcion": "4-0860-5M-JASON Manga de sincronismo, 860-5M, Longitud externa 860 mm, numero de\ndientes 172, jason 30 mms "
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 203.52,
+    "totalIVAretenido": 2.04,
+    "totalIVAretenidoLetras": "DOS CON 04/100 DÓLARES."
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": []
+}

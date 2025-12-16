@@ -1,0 +1,74 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-202500000000942",
+    "codigoGeneracion": "83CF9CF3-7D3A-4352-B3BA-72BCA15BF460",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-28",
+    "horEmi": "00:00:00",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06141606840012",
+    "nrc": "88900",
+    "nombre": "RUA, S.A. DE C.V.",
+    "codActividad": "17020",
+    "descActividad": "FABRICACION DE PAPEL Y CARTON ONDULADO Y ENVASES DE PAPEL Y CARTON",
+    "nombreComercial": "RUA, S.A. DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "BLVD DEL EJERCITO KM 7 1/2 CENTRO INDUSTRIAL DAMSA, SOYAPANGO, SAN SALVADOR"
+    },
+    "telefono": "25079000",
+    "correo": "dte_compras@ruasa.com.sv",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46900",
+    "descActividad": "Venta al por mayor de otros productos",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "Boulevard Venezuela # 3077"
+    },
+    "telefono": "(503) 2223-0331",
+    "correo": "silvia.arce@cerosa.com",
+    "tipoDocumento": "02",
+    "numDocumento": "06141511770020"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "numDocumento": "DTE2025-7153",
+      "descripcion": "DTE2025-7153",
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "fechaEmision": "2025-11-01",
+      "montoSujetoGrav": 211.20,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.11
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 211.20,
+    "totalIVAretenido": 2.11,
+    "totalIVAretenidoLetras": "DOS DOLARES 11 /100"
+  },
+  "extension": null,
+  "sello": null,
+  "firma": null,
+  "apendice": null
+}

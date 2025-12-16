@@ -1,0 +1,99 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000009170",
+    "codigoGeneracion": "63995E65-FA18-1FD0-B1B1-C68000246695",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-19",
+    "horEmi": "15:25:04",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06142202640012",
+    "nrc": "60712",
+    "nombre": "COMPAÑIA AZUCARERA SALVADOREÑA S.A DE C.V.",
+    "codActividad": "10721",
+    "descActividad": "Ingenios azucareros",
+    "nombreComercial": null,
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "03",
+      "municipio": "19",
+      "complemento": "CARR. A SONSONATE KM. 62 ½, CTON. HUISCOYOLATE, DISTRITO DE IZALCO"
+    },
+    "telefono": "24841000",
+    "codigoMH": "M001",
+    "codigo": null,
+    "puntoVentaMH": "P001",
+    "puntoVenta": null,
+    "correo": "info@grupocassa.com"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "VENTA AL POR MAYOR DE OTRO TIPO DE MAQUINARIA Y EQUIPO CON SUS ACCESORIOS Y PARTES",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BOULEVARD VENEZUELA COL. ROMA # 3077"
+    },
+    "telefono": "25250832",
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "numDocumento": "5D4378106E63",
+      "fechaEmision": "2025-11-05",
+      "montoSujetoGrav": 116.5,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 1.17,
+      "descripcion": "Aplicado a Compra con CCF 5D4378106E63"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 116.5,
+    "totalIVAretenido": 1.17,
+    "totalIVAretenidoLetras": "UN 17 /100 DOLARES"
+  },
+  "extension": {
+    "nombEntrega": "JOSEMAURICIOAGUILAR",
+    "docuEntrega": "01825599-4",
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "nombreDoc",
+      "etiqueta": "nombreDoc",
+      "valor": "1000_CRET_8000246695.json"
+    }
+  ],
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "63995E65-FA18-1FD0-B1B1-C68000246695",
+    "numeroControl": "DTE-07-M001P001-000000000009170",
+    "selloRecibido": "2025F0DDD70C096248F9900D1A8024ABFC56E2LF",
+    "fhProcesamiento": "19/11/2025 15:27:10",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": []
+  },
+  "codigoEmpresa": "CASSA",
+  "token": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiI6IHsKICAgICJ2ZXJzaW9uIjogMSwKICAgICJhbWJpZW50ZSI6ICIwMSIsCiAgICAidGlwb0R0ZSI6ICIwNyIsCiAgICAibnVtZXJvQ29udHJvbCI6ICJEVEUtMDctTTAwMVAwMDEtMDAwMDAwMDAwMDA5MTcwIiwKICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIjYzOTk1RTY1LUZBMTgtMUZEMC1CMUIxLUM2ODAwMDI0NjY5NSIsCiAgICAidGlwb01vZGVsbyI6IDEsCiAgICAidGlwb09wZXJhY2lvbiI6IDEsCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsCiAgICAibW90aXZvQ29udGluIjogbnVsbCwKICAgICJmZWNFbWkiOiAiMjAyNS0xMS0xOSIsCiAgICAiaG9yRW1pIjogIjE1OjI1OjA0IiwKICAgICJ0aXBvTW9uZWRhIjogIlVTRCIKICB9LAogICJlbWlzb3IiOiB7CiAgICAibml0IjogIjA2MTQyMjAyNjQwMDEyIiwKICAgICJucmMiOiAiNjA3MTIiLAogICAgIm5vbWJyZSI6ICJDT01QQcORSUEgQVpVQ0FSRVJBIFNBTFZBRE9SRcORQSBTLkEgREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIjogIjEwNzIxIiwKICAgICJkZXNjQWN0aXZpZGFkIjogIkluZ2VuaW9zIGF6dWNhcmVyb3MiLAogICAgIm5vbWJyZUNvbWVyY2lhbCI6IG51bGwsCiAgICAidGlwb0VzdGFibGVjaW1pZW50byI6ICIwMiIsCiAgICAiZGlyZWNjaW9uIjogewogICAgICAiZGVwYXJ0YW1lbnRvIjogIjAzIiwKICAgICAgIm11bmljaXBpbyI6ICIxOSIsCiAgICAgICJjb21wbGVtZW50byI6ICJDQVJSLiBBIFNPTlNPTkFURSBLTS4gNjIgwr0sIENUT04uIEhVSVNDT1lPTEFURSwgRElTVFJJVE8gREUgSVpBTENPIgogICAgfSwKICAgICJ0ZWxlZm9ubyI6ICIyNDg0MTAwMCIsCiAgICAiY29kaWdvTUgiOiAiTTAwMSIsCiAgICAiY29kaWdvIjogbnVsbCwKICAgICJwdW50b1ZlbnRhTUgiOiAiUDAwMSIsCiAgICAicHVudG9WZW50YSI6IG51bGwsCiAgICAiY29ycmVvIjogImluZm9AZ3J1cG9jYXNzYS5jb20iCiAgfSwKICAicmVjZXB0b3IiOiB7CiAgICAidGlwb0RvY3VtZW50byI6ICIzNiIsCiAgICAibnVtRG9jdW1lbnRvIjogIjA2MTQxNTExNzcwMDIwIiwKICAgICJucmMiOiAiMTYxMjgiLAogICAgIm5vbWJyZSI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLAogICAgImNvZEFjdGl2aWRhZCI6ICI0NjU5OSIsCiAgICAiZGVzY0FjdGl2aWRhZCI6ICJWRU5UQSBBTCBQT1IgTUFZT1IgREUgT1RSTyBUSVBPIERFIE1BUVVJTkFSSUEgWSBFUVVJUE8gQ09OIFNVUyBBQ0NFU09SSU9TIFkgUEFSVEVTIiwKICAgICJub21icmVDb21lcmNpYWwiOiBudWxsLAogICAgImRpcmVjY2lvbiI6IHsKICAgICAgImRlcGFydGFtZW50byI6ICIwNiIsCiAgICAgICJtdW5pY2lwaW8iOiAiMjMiLAogICAgICAiY29tcGxlbWVudG8iOiAiQk9VTEVWQVJEIFZFTkVaVUVMQSBDT0wuIFJPTUEgIyAzMDc3IgogICAgfSwKICAgICJ0ZWxlZm9ubyI6ICIyNTI1MDgzMiIsCiAgICAiY29ycmVvIjogInNpbHZpYS5hcmNlQGNlcm9zYS5jb20iCiAgfSwKICAiY3VlcnBvRG9jdW1lbnRvIjogWwogICAgewogICAgICAibnVtSXRlbSI6IDEsCiAgICAgICJ0aXBvRHRlIjogIjAzIiwKICAgICAgInRpcG9Eb2MiOiAxLAogICAgICAibnVtRG9jdW1lbnRvIjogIjVENDM3ODEwNkU2MyIsCiAgICAgICJmZWNoYUVtaXNpb24iOiAiMjAyNS0xMS0wNSIsCiAgICAgICJtb250b1N1amV0b0dyYXYiOiAxMTYuNSwKICAgICAgImNvZGlnb1JldGVuY2lvbk1IIjogIjIyIiwKICAgICAgIml2YVJldGVuaWRvIjogMS4xNywKICAgICAgImRlc2NyaXBjaW9uIjogIkFwbGljYWRvIGEgQ29tcHJhIGNvbiBDQ0YgNUQ0Mzc4MTA2RTYzIgogICAgfQogIF0sCiAgInJlc3VtZW4iOiB7CiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iOiAxMTYuNSwKICAgICJ0b3RhbElWQXJldGVuaWRvIjogMS4xNywKICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIjogIlVOIDE3IC8xMDAgRE9MQVJFUyIKICB9LAogICJleHRlbnNpb24iOiB7CiAgICAibm9tYkVudHJlZ2EiOiAiSk9TRU1BVVJJQ0lPQUdVSUxBUiIsCiAgICAiZG9jdUVudHJlZ2EiOiAiMDE4MjU1OTktNCIsCiAgICAibm9tYlJlY2liZSI6IG51bGwsCiAgICAiZG9jdVJlY2liZSI6IG51bGwsCiAgICAib2JzZXJ2YWNpb25lcyI6IG51bGwKICB9LAogICJhcGVuZGljZSI6IFsKICAgIHsKICAgICAgImNhbXBvIjogIm5vbWJyZURvYyIsCiAgICAgICJldGlxdWV0YSI6ICJub21icmVEb2MiLAogICAgICAidmFsb3IiOiAiMTAwMF9DUkVUXzgwMDAyNDY2OTUuanNvbiIKICAgIH0KICBdCn0.bKDV1XNNF98WlRvsDxuQlPPSR0kGfkY8kW01OYZtCGRrQ81v4aXtBrmLmwyyB6SzribqCQ928g9IRaq446ExU4W4pLbL_iIf1N7KZKSCk9lWV5reBWatIbxssZ4h0PFTWVSijbuyMniEzSQH_XZqvqFo3CanzhaVY2FkRPJ2Rj3SYMOj9bWX53-Hy2lhb_DZOy9LTHCR0vuYNU0pcnZd9LugdrxUsCygmtA0ZwvxpyXjAGaflV_mpb0CPapDJFnX48aJQ7nZHPSa_cSI5PRzok8yA9iLD9L55SARfuE2196y2pGhUepj_VcwMhpT6UOkaXLkua7uZ5bHyM-41EqM6w"
+}

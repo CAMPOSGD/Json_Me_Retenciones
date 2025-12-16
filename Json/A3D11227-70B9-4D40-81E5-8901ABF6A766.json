@@ -1,0 +1,80 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P029-000000000006439",
+    "codigoGeneracion": "A3D11227-70B9-4D40-81E5-8901ABF6A766",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-10",
+    "horEmi": "13:36:59",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06141811710039",
+    "nrc": "3336",
+    "nombre": "TEXTUFIL, S.A. DE C.V.",
+    "codActividad": "13999",
+    "descActividad": "FABRICACION DE PRODUCTOS TEXTILES NCP",
+    "nombreComercial": "TEXTUFIL, S.A. DE C.V.",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "22",
+      "complemento": "12 AVE.SUR, SOYAPANGO, SAN SALVADOR"
+    },
+    "telefono": "22770066",
+    "correo": "textufil.facturacion.electronica@textufil.com",
+    "codigoMH": "M001",
+    "codigo": "0000",
+    "puntoVentaMH": "P029",
+    "puntoVenta": "0000"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S. A. DE C. V.",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S. A. DE C. V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y par",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BOULEVARD VENEZUELA, NO. 3077, SAN SALVADOR"
+    },
+    "telefono": null,
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "A7FF5C77-589C-462C-BC13-05C5DAC93C40",
+      "fechaEmision": "2025-11-05",
+      "montoSujetoGrav": 271.28,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.71,
+      "descripcion": ""
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 271.28,
+    "totalIVAretenido": 2.71,
+    "totalIVAretenidoLetras": "DOS 71/100 USD DÓLARES"
+  },
+  "extension": null,
+  "apendice": [
+    {
+      "campo": "CATEGORIA",
+      "etiqueta": "CATEGORIA",
+      "valor": "0;GRANDE;0;0;0;0;"
+    }
+  ],
+  "firma": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iIDogew0KICAgICJ2ZXJzaW9uIiA6IDEsDQogICAgImFtYmllbnRlIiA6ICIwMSIsDQogICAgInRpcG9EdGUiIDogIjA3IiwNCiAgICAibnVtZXJvQ29udHJvbCIgOiAiRFRFLTA3LU0wMDFQMDI5LTAwMDAwMDAwMDAwNjQzOSIsDQogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkEzRDExMjI3LTcwQjktNEQ0MC04MUU1LTg5MDFBQkY2QTc2NiIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJmZWNFbWkiIDogIjIwMjUtMTEtMTAiLA0KICAgICJob3JFbWkiIDogIjEzOjM2OjU5IiwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIg0KICB9LA0KICAiZW1pc29yIiA6IHsNCiAgICAibml0IiA6ICIwNjE0MTgxMTcxMDAzOSIsDQogICAgIm5yYyIgOiAiMzMzNiIsDQogICAgIm5vbWJyZSIgOiAiVEVYVFVGSUwsIFMuQS4gREUgQy5WLiIsDQogICAgImNvZEFjdGl2aWRhZCIgOiAiMTM5OTkiLA0KICAgICJkZXNjQWN0aXZpZGFkIiA6ICJGQUJSSUNBQ0lPTiBERSBQUk9EVUNUT1MgVEVYVElMRVMgTkNQIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6ICJURVhUVUZJTCwgUy5BLiBERSBDLlYuIiwNCiAgICAidGlwb0VzdGFibGVjaW1pZW50byIgOiAiMDEiLA0KICAgICJkaXJlY2Npb24iIDogew0KICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLA0KICAgICAgIm11bmljaXBpbyIgOiAiMjIiLA0KICAgICAgImNvbXBsZW1lbnRvIiA6ICIxMiBBVkUuU1VSLCBTT1lBUEFOR08sIFNBTiBTQUxWQURPUiINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyIgOiAiMjI3NzAwNjYiLA0KICAgICJjb3JyZW8iIDogInRleHR1ZmlsLmZhY3R1cmFjaW9uLmVsZWN0cm9uaWNhQHRleHR1ZmlsLmNvbSIsDQogICAgImNvZGlnb01IIiA6ICJNMDAxIiwNCiAgICAiY29kaWdvIiA6ICIwMDAwIiwNCiAgICAicHVudG9WZW50YU1IIiA6ICJQMDI5IiwNCiAgICAicHVudG9WZW50YSIgOiAiMDAwMCINCiAgfSwNCiAgInJlY2VwdG9yIiA6IHsNCiAgICAidGlwb0RvY3VtZW50byIgOiAiMzYiLA0KICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwNCiAgICAibnJjIiA6ICIxNjEyOCIsDQogICAgIm5vbWJyZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy4gQS4gREUgQy4gVi4iLA0KICAgICJub21icmVDb21lcmNpYWwiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuIEEuIERFIEMuIFYuIiwNCiAgICAiY29kQWN0aXZpZGFkIiA6ICI0NjU5OSIsDQogICAgImRlc2NBY3RpdmlkYWQiIDogIlZlbnRhIGFsIHBvciBtYXlvciBkZSBvdHJvIHRpcG8gZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBjb24gc3VzIGFjY2Vzb3Jpb3MgeSBwYXIiLA0KICAgICJkaXJlY2Npb24iIDogew0KICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLA0KICAgICAgIm11bmljaXBpbyIgOiAiMjMiLA0KICAgICAgImNvbXBsZW1lbnRvIiA6ICJCT1VMRVZBUkQgVkVORVpVRUxBLCBOTy4gMzA3NywgU0FOIFNBTFZBRE9SIg0KICAgIH0sDQogICAgInRlbGVmb25vIiA6IG51bGwsDQogICAgImNvcnJlbyIgOiAic2lsdmlhLmFyY2VAY2Vyb3NhLmNvbSINCiAgfSwNCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsNCiAgICAibnVtSXRlbSIgOiAxLA0KICAgICJ0aXBvRHRlIiA6ICIwMyIsDQogICAgInRpcG9Eb2MiIDogMiwNCiAgICAibnVtRG9jdW1lbnRvIiA6ICJBN0ZGNUM3Ny01ODlDLTQ2MkMtQkMxMy0wNUM1REFDOTNDNDAiLA0KICAgICJmZWNoYUVtaXNpb24iIDogIjIwMjUtMTEtMDUiLA0KICAgICJtb250b1N1amV0b0dyYXYiIDogMjcxLjI4LA0KICAgICJjb2RpZ29SZXRlbmNpb25NSCIgOiAiMjIiLA0KICAgICJpdmFSZXRlbmlkbyIgOiAyLjcxLA0KICAgICJkZXNjcmlwY2lvbiIgOiAiIg0KICB9IF0sDQogICJyZXN1bWVuIiA6IHsNCiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iIDogMjcxLjI4LA0KICAgICJ0b3RhbElWQXJldGVuaWRvIiA6IDIuNzEsDQogICAgInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiIDogIkRPUyA3MS8xMDAgVVNEIETDk0xBUkVTIg0KICB9LA0KICAiZXh0ZW5zaW9uIiA6IG51bGwsDQogICJhcGVuZGljZSIgOiBbIHsNCiAgICAiY2FtcG8iIDogIkNBVEVHT1JJQSIsDQogICAgImV0aXF1ZXRhIiA6ICJDQVRFR09SSUEiLA0KICAgICJ2YWxvciIgOiAiMDtHUkFOREU7MDswOzA7MDsiDQogIH0gXQ0KfQ.ES6Whe4pDoU93wgP2qQ82eT6CIFOloFA3Ie13KbDuvbbljl-i11OQyXxLC5PSpD6ol1rHBSr903800cyS1iJ3EDBwi1gxzrdODXyXU5gNUhDZzFGYegymirF6hzVcGwUxUSZD2aYd8MOJCZRGKSjq7S-18vIovh80WdY9mUSCaI3y48DvFcMo7pYzQSXMSMuztTe_qfC4PMA3QqQAoawmtBP-k-i4mAK21-FqO2noWCOibehYLiZwfIkRtATBjDTj_a62iPZeGqMl0wjts1Bco4xja2eSS-0QSVv3qt69CecgFOJ2dWwaDmH-HIx6DNX0yAdqRGl648zon6RRqXD9A",
+  "selloRecibido": "20255EA680896F574307AA13F1161313A2E4DHFB"
+}

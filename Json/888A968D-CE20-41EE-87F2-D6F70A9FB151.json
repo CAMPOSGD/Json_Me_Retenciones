@@ -1,0 +1,96 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000006494",
+    "codigoGeneracion": "888A968D-CE20-41EE-87F2-D6F70A9FB151",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-10-31",
+    "horEmi": "16:24:00",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06142309921020",
+    "nrc": "700290",
+    "nombre": "MEDRANO FLORES, S.A. DE C.V.",
+    "codActividad": "10712",
+    "descActividad": "Fabricación de pan, galletas y barquillos",
+    "nombreComercial": "SUCURSAL CENTRAL",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "22",
+      "complemento": "Colonia San Antonio, Calle Las Delicias # 20, Distrito de Soyapango"
+    },
+    "telefono": "25250100",
+    "correo": "informatica@pansinai.com",
+    "codigoMH": "M001",
+    "codigo": "M001",
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLV. VENEZUELA, COL. ROMA Nº 3077,, San Salvador"
+    },
+    "telefono": "22789013",
+    "correo": "silvia.arce@cerosa.com",
+    "nombreComercial": null
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "1A81600C-D0A4-4CBB-B4FF-0E8ACADBE927",
+      "fechaEmision": "2025-10-28",
+      "montoSujetoGrav": 192.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 1.92,
+      "descripcion": "CCF-1A81600C-D0A4-4CBB-B4FF-0E8ACADBE927"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 192.0,
+    "totalIVAretenido": 1.92,
+    "totalIVAretenidoLetras": "un dólar con noventa y dos centavos"
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "AP1",
+      "etiqueta": "No interno SAP",
+      "valor": "200162248"
+    },
+    {
+      "campo": "AP2",
+      "etiqueta": "Referencia",
+      "valor": "1A81600C-D0A4-4CBB-B4FF-0"
+    },
+    {
+      "campo": "AP3",
+      "etiqueta": "Código de cliente",
+      "valor": "AC00015"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJ2ZXJzaW9uIjoxLCJhbWJpZW50ZSI6IjAxIiwidGlwb0R0ZSI6IjA3IiwibnVtZXJvQ29udHJvbCI6IkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDY0OTQiLCJjb2RpZ29HZW5lcmFjaW9uIjoiODg4QTk2OEQtQ0UyMC00MUVFLTg3RjItRDZGNzBBOUZCMTUxIiwidGlwb01vZGVsbyI6MSwidGlwb09wZXJhY2lvbiI6MSwidGlwb0NvbnRpbmdlbmNpYSI6bnVsbCwibW90aXZvQ29udGluIjpudWxsLCJmZWNFbWkiOiIyMDI1LTEwLTMxIiwiaG9yRW1pIjoiMTY6MjQ6MDAiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImVtaXNvciI6eyJuaXQiOiIwNjE0MjMwOTkyMTAyMCIsIm5yYyI6IjcwMDI5MCIsIm5vbWJyZSI6Ik1FRFJBTk8gRkxPUkVTLCBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiIxMDcxMiIsImRlc2NBY3RpdmlkYWQiOiJGYWJyaWNhY2nDs24gZGUgcGFuLCBnYWxsZXRhcyB5IGJhcnF1aWxsb3MiLCJub21icmVDb21lcmNpYWwiOiJTVUNVUlNBTCBDRU5UUkFMIiwidGlwb0VzdGFibGVjaW1pZW50byI6IjAyIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjIiLCJjb21wbGVtZW50byI6IkNvbG9uaWEgU2FuIEFudG9uaW8sIENhbGxlIExhcyBEZWxpY2lhcyAjIDIwLCBEaXN0cml0byBkZSBTb3lhcGFuZ28ifSwidGVsZWZvbm8iOiIyNTI1MDEwMCIsImNvcnJlbyI6ImluZm9ybWF0aWNhQHBhbnNpbmFpLmNvbSIsImNvZGlnb01IIjoiTTAwMSIsImNvZGlnbyI6Ik0wMDEiLCJwdW50b1ZlbnRhTUgiOm51bGwsInB1bnRvVmVudGEiOm51bGx9LCJyZWNlcHRvciI6eyJ0aXBvRG9jdW1lbnRvIjoiMzYiLCJudW1Eb2N1bWVudG8iOiIwNjE0MTUxMTc3MDAyMCIsIm5yYyI6IjE2MTI4Iiwibm9tYnJlIjoiQ0VOVFJBTCBERSBST0RBTUlFTlRPUyBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiI0NjU5OSIsImRlc2NBY3RpdmlkYWQiOiJWZW50YSBhbCBwb3IgbWF5b3IgZGUgb3RybyB0aXBvIGRlIG1hcXVpbmFyaWEgeSBlcXVpcG8gY29uIHN1cyBhY2Nlc29yaW9zIHkgcGFydGVzIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjMiLCJjb21wbGVtZW50byI6IkJMVi4gVkVORVpVRUxBLCBDT0wuIFJPTUEgTsK6IDMwNzcsLCBTYW4gU2FsdmFkb3IifSwidGVsZWZvbm8iOiIyMjc4OTAxMyIsImNvcnJlbyI6InNpbHZpYS5hcmNlQGNlcm9zYS5jb20iLCJub21icmVDb21lcmNpYWwiOm51bGx9LCJjdWVycG9Eb2N1bWVudG8iOlt7Im51bUl0ZW0iOjEsInRpcG9EdGUiOiIwMyIsInRpcG9Eb2MiOjIsIm51bURvY3VtZW50byI6IjFBODE2MDBDLUQwQTQtNENCQi1CNEZGLTBFOEFDQURCRTkyNyIsImZlY2hhRW1pc2lvbiI6IjIwMjUtMTAtMjgiLCJtb250b1N1amV0b0dyYXYiOjE5Mi4wLCJjb2RpZ29SZXRlbmNpb25NSCI6IjIyIiwiaXZhUmV0ZW5pZG8iOjEuOTIsImRlc2NyaXBjaW9uIjoiQ0NGLTFBODE2MDBDLUQwQTQtNENCQi1CNEZGLTBFOEFDQURCRTkyNyJ9XSwicmVzdW1lbiI6eyJ0b3RhbFN1amV0b1JldGVuY2lvbiI6MTkyLjAsInRvdGFsSVZBcmV0ZW5pZG8iOjEuOTIsInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiOiJ1biBkw7NsYXIgY29uIG5vdmVudGEgeSBkb3MgY2VudGF2b3MifSwiZXh0ZW5zaW9uIjp7Im5vbWJFbnRyZWdhIjpudWxsLCJkb2N1RW50cmVnYSI6bnVsbCwibm9tYlJlY2liZSI6bnVsbCwiZG9jdVJlY2liZSI6bnVsbCwib2JzZXJ2YWNpb25lcyI6bnVsbH0sImFwZW5kaWNlIjpbeyJjYW1wbyI6IkFQMSIsImV0aXF1ZXRhIjoiTm8gaW50ZXJubyBTQVAiLCJ2YWxvciI6IjIwMDE2MjI0OCJ9LHsiY2FtcG8iOiJBUDIiLCJldGlxdWV0YSI6IlJlZmVyZW5jaWEiLCJ2YWxvciI6IjFBODE2MDBDLUQwQTQtNENCQi1CNEZGLTAifSx7ImNhbXBvIjoiQVAzIiwiZXRpcXVldGEiOiJDw7NkaWdvIGRlIGNsaWVudGUiLCJ2YWxvciI6IkFDMDAwMTUifV19.QyDyZkKNqGGw0lSnbgdVAowP8h6T6vO7K5x-Uldq4L6HbthTjGRylFnCvWaOhfPr8UF2M4tStndccxYC-g_fYAsvexI0QarVawh2Krml4m45aIW9uWmiUHDF-nl3fRK6SF1JZtFJbUFE0OSrfjg23S3ijKpyMer0NEBPUiXczSifc0KBTOBN7iLIluMfKkwV5nyvqCcn_0UR5C8PptlQ0RoNs_eZ3vQLf5kzOGZlcV3l4zsUYjSE1Fl6DB7Ncrn0vkSg9e5voKyEtJhLiytxrKk4FtAzba-WSx7VIuO1FMgK5OqTBbJpmkbvaIkP2cDY3TLKjQW8lLcpK6T5iBC1mA",
+  "selloRecibido": "20255B4E6B5492724A8487D9FC2F49DA9DC0AKDJ"
+}

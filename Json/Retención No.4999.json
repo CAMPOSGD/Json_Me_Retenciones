@@ -1,0 +1,76 @@
+{
+    "identificacion": {
+        "version": 1,
+        "ambiente": "01",
+        "tipoDte": "07",
+        "numeroControl": "DTE-07-M001P001-000000000003384",
+        "codigoGeneracion": "18943ADD-5464-4A08-BB9F-31828E9E1521",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2025-11-30",
+        "horEmi": "02:56:28",
+        "tipoMoneda": "USD"
+    },
+    "emisor": {
+        "nit": "06142903620017",
+        "nrc": "220000",
+        "nombre": "IMPRESORA LA UNION, S.A. DE C.V.",
+        "codActividad": "18110",
+        "descActividad": "Impresi\u00f3n",
+        "nombreComercial": null,
+        "tipoEstablecimiento": "02",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "23",
+            "complemento": "Boulevar del Ejercito Nacional Km. 2.5 frente a 50 Av. Norte"
+        },
+        "telefono": null,
+        "codigoMH": null,
+        "codigo": null,
+        "puntoVentaMH": null,
+        "puntoVenta": null,
+        "correo": "dte@impresoralaunion.com"
+    },
+    "receptor": {
+        "tipoDocumento": "36",
+        "numDocumento": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+        "codActividad": "10005",
+        "descActividad": "Otros",
+        "nombreComercial": null,
+        "direccion": {
+            "departamento": "06",
+            "municipio": "23",
+            "complemento": "Blvd. Venezuela N\u00ba 3077, San Salvador, San Salvador"
+        },
+        "telefono": null,
+        "correo": "silvia.arce@cerosa.com"
+    },
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoDte": "03",
+            "tipoDoc": 2,
+            "numDocumento": "814643A4-FBC3-403B-A4EF-FE1A58FC31EC",
+            "fechaEmision": "2025-11-24",
+            "montoSujetoGrav": 146.0,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 1.46,
+            "descripcion": ""
+        }
+    ],
+    "resumen": {
+        "totalSujetoRetencion": 146.0,
+        "totalIVAretenido": 1.46,
+        "totalIVAretenidoLetras": "Ciento Sesenta Y Tres D\u00f3lares Americanos y Cincuenta Y Dos Centavos"
+    },
+    "extension": null,
+    "apendice": null,
+    "respuestaHacienda": {
+        "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAxLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDciLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDMzODQiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIjE4OTQzQURELTU0NjQtNEEwOC1CQjlGLTMxODI4RTlFMTUyMSIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI1LTExLTMwIiwKICAgICJob3JFbWkiIDogIjAyOjU2OjI4IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA2MTQyOTAzNjIwMDE3IiwKICAgICJucmMiIDogIjIyMDAwMCIsCiAgICAibm9tYnJlIiA6ICJJTVBSRVNPUkEgTEEgVU5JT04sIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICIxODExMCIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiSW1wcmVzacOzbiIsCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6IG51bGwsCiAgICAidGlwb0VzdGFibGVjaW1pZW50byIgOiAiMDIiLAogICAgImRpcmVjY2lvbiIgOiB7CiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwKICAgICAgIm11bmljaXBpbyIgOiAiMjMiLAogICAgICAiY29tcGxlbWVudG8iIDogIkJvdWxldmFyIGRlbCBFamVyY2l0byBOYWNpb25hbCBLbS4gMi41IGZyZW50ZSBhIDUwIEF2LiBOb3J0ZSIKICAgIH0sCiAgICAidGVsZWZvbm8iIDogbnVsbCwKICAgICJjb2RpZ29NSCIgOiBudWxsLAogICAgImNvZGlnbyIgOiBudWxsLAogICAgInB1bnRvVmVudGFNSCIgOiBudWxsLAogICAgInB1bnRvVmVudGEiIDogbnVsbCwKICAgICJjb3JyZW8iIDogImR0ZUBpbXByZXNvcmFsYXVuaW9uLmNvbSIKICB9LAogICJyZWNlcHRvciIgOiB7CiAgICAidGlwb0RvY3VtZW50byIgOiAiMzYiLAogICAgIm51bURvY3VtZW50byIgOiAiMDYxNDE1MTE3NzAwMjAiLAogICAgIm5yYyIgOiAiMTYxMjgiLAogICAgIm5vbWJyZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYuIiwKICAgICJjb2RBY3RpdmlkYWQiIDogIjEwMDA1IiwKICAgICJkZXNjQWN0aXZpZGFkIiA6ICJPdHJvcyIsCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6IG51bGwsCiAgICAiZGlyZWNjaW9uIiA6IHsKICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLAogICAgICAibXVuaWNpcGlvIiA6ICIyMyIsCiAgICAgICJjb21wbGVtZW50byIgOiAiQmx2ZC4gVmVuZXp1ZWxhIE7CuiAzMDc3LCBTYW4gU2FsdmFkb3IsIFNhbiBTYWx2YWRvciIKICAgIH0sCiAgICAidGVsZWZvbm8iIDogbnVsbCwKICAgICJjb3JyZW8iIDogInNpbHZpYS5hcmNlQGNlcm9zYS5jb20iCiAgfSwKICAiY3VlcnBvRG9jdW1lbnRvIiA6IFsgewogICAgIm51bUl0ZW0iIDogMSwKICAgICJ0aXBvRHRlIiA6ICIwMyIsCiAgICAidGlwb0RvYyIgOiAyLAogICAgIm51bURvY3VtZW50byIgOiAiODE0NjQzQTQtRkJDMy00MDNCLUE0RUYtRkUxQTU4RkMzMUVDIiwKICAgICJmZWNoYUVtaXNpb24iIDogIjIwMjUtMTEtMjQiLAogICAgIm1vbnRvU3VqZXRvR3JhdiIgOiAxNDYuMCwKICAgICJjb2RpZ29SZXRlbmNpb25NSCIgOiAiMjIiLAogICAgIml2YVJldGVuaWRvIiA6IDEuNDYsCiAgICAiZGVzY3JpcGNpb24iIDogIiIKICB9IF0sCiAgInJlc3VtZW4iIDogewogICAgInRvdGFsU3VqZXRvUmV0ZW5jaW9uIiA6IDE0Ni4wLAogICAgInRvdGFsSVZBcmV0ZW5pZG8iIDogMS40NiwKICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIiA6ICJDaWVudG8gU2VzZW50YSBZIFRyZXMgRMOzbGFyZXMgQW1lcmljYW5vcyB5IENpbmN1ZW50YSBZIERvcyBDZW50YXZvcyIKICB9LAogICJleHRlbnNpb24iIDogbnVsbCwKICAiYXBlbmRpY2UiIDogbnVsbAp9.h6JrnearhqDv79e2-r7tpBAyH_fXknZjErxOhingfoLP8GMsiRY_hBhHjO9dAWBJQJuj5bz21E3vTu-K1Q2pcktYP65Da9J1sc7atCBrMxB1GH-_mDs2Vf6ION547EJeA5aZUN9mUvhYam_5oghpk8Xc07flKVm3jG-GtoebU444QoZY5QDYanub-8wVNHvYJqyYiVvh6MD_UwZCzWy23zXjQp2EQetEC0B5x0uer_5ZQXca6w6f6_3jJfE5NNpIFKLKhdkwCfxKsXm50EBjHVXSWqGgVIYoTsSDN3IyZchoeqGWaH81T5mJhqpsIkNkXa96RiNZiFXZjnnEp6QnlQ",
+        "selloRecibido": "20259B02454642F44C569B8AD2AAA91CE9253D06"
+    }
+}

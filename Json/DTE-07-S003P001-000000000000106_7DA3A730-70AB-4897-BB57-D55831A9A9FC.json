@@ -1,0 +1,93 @@
+﻿{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-S003P001-000000000000106",
+    "codigoGeneracion": "7DA3A730-70AB-4897-BB57-D55831A9A9FC",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-10-31",
+    "horEmi": "17:54:15",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06141602780010",
+    "nrc": "2810",
+    "nombre": "Blokitubos",
+    "codActividad": "23950",
+    "descActividad": "Fabricación de artículos de hormigón, cemento y yeso",
+    "nombreComercial": "Planta Guazapa",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "20",
+      "complemento": "KILOMETRO 30 1/2 , CANTON SAN JERONIMO SOBRE CARRETERA TRONCAL DEL NORTE, GUAZAPA, SAN SALVADOR, SAN SALVADOR NORTE, GUAZAPA"
+    },
+    "telefono": "22530010",
+    "correo": "servicioalcliente@blokitubos.com",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S. A. DE C. V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD VENEZUELA NO 3077, S.S.,SAN SALVADOR, SAN SALVADOR CENTRO, SAN SALVADOR, 01101, SLV"
+    },
+    "telefono": "25250800",
+    "correo": "informacion@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "030395D8-2594-4F2C-AF07-5C82E45D942C",
+      "fechaEmision": "2025-10-09",
+      "montoSujetoGrav": 336.4,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 3.36,
+      "descripcion": "Retención"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 336.4,
+    "totalIVAretenido": 3.36,
+    "totalIVAretenidoLetras": " TRES 36/100 DOLARES"
+  },
+  "extension": {
+    "nombEntrega": "Blokitubos",
+    "docuEntrega": "06141602780010",
+    "nombRecibe": "CENTRAL DE RODAMIENTOS, S. A. DE C. V.",
+    "docuRecibe": "06141511770020",
+    "observaciones": null
+  },
+  "apendice": null,
+  "respuestaHacienda": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": "2",
+    "estado": "PROCESADO",
+    "codigoGeneracion": "7DA3A730-70AB-4897-BB57-D55831A9A9FC",
+    "selloRecibido": "202594979324A9C54DA19029F606315EB19CVBBN",
+    "fhProcesamiento": "31/10/2025 19:54:19",
+    "clasificaMsg": "10",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": null
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.ew0KICAiaWRlbnRpZmljYWNpb24iOiB7DQogICAgInZlcnNpb24iOiAxLA0KICAgICJhbWJpZW50ZSI6ICIwMSIsDQogICAgInRpcG9EdGUiOiAiMDciLA0KICAgICJudW1lcm9Db250cm9sIjogIkRURS0wNy1TMDAzUDAwMS0wMDAwMDAwMDAwMDAxMDYiLA0KICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIjdEQTNBNzMwLTcwQUItNDg5Ny1CQjU3LUQ1NTgzMUE5QTlGQyIsDQogICAgInRpcG9Nb2RlbG8iOiAxLA0KICAgICJ0aXBvT3BlcmFjaW9uIjogMSwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiI6IG51bGwsDQogICAgImZlY0VtaSI6ICIyMDI1LTEwLTMxIiwNCiAgICAiaG9yRW1pIjogIjE3OjU0OjE1IiwNCiAgICAidGlwb01vbmVkYSI6ICJVU0QiDQogIH0sDQogICJlbWlzb3IiOiB7DQogICAgIm5pdCI6ICIwNjE0MTYwMjc4MDAxMCIsDQogICAgIm5yYyI6ICIyODEwIiwNCiAgICAibm9tYnJlIjogIkJsb2tpdHVib3MiLA0KICAgICJjb2RBY3RpdmlkYWQiOiAiMjM5NTAiLA0KICAgICJkZXNjQWN0aXZpZGFkIjogIkZhYnJpY2FjacOzbiBkZSBhcnTDrWN1bG9zIGRlIGhvcm1pZ8OzbiwgY2VtZW50byB5IHllc28iLA0KICAgICJub21icmVDb21lcmNpYWwiOiAiUGxhbnRhIEd1YXphcGEiLA0KICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIjogIjAxIiwNCiAgICAiZGlyZWNjaW9uIjogew0KICAgICAgImRlcGFydGFtZW50byI6ICIwNiIsDQogICAgICAibXVuaWNpcGlvIjogIjIwIiwNCiAgICAgICJjb21wbGVtZW50byI6ICJLSUxPTUVUUk8gMzAgMS8yICwgQ0FOVE9OIFNBTiBKRVJPTklNTyBTT0JSRSBDQVJSRVRFUkEgVFJPTkNBTCBERUwgTk9SVEUsIEdVQVpBUEEsIFNBTiBTQUxWQURPUiwgU0FOIFNBTFZBRE9SIE5PUlRFLCBHVUFaQVBBIg0KICAgIH0sDQogICAgInRlbGVmb25vIjogIjIyNTMwMDEwIiwNCiAgICAiY29ycmVvIjogInNlcnZpY2lvYWxjbGllbnRlQGJsb2tpdHVib3MuY29tIiwNCiAgICAiY29kaWdvTUgiOiBudWxsLA0KICAgICJjb2RpZ28iOiBudWxsLA0KICAgICJwdW50b1ZlbnRhTUgiOiBudWxsLA0KICAgICJwdW50b1ZlbnRhIjogbnVsbA0KICB9LA0KICAicmVjZXB0b3IiOiB7DQogICAgInRpcG9Eb2N1bWVudG8iOiAiMzYiLA0KICAgICJudW1Eb2N1bWVudG8iOiAiMDYxNDE1MTE3NzAwMjAiLA0KICAgICJucmMiOiAiMTYxMjgiLA0KICAgICJub21icmUiOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy4gQS4gREUgQy4gVi4iLA0KICAgICJjb2RBY3RpdmlkYWQiOiAiNDY1OTkiLA0KICAgICJkZXNjQWN0aXZpZGFkIjogIlZlbnRhIGFsIHBvciBtYXlvciBkZSBvdHJvIHRpcG8gZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBjb24gc3VzIGFjY2Vzb3Jpb3MgeSBwYXJ0ZXMiLA0KICAgICJub21icmVDb21lcmNpYWwiOiBudWxsLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMjMiLA0KICAgICAgImNvbXBsZW1lbnRvIjogIkJMVkQgVkVORVpVRUxBIE5PIDMwNzcsIFMuUy4sU0FOIFNBTFZBRE9SLCBTQU4gU0FMVkFET1IgQ0VOVFJPLCBTQU4gU0FMVkFET1IsIDAxMTAxLCBTTFYiDQogICAgfSwNCiAgICAidGVsZWZvbm8iOiAiMjUyNTA4MDAiLA0KICAgICJjb3JyZW8iOiAiaW5mb3JtYWNpb25AY2Vyb3NhLmNvbSINCiAgfSwNCiAgImN1ZXJwb0RvY3VtZW50byI6IFsNCiAgICB7DQogICAgICAibnVtSXRlbSI6IDEsDQogICAgICAidGlwb0R0ZSI6ICIwMyIsDQogICAgICAidGlwb0RvYyI6IDIsDQogICAgICAibnVtRG9jdW1lbnRvIjogIjAzMDM5NUQ4LTI1OTQtNEYyQy1BRjA3LTVDODJFNDVEOTQyQyIsDQogICAgICAiZmVjaGFFbWlzaW9uIjogIjIwMjUtMTAtMDkiLA0KICAgICAgIm1vbnRvU3VqZXRvR3JhdiI6IDMzNi40LA0KICAgICAgImNvZGlnb1JldGVuY2lvbk1IIjogIjIyIiwNCiAgICAgICJpdmFSZXRlbmlkbyI6IDMuMzYsDQogICAgICAiZGVzY3JpcGNpb24iOiAiUmV0ZW5jacOzbiINCiAgICB9DQogIF0sDQogICJyZXN1bWVuIjogew0KICAgICJ0b3RhbFN1amV0b1JldGVuY2lvbiI6IDMzNi40LA0KICAgICJ0b3RhbElWQXJldGVuaWRvIjogMy4zNiwNCiAgICAidG90YWxJVkFyZXRlbmlkb0xldHJhcyI6ICIgVFJFUyAzNi8xMDAgRE9MQVJFUyINCiAgfSwNCiAgImV4dGVuc2lvbiI6IHsNCiAgICAibm9tYkVudHJlZ2EiOiAiQmxva2l0dWJvcyIsDQogICAgImRvY3VFbnRyZWdhIjogIjA2MTQxNjAyNzgwMDEwIiwNCiAgICAibm9tYlJlY2liZSI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLiBBLiBERSBDLiBWLiIsDQogICAgImRvY3VSZWNpYmUiOiAiMDYxNDE1MTE3NzAwMjAiLA0KICAgICJvYnNlcnZhY2lvbmVzIjogbnVsbA0KICB9LA0KICAiYXBlbmRpY2UiOiBudWxsDQp9.Hsh_bZrM7R8lMEuz23dX5dSE8n929wrRbNwxbLSGSU8UpXBlWHlEv1NIWr14MUZrdJqOigIdUtj5rGueHV6Bx3W6cHDThSOaBJDXHi9OSM8ncDhgT7Dx6SOICCjNsf8clAeyQPvRcqvlAsl3ZgYnJnWUbAgPBd6-nRR85H7xwd3Ia1XU7LOApaCnccF9B44AkdzdsW7EC4rd0qVkbkiBtpPRpp0tZv9HMZyule6jQ3gkfl-fyRa1uzvsZjmfGr6hwOkYPdGN2sml9oGXd9WjInP4_xiy5xkKmQ2kk9I2FOIyg7BPlYy-m3RRs4BTY0zwgha5NLJBghEpexSpdGV5qA",
+  "selloRecibido": "202594979324A9C54DA19029F606315EB19CVBBN"
+}

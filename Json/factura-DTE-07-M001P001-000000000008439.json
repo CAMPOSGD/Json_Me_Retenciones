@@ -1,0 +1,78 @@
+{
+  "identificacion" : {
+    "version" : 1,
+    "ambiente" : "01",
+    "tipoDte" : "07",
+    "numeroControl" : "DTE-07-M001P001-000000000008439",
+    "codigoGeneracion" : "82C8A607-145C-44CD-AE9E-0454B97DFDDD",
+    "tipoModelo" : 1,
+    "tipoOperacion" : 1,
+    "tipoContingencia" : null,
+    "motivoContin" : null,
+    "fecEmi" : "2025-11-11",
+    "horEmi" : "13:52:25",
+    "tipoMoneda" : "USD"
+  },
+  "emisor" : {
+    "nit" : "06143006630016",
+    "nrc" : "5460",
+    "nombre" : "INDUSTRIAS CONSOLIDADAS, LTDA. DE C.V. ",
+    "codActividad" : "23101",
+    "descActividad" : "Fabricación de vidrio",
+    "nombreComercial" : "INCO,  LTDA. DE C.V.",
+    "tipoEstablecimiento" : "02",
+    "direccion" : {
+      "departamento" : "06",
+      "municipio" : "17",
+      "complemento" : "Final primera av. norte, Soyapango."
+    },
+    "telefono" : "22076100",
+    "correo" : "inco@inco.com.sv",
+    "codigoMH" : "M001",
+    "codigo" : "M001",
+    "puntoVentaMH" : "P001",
+    "puntoVenta" : "P001"
+  },
+  "receptor" : {
+    "tipoDocumento" : "36",
+    "numDocumento" : "06141511770020",
+    "nrc" : "16128",
+    "nombre" : "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad" : "46599",
+    "descActividad" : "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "nombreComercial" : null,
+    "direccion" : {
+      "departamento" : "06",
+      "municipio" : "14",
+      "complemento" : "BLVD. VENEZUELA, COL. ROMA #3077, SAN SALVADOR, SAN SALVADOR, SAN SALVADOR"
+    },
+    "telefono" : null,
+    "correo" : "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento" : [ {
+    "numItem" : 1,
+    "tipoDte" : "03",
+    "tipoDoc" : 1,
+    "numDocumento" : "7250",
+    "fechaEmision" : "2025-11-05",
+    "montoSujetoGrav" : 670,
+    "codigoRetencionMH" : "22",
+    "ivaRetenido" : 6.7,
+    "descripcion" : "SERVICIOS GENERALES"
+  } ],
+  "resumen" : {
+    "totalSujetoRetencion" : 670,
+    "totalIVAretenido" : 6.7,
+    "totalIVAretenidoLetras" : "SEIS  70/100 DOLARES"
+  },
+  "extension" : {
+    "nombEntrega" : "JOSE MAURICIO CHAVEZ TORRES             ",
+    "docuEntrega" : "03582467-5          ",
+    "nombRecibe" : null,
+    "docuRecibe" : null,
+    "observaciones" : null
+  },
+  "apendice" : null,
+  "selloRecepcion" : "202560833EAFE3194FA58ED407763283395F7EQX",
+  "firmaElectronica" : "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAxLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDciLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDg0MzkiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIjgyQzhBNjA3LTE0NUMtNDRDRC1BRTlFLTA0NTRCOTdERkRERCIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI1LTExLTExIiwKICAgICJob3JFbWkiIDogIjEzOjUyOjI1IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA2MTQzMDA2NjMwMDE2IiwKICAgICJucmMiIDogIjU0NjAiLAogICAgIm5vbWJyZSIgOiAiSU5EVVNUUklBUyBDT05TT0xJREFEQVMsIExUREEuIERFIEMuVi4gIiwKICAgICJjb2RBY3RpdmlkYWQiIDogIjIzMTAxIiwKICAgICJkZXNjQWN0aXZpZGFkIiA6ICJGYWJyaWNhY2nDs24gZGUgdmlkcmlvIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIklOQ08sICBMVERBLiBERSBDLlYuIiwKICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIiA6ICIwMiIsCiAgICAiZGlyZWNjaW9uIiA6IHsKICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLAogICAgICAibXVuaWNpcGlvIiA6ICIxNyIsCiAgICAgICJjb21wbGVtZW50byIgOiAiRmluYWwgcHJpbWVyYSBhdi4gbm9ydGUsIFNveWFwYW5nby4iCiAgICB9LAogICAgInRlbGVmb25vIiA6ICIyMjA3NjEwMCIsCiAgICAiY29ycmVvIiA6ICJpbmNvQGluY28uY29tLnN2IiwKICAgICJjb2RpZ29NSCIgOiAiTTAwMSIsCiAgICAiY29kaWdvIiA6ICJNMDAxIiwKICAgICJwdW50b1ZlbnRhTUgiIDogIlAwMDEiLAogICAgInB1bnRvVmVudGEiIDogIlAwMDEiCiAgfSwKICAicmVjZXB0b3IiIDogewogICAgInRpcG9Eb2N1bWVudG8iIDogIjM2IiwKICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwKICAgICJucmMiIDogIjE2MTI4IiwKICAgICJub21icmUiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICI0NjU5OSIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiVmVudGEgYWwgcG9yIG1heW9yIGRlIG90cm8gdGlwbyBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGNvbiBzdXMgYWNjZXNvcmlvcyB5IHBhcnRlcyIsCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6IG51bGwsCiAgICAiZGlyZWNjaW9uIiA6IHsKICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLAogICAgICAibXVuaWNpcGlvIiA6ICIxNCIsCiAgICAgICJjb21wbGVtZW50byIgOiAiQkxWRC4gVkVORVpVRUxBLCBDT0wuIFJPTUEgIzMwNzcsIFNBTiBTQUxWQURPUiwgU0FOIFNBTFZBRE9SLCBTQU4gU0FMVkFET1IiCiAgICB9LAogICAgInRlbGVmb25vIiA6IG51bGwsCiAgICAiY29ycmVvIiA6ICJzaWx2aWEuYXJjZUBjZXJvc2EuY29tIgogIH0sCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsKICAgICJudW1JdGVtIiA6IDEsCiAgICAidGlwb0R0ZSIgOiAiMDMiLAogICAgInRpcG9Eb2MiIDogMSwKICAgICJudW1Eb2N1bWVudG8iIDogIjcyNTAiLAogICAgImZlY2hhRW1pc2lvbiIgOiAiMjAyNS0xMS0wNSIsCiAgICAibW9udG9TdWpldG9HcmF2IiA6IDY3MCwKICAgICJjb2RpZ29SZXRlbmNpb25NSCIgOiAiMjIiLAogICAgIml2YVJldGVuaWRvIiA6IDYuNywKICAgICJkZXNjcmlwY2lvbiIgOiAiU0VSVklDSU9TIEdFTkVSQUxFUyIKICB9IF0sCiAgInJlc3VtZW4iIDogewogICAgInRvdGFsU3VqZXRvUmV0ZW5jaW9uIiA6IDY3MCwKICAgICJ0b3RhbElWQXJldGVuaWRvIiA6IDYuNywKICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIiA6ICJTRUlTICA3MC8xMDAgRE9MQVJFUyIKICB9LAogICJleHRlbnNpb24iIDogewogICAgIm5vbWJFbnRyZWdhIiA6ICJKT1NFIE1BVVJJQ0lPIENIQVZFWiBUT1JSRVMgICAgICAgICAgICAgIiwKICAgICJkb2N1RW50cmVnYSIgOiAiMDM1ODI0NjctNSAgICAgICAgICAiLAogICAgIm5vbWJSZWNpYmUiIDogbnVsbCwKICAgICJkb2N1UmVjaWJlIiA6IG51bGwsCiAgICAib2JzZXJ2YWNpb25lcyIgOiBudWxsCiAgfSwKICAiYXBlbmRpY2UiIDogbnVsbAp9.pzcQh8RdRld15chOjZCPb-o7qo_hNHuXK4sst1QmiTCAUQteqvM9ruSanLfE4U4HFpMJLuvni_Bwtyf5jOFULWSpYcuvSFcel1pEnRnU695hYpEmpFK39GRtDLgL_9bVZlVebJaLeZXwe4C7gw_pXNJ3qPNoAdRBZI6dcmdPr1obLAUwiG2A8Y6-SXX_K9FV9r_rw9yQNz70VUIv0wP_dSC3yfGARjfadsyxjFypaGUwqUMeF_3A4f9i4RsgmoU-5J7ej6GuOUCzzgRly6OC2K7n_I7rY4Q0rB9d-Muqu7WwvPGN0L7-k162CvOSV-ef5OX0Xok3JVbSE-81vzGalg"
+}

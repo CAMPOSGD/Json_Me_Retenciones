@@ -1,0 +1,80 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000001648",
+    "codigoGeneracion": "EC2A892C-5336-49BE-832F-4D2656FA682E",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-24",
+    "horEmi": "09:46:50",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06140907680011",
+    "nrc": "526487",
+    "nombre": "INMUEBLES, S.A. DE C.V.",
+    "codActividad": "41001",
+    "descActividad": "Construcción de edificios residenciales",
+    "nombreComercial": "INMUEBLES",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "2° Nivel Edificio Corporativo sobre Av. olímpica, entre 65 y 67 Av. Sur, San Salvador"
+    },
+    "telefono": "22602082",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null,
+    "correo": "inmuebles1968@gmail.com"
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "10005",
+    "descActividad": "Otros",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "SAN SALVADOR"
+    },
+    "telefono": null,
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 1,
+      "numDocumento": "4CF1AF11-10E9-4EB6-AC98-FA9C14BD086B",
+      "fechaEmision": "2025-11-24",
+      "montoSujetoGrav": 140,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 1.4,
+      "descripcion": "Crédito Fiscal: "
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 140.0,
+    "totalIVAretenido": 1.4,
+    "totalIVAretenidoLetras": "UN DOLARES 40/100"
+  },
+  "extension": null,
+  "apendice": [
+    {
+      "campo": "numeroInterno",
+      "etiqueta": "numeroInterno",
+      "valor": "802"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iIDogew0KICAgICJ2ZXJzaW9uIiA6IDEsDQogICAgImFtYmllbnRlIiA6ICIwMSIsDQogICAgInRpcG9EdGUiIDogIjA3IiwNCiAgICAibnVtZXJvQ29udHJvbCIgOiAiRFRFLTA3LU0wMDFQMDAxLTAwMDAwMDAwMDAwMTY0OCIsDQogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkVDMkE4OTJDLTUzMzYtNDlCRS04MzJGLTREMjY1NkZBNjgyRSIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJmZWNFbWkiIDogIjIwMjUtMTEtMjQiLA0KICAgICJob3JFbWkiIDogIjA5OjQ2OjUwIiwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIg0KICB9LA0KICAiZW1pc29yIiA6IHsNCiAgICAibml0IiA6ICIwNjE0MDkwNzY4MDAxMSIsDQogICAgIm5yYyIgOiAiNTI2NDg3IiwNCiAgICAibm9tYnJlIiA6ICJJTk1VRUJMRVMsIFMuQS4gREUgQy5WLiIsDQogICAgImNvZEFjdGl2aWRhZCIgOiAiNDEwMDEiLA0KICAgICJkZXNjQWN0aXZpZGFkIiA6ICJDb25zdHJ1Y2Npw7NuIGRlIGVkaWZpY2lvcyByZXNpZGVuY2lhbGVzIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6ICJJTk1VRUJMRVMiLA0KICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIiA6ICIwMSIsDQogICAgImRpcmVjY2lvbiIgOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsDQogICAgICAibXVuaWNpcGlvIiA6ICIyMyIsDQogICAgICAiY29tcGxlbWVudG8iIDogIjLCsCBOaXZlbCBFZGlmaWNpbyBDb3Jwb3JhdGl2byBzb2JyZSBBdi4gb2zDrW1waWNhLCBlbnRyZSA2NSB5IDY3IEF2LiBTdXIsIFNhbiBTYWx2YWRvciINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyIgOiAiMjI2MDIwODIiLA0KICAgICJjb2RpZ29NSCIgOiBudWxsLA0KICAgICJjb2RpZ28iIDogbnVsbCwNCiAgICAicHVudG9WZW50YU1IIiA6IG51bGwsDQogICAgInB1bnRvVmVudGEiIDogbnVsbCwNCiAgICAiY29ycmVvIiA6ICJpbm11ZWJsZXMxOTY4QGdtYWlsLmNvbSINCiAgfSwNCiAgInJlY2VwdG9yIiA6IHsNCiAgICAidGlwb0RvY3VtZW50byIgOiAiMzYiLA0KICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwNCiAgICAibnJjIiA6ICIxNjEyOCIsDQogICAgIm5vbWJyZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYuIiwNCiAgICAiY29kQWN0aXZpZGFkIiA6ICIxMDAwNSIsDQogICAgImRlc2NBY3RpdmlkYWQiIDogIk90cm9zIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIiA6IG51bGwsDQogICAgImRpcmVjY2lvbiIgOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsDQogICAgICAibXVuaWNpcGlvIiA6ICIyMyIsDQogICAgICAiY29tcGxlbWVudG8iIDogIlNBTiBTQUxWQURPUiINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyIgOiBudWxsLA0KICAgICJjb3JyZW8iIDogInNpbHZpYS5hcmNlQGNlcm9zYS5jb20iDQogIH0sDQogICJjdWVycG9Eb2N1bWVudG8iIDogWyB7DQogICAgIm51bUl0ZW0iIDogMSwNCiAgICAidGlwb0R0ZSIgOiAiMDMiLA0KICAgICJ0aXBvRG9jIiA6IDEsDQogICAgIm51bURvY3VtZW50byIgOiAiNENGMUFGMTEtMTBFOS00RUI2LUFDOTgtRkE5QzE0QkQwODZCIiwNCiAgICAiZmVjaGFFbWlzaW9uIiA6ICIyMDI1LTExLTI0IiwNCiAgICAibW9udG9TdWpldG9HcmF2IiA6IDE0MCwNCiAgICAiY29kaWdvUmV0ZW5jaW9uTUgiIDogIjIyIiwNCiAgICAiaXZhUmV0ZW5pZG8iIDogMS40LA0KICAgICJkZXNjcmlwY2lvbiIgOiAiQ3LDqWRpdG8gRmlzY2FsOiAiDQogIH0gXSwNCiAgInJlc3VtZW4iIDogew0KICAgICJ0b3RhbFN1amV0b1JldGVuY2lvbiIgOiAxNDAuMCwNCiAgICAidG90YWxJVkFyZXRlbmlkbyIgOiAxLjQsDQogICAgInRvdGFsSVZBcmV0ZW5pZG9MZXRyYXMiIDogIlVOIERPTEFSRVMgNDAvMTAwIg0KICB9LA0KICAiZXh0ZW5zaW9uIiA6IG51bGwsDQogICJhcGVuZGljZSIgOiBbIHsNCiAgICAiY2FtcG8iIDogIm51bWVyb0ludGVybm8iLA0KICAgICJldGlxdWV0YSIgOiAibnVtZXJvSW50ZXJubyIsDQogICAgInZhbG9yIiA6ICI4MDIiDQogIH0gXQ0KfQ.Kj8vmOBZ5j_fQkjIjGHI2BIfUMN1bRvuz6USi9htnFyUPsIgzKNwV1fQSvDuPImslNO-46G6fJw0Bw0d-rLFOZR95tbzDmFpodQG9_6pLAFRZjQBJa-kIdx1SG45gWsR--Y8dG-IPOCbPKDsoFZLLygA83IUOtJjcQgVdygi0jZAl2HEeTVE9HTsoJDyQYN9x-5mkVbDCACEZVjIkK8CRJsvtkLF_wiQEtQj-dse1SIui2IXL-1g97hYf04tnChHPipVen0jvSgT_TAYPmVHYZPrHadQc2LnuzoEku_L8_szGX_XrRwkTTY5yz09dk4lAAf_eEo3ecii-5qZLalwUA",
+  "selloRecibido": "2025FFDFD98966234EF8815BF804042CBC70NEN7"
+}

@@ -1,0 +1,91 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000001257",
+    "codigoGeneracion": "AF03CD2B-9D09-4F97-80E8-7AB66E843F99",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-07",
+    "horEmi": "13:34:35",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06140904760032",
+    "nrc": "25763",
+    "nombre": "RESORTES Y ALAMBRES, LTDA DE C.V.",
+    "codActividad": "24100",
+    "descActividad": "Industrias básicas de hierro y acero",
+    "nombreComercial": "RESORTES Y ALAMBRES, LTDA DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "03",
+      "municipio": "18",
+      "complemento": "CARR. DE ACAJUTLA A SONSONATE KM. 71 1/2, CTON, SANTA EMILIA, DISTRITO DE SONSONATE "
+    },
+    "telefono": "24868001",
+    "correo": "reasa.dte@reasa.com.sv",
+    "codigoMH": "M001",
+    "codigo": "M001",
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "Central de Rodamientos S.A. de C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "Boulevard Venezuela #3077, Fte. Vifrio"
+    },
+    "telefono": "25250800",
+    "correo": "silvia.arce@cerosa.com",
+    "nombreComercial": null
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "AEFC71C8-327C-46F3-AE90-B7B43F11957B",
+      "fechaEmision": "2025-11-03",
+      "montoSujetoGrav": 3080.0,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 30.8,
+      "descripcion": "CHUMACERAS PARA SANDER DE MAQUINAS TREFILADORAS. Basado en Solicitud de compra 2274. Basado en Pedidos 4108. CODIGO Basado en Pedido de entrada de mercancías 3960."
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 3080.0,
+    "totalIVAretenido": 30.8,
+    "totalIVAretenidoLetras": "treinta dólares con ochenta centavos"
+  },
+  "extension": {
+    "nombEntrega": "Paola Valencia",
+    "docuEntrega": null,
+    "nombRecibe": "Central de Rodamientos S.A. de C.V.",
+    "docuRecibe": "0614-151177-002-0",
+    "observaciones": null
+  },
+  "apendice": [
+    {
+      "campo": "AP1",
+      "etiqueta": "No interno SAP",
+      "valor": "26988"
+    },
+    {
+      "campo": "AP2",
+      "etiqueta": "Codigo de proveedor",
+      "valor": "LCERO"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJ2ZXJzaW9uIjoxLCJhbWJpZW50ZSI6IjAxIiwidGlwb0R0ZSI6IjA3IiwibnVtZXJvQ29udHJvbCI6IkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDEyNTciLCJjb2RpZ29HZW5lcmFjaW9uIjoiQUYwM0NEMkItOUQwOS00Rjk3LTgwRTgtN0FCNjZFODQzRjk5IiwidGlwb01vZGVsbyI6MSwidGlwb09wZXJhY2lvbiI6MSwidGlwb0NvbnRpbmdlbmNpYSI6bnVsbCwibW90aXZvQ29udGluIjpudWxsLCJmZWNFbWkiOiIyMDI1LTExLTA3IiwiaG9yRW1pIjoiMTM6MzQ6MzUiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImVtaXNvciI6eyJuaXQiOiIwNjE0MDkwNDc2MDAzMiIsIm5yYyI6IjI1NzYzIiwibm9tYnJlIjoiUkVTT1JURVMgWSBBTEFNQlJFUywgTFREQSBERSBDLlYuIiwiY29kQWN0aXZpZGFkIjoiMjQxMDAiLCJkZXNjQWN0aXZpZGFkIjoiSW5kdXN0cmlhcyBiw6FzaWNhcyBkZSBoaWVycm8geSBhY2VybyIsIm5vbWJyZUNvbWVyY2lhbCI6IlJFU09SVEVTIFkgQUxBTUJSRVMsIExUREEgREUgQy5WLiIsInRpcG9Fc3RhYmxlY2ltaWVudG8iOiIwMiIsImRpcmVjY2lvbiI6eyJkZXBhcnRhbWVudG8iOiIwMyIsIm11bmljaXBpbyI6IjE4IiwiY29tcGxlbWVudG8iOiJDQVJSLiBERSBBQ0FKVVRMQSBBIFNPTlNPTkFURSBLTS4gNzEgMS8yLCBDVE9OLCBTQU5UQSBFTUlMSUEsIERJU1RSSVRPIERFIFNPTlNPTkFURSAifSwidGVsZWZvbm8iOiIyNDg2ODAwMSIsImNvcnJlbyI6InJlYXNhLmR0ZUByZWFzYS5jb20uc3YiLCJjb2RpZ29NSCI6Ik0wMDEiLCJjb2RpZ28iOiJNMDAxIiwicHVudG9WZW50YU1IIjpudWxsLCJwdW50b1ZlbnRhIjpudWxsfSwicmVjZXB0b3IiOnsidGlwb0RvY3VtZW50byI6IjM2IiwibnVtRG9jdW1lbnRvIjoiMDYxNDE1MTE3NzAwMjAiLCJucmMiOiIxNjEyOCIsIm5vbWJyZSI6IkNlbnRyYWwgZGUgUm9kYW1pZW50b3MgUy5BLiBkZSBDLlYuIiwiY29kQWN0aXZpZGFkIjoiNDY1OTkiLCJkZXNjQWN0aXZpZGFkIjoiVmVudGEgYWwgcG9yIG1heW9yIGRlIG90cm8gdGlwbyBkZSBtYXF1aW5hcmlhIHkgZXF1aXBvIGNvbiBzdXMgYWNjZXNvcmlvcyB5IHBhcnRlcyIsImRpcmVjY2lvbiI6eyJkZXBhcnRhbWVudG8iOiIwNiIsIm11bmljaXBpbyI6IjIzIiwiY29tcGxlbWVudG8iOiJCb3VsZXZhcmQgVmVuZXp1ZWxhICMzMDc3LCBGdGUuIFZpZnJpbyJ9LCJ0ZWxlZm9ubyI6IjI1MjUwODAwIiwiY29ycmVvIjoic2lsdmlhLmFyY2VAY2Vyb3NhLmNvbSIsIm5vbWJyZUNvbWVyY2lhbCI6bnVsbH0sImN1ZXJwb0RvY3VtZW50byI6W3sibnVtSXRlbSI6MSwidGlwb0R0ZSI6IjAzIiwidGlwb0RvYyI6MiwibnVtRG9jdW1lbnRvIjoiQUVGQzcxQzgtMzI3Qy00NkYzLUFFOTAtQjdCNDNGMTE5NTdCIiwiZmVjaGFFbWlzaW9uIjoiMjAyNS0xMS0wMyIsIm1vbnRvU3VqZXRvR3JhdiI6MzA4MC4wLCJjb2RpZ29SZXRlbmNpb25NSCI6IjIyIiwiaXZhUmV0ZW5pZG8iOjMwLjgsImRlc2NyaXBjaW9uIjoiQ0hVTUFDRVJBUyBQQVJBIFNBTkRFUiBERSBNQVFVSU5BUyBUUkVGSUxBRE9SQVMuIEJhc2FkbyBlbiBTb2xpY2l0dWQgZGUgY29tcHJhIDIyNzQuIEJhc2FkbyBlbiBQZWRpZG9zIDQxMDguIENPRElHTyBCYXNhZG8gZW4gUGVkaWRvIGRlIGVudHJhZGEgZGUgbWVyY2FuY8OtYXMgMzk2MC4ifV0sInJlc3VtZW4iOnsidG90YWxTdWpldG9SZXRlbmNpb24iOjMwODAuMCwidG90YWxJVkFyZXRlbmlkbyI6MzAuOCwidG90YWxJVkFyZXRlbmlkb0xldHJhcyI6InRyZWludGEgZMOzbGFyZXMgY29uIG9jaGVudGEgY2VudGF2b3MifSwiZXh0ZW5zaW9uIjp7Im5vbWJFbnRyZWdhIjoiUGFvbGEgVmFsZW5jaWEiLCJkb2N1RW50cmVnYSI6bnVsbCwibm9tYlJlY2liZSI6IkNlbnRyYWwgZGUgUm9kYW1pZW50b3MgUy5BLiBkZSBDLlYuIiwiZG9jdVJlY2liZSI6IjA2MTQtMTUxMTc3LTAwMi0wIiwib2JzZXJ2YWNpb25lcyI6bnVsbH0sImFwZW5kaWNlIjpbeyJjYW1wbyI6IkFQMSIsImV0aXF1ZXRhIjoiTm8gaW50ZXJubyBTQVAiLCJ2YWxvciI6IjI2OTg4In0seyJjYW1wbyI6IkFQMiIsImV0aXF1ZXRhIjoiQ29kaWdvIGRlIHByb3ZlZWRvciIsInZhbG9yIjoiTENFUk8ifV19.cXloZWxNRZEqHYIcotbiS-MpqJ0TGbLqKSZbSPIx8Vfb58m9d0T_vH5vmJiBNB_d1f5sAcCLTmPxxVDhweW91hQWd-3hEgonug4KBDQFIKPMM_ENLI8uXtPX8B6n05Qn58h1Z6nfL2dwkXMeHDF-ef71uj2ymCFxaR9S_47w5BmGhFVrRfQutE_Debsu4It9p_ZmBY9VsKgJfu7kCA9GTJa6BPQf1hUm54vjRFMbqZvsaDbzkKlcP2BMfDvRoTMw7kBgKvc4MTozto81b_ZZPWjDXDGSRUzy_VStcNmzW-VyNcBzPQERxAFKJrfzPeXuS6ckTtquSQ_GXiVV7HqSYA",
+  "selloRecibido": "20254DAA15BE853C481DAE709BB5432B43ECUKPR"
+}

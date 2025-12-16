@@ -1,0 +1,92 @@
+{
+    "identificacion": {
+        "version": 1,
+        "ambiente": "01",
+        "tipoDte": "07",
+        "numeroControl": "DTE-07-M001P001-000000000007687",
+        "codigoGeneracion": "1F001ABE-6976-4E68-8816-5007EF3F1651",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2025-11-28",
+        "horEmi": "15:35:11",
+        "tipoMoneda": "USD"
+    },
+    "emisor": {
+        "nit": "06142006670015",
+        "nrc": "3646",
+        "nombre": "PRODUCTOS ALIMENTICIOS SELLO DE ORO,S.A DE C.V.",
+        "codActividad": "01460",
+        "descActividad": "CR�A DE AVES DE CORRAL Y PRODUCCI�N DE HUEVOS",
+        "nombreComercial": "PRODUCTOS ALIMENTICIOS SELLO DE ORO,S.A DE C.V.",
+        "tipoEstablecimiento": "02",
+        "direccion": {
+            "departamento": "05",
+            "municipio": "01",
+            "complemento": "Kil�metro 2 1/2 Carretera a Jayaque"
+        },
+        "telefono": "23177777",
+        "correo": "recepciondtesv@vitalialimentos.com",
+        "codigoMH": null,
+        "codigo": null,
+        "puntoVentaMH": null,
+        "puntoVenta": null
+    },
+    "receptor": {
+        "tipoDocumento": "36",
+        "numDocumento": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V",
+        "codActividad": "10005",
+        "descActividad": "Otros",
+        "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "14",
+            "complemento": "BLVD. VENEZUELA NO. 3077"
+        },
+        "telefono": "22235451",
+        "correo": "silvia.arce@cerosa.com"
+    },
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoDte": "03",
+            "tipoDoc": 1,
+            "numDocumento": "03-7488",
+            "fechaEmision": "2025-11-14",
+            "montoSujetoGrav": 494.8,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 4.95,
+            "descripcion": "CPRA. 2 GABINETE ACERO INOX 300X200X150"
+        }
+    ],
+    "resumen": {
+        "totalSujetoRetencion": 494.8,
+        "totalIVAretenido": 4.95,
+        "totalIVAretenidoLetras": "CUATRO  CON NOVENTA Y CINCO /100 DOLARES"
+    },
+    "extension": {
+        "nombEntrega": null,
+        "docuEntrega": null,
+        "nombRecibe": null,
+        "docuRecibe": null,
+        "observaciones": null
+    },
+    "apendice": null,
+    "respuestaHacienda": {
+        "version": 2,
+        "ambiente": "01",
+        "versionApp": "2",
+        "estado": "PROCESADO",
+        "codigoGeneracion": "1F001ABE-6976-4E68-8816-5007EF3F1651",
+        "selloRecibido": "20258F2CCABE02D94891A0F7367206B25860HZ67",
+        "fhProcesamiento": "28/11/2025 15:35:19",
+        "clasificaMsg": 10,
+        "codigoMsg": "001",
+        "descripcionMsg": "RECIBIDO",
+        "observaciones": "[]",
+        "Firma": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iIDogew0KICAgICJ2ZXJzaW9uIiA6IDEsDQogICAgImFtYmllbnRlIiA6ICIwMSIsDQogICAgInRpcG9EdGUiIDogIjA3IiwNCiAgICAibnVtZXJvQ29udHJvbCIgOiAiRFRFLTA3LU0wMDFQMDAxLTAwMDAwMDAwMDAwNzY4NyIsDQogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIjFGMDAxQUJFLTY5NzYtNEU2OC04ODE2LTUwMDdFRjNGMTY1MSIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJmZWNFbWkiIDogIjIwMjUtMTEtMjgiLA0KICAgICJob3JFbWkiIDogIjE1OjM1OjExIiwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIg0KICB9LA0KICAiZW1pc29yIiA6IHsNCiAgICAibml0IiA6ICIwNjE0MjAwNjY3MDAxNSIsDQogICAgIm5yYyIgOiAiMzY0NiIsDQogICAgIm5vbWJyZSIgOiAiUFJPRFVDVE9TIEFMSU1FTlRJQ0lPUyBTRUxMTyBERSBPUk8sUy5BIERFIEMuVi4iLA0KICAgICJjb2RBY3RpdmlkYWQiIDogIjAxNDYwIiwNCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiQ1LDjUEgREUgQVZFUyBERSBDT1JSQUwgWSBQUk9EVUNDScOTTiBERSBIVUVWT1MiLA0KICAgICJub21icmVDb21lcmNpYWwiIDogIlBST0RVQ1RPUyBBTElNRU5USUNJT1MgU0VMTE8gREUgT1JPLFMuQSBERSBDLlYuIiwNCiAgICAidGlwb0VzdGFibGVjaW1pZW50byIgOiAiMDIiLA0KICAgICJkaXJlY2Npb24iIDogew0KICAgICAgImRlcGFydGFtZW50byIgOiAiMDUiLA0KICAgICAgIm11bmljaXBpbyIgOiAiMDEiLA0KICAgICAgImNvbXBsZW1lbnRvIiA6ICJLaWzDs21ldHJvIDIgMS8yIENhcnJldGVyYSBhIEpheWFxdWUiDQogICAgfSwNCiAgICAidGVsZWZvbm8iIDogIjIzMTc3Nzc3IiwNCiAgICAiY29ycmVvIiA6ICJyZWNlcGNpb25kdGVzdkB2aXRhbGlhbGltZW50b3MuY29tIiwNCiAgICAiY29kaWdvTUgiIDogbnVsbCwNCiAgICAiY29kaWdvIiA6IG51bGwsDQogICAgInB1bnRvVmVudGFNSCIgOiBudWxsLA0KICAgICJwdW50b1ZlbnRhIiA6IG51bGwNCiAgfSwNCiAgInJlY2VwdG9yIiA6IHsNCiAgICAidGlwb0RvY3VtZW50byIgOiAiMzYiLA0KICAgICJudW1Eb2N1bWVudG8iIDogIjA2MTQxNTExNzcwMDIwIiwNCiAgICAibnJjIiA6ICIxNjEyOCIsDQogICAgIm5vbWJyZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYiLA0KICAgICJjb2RBY3RpdmlkYWQiIDogIjEwMDA1IiwNCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiT3Ryb3MiLA0KICAgICJub21icmVDb21lcmNpYWwiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WIiwNCiAgICAiZGlyZWNjaW9uIiA6IHsNCiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iIDogIjE0IiwNCiAgICAgICJjb21wbGVtZW50byIgOiAiQkxWRC4gVkVORVpVRUxBIE5PLiAzMDc3Ig0KICAgIH0sDQogICAgInRlbGVmb25vIiA6ICIyMjIzNTQ1MSIsDQogICAgImNvcnJlbyIgOiAic2lsdmlhLmFyY2VAY2Vyb3NhLmNvbSINCiAgfSwNCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsNCiAgICAibnVtSXRlbSIgOiAxLA0KICAgICJ0aXBvRHRlIiA6ICIwMyIsDQogICAgInRpcG9Eb2MiIDogMSwNCiAgICAibnVtRG9jdW1lbnRvIiA6ICIwMy03NDg4IiwNCiAgICAiZmVjaGFFbWlzaW9uIiA6ICIyMDI1LTExLTE0IiwNCiAgICAibW9udG9TdWpldG9HcmF2IiA6IDQ5NC44LA0KICAgICJjb2RpZ29SZXRlbmNpb25NSCIgOiAiMjIiLA0KICAgICJpdmFSZXRlbmlkbyIgOiA0Ljk1LA0KICAgICJkZXNjcmlwY2lvbiIgOiAiQ1BSQS4gMiBHQUJJTkVURSBBQ0VSTyBJTk9YIDMwMFgyMDBYMTUwIg0KICB9IF0sDQogICJyZXN1bWVuIiA6IHsNCiAgICAidG90YWxTdWpldG9SZXRlbmNpb24iIDogNDk0LjgsDQogICAgInRvdGFsSVZBcmV0ZW5pZG8iIDogNC45NSwNCiAgICAidG90YWxJVkFyZXRlbmlkb0xldHJhcyIgOiAiQ1VBVFJPICBDT04gTk9WRU5UQSBZIENJTkNPIC8xMDAgRE9MQVJFUyINCiAgfSwNCiAgImV4dGVuc2lvbiIgOiB7DQogICAgIm5vbWJFbnRyZWdhIiA6IG51bGwsDQogICAgImRvY3VFbnRyZWdhIiA6IG51bGwsDQogICAgIm5vbWJSZWNpYmUiIDogbnVsbCwNCiAgICAiZG9jdVJlY2liZSIgOiBudWxsLA0KICAgICJvYnNlcnZhY2lvbmVzIiA6IG51bGwNCiAgfSwNCiAgImFwZW5kaWNlIiA6IG51bGwNCn0.O1GHjgemOeS8CCEsOQaxtd-EOgTOvpYAzv2fUZPjsT9jfju_vQyH2Ib-FSwT9h6wuGkTRWT9dGTgWElR2GYSATx_I3HUvY6KaLL34uFIADgO7FXpWwf0TzmuHyubTFVPXMvSmtYuo_f6vqpi3KBxbioAVnDtJ7q9R0sGGKghlpo0pHK5zjmQ8VesEht49k6fz9wprw2gXB3sBeWTR-5su3HMOhzQwhkdlsjIsXPH0-SbkF7m7EWHcO2YGRZxg_oa0HXEpRvpNbAQV2AVs1PDtdjPj0yTQgUalZHviXWvtz6lhR4BoFp8HEeZZ0MNoHb1OTe1nG8iUDaSlCKjj1LK4A"
+    }
+}

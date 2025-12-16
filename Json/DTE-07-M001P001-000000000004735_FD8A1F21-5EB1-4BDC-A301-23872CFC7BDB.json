@@ -1,0 +1,104 @@
+﻿{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "07",
+    "numeroControl": "DTE-07-M001P001-000000000004735",
+    "codigoGeneracion": "FD8A1F21-5EB1-4BDC-A301-23872CFC7BDB",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-11-04",
+    "horEmi": "14:21:27",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "06140402710012",
+    "nrc": "760",
+    "nombre": "TERMOENCOGIBLES, S.A. DE C.V.",
+    "codActividad": "22209",
+    "descActividad": "Fabricación de productos plásticos n.c.p.",
+    "nombreComercial": "TERNOVA",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "CALLE L-3 POLIGONO D, LOTES 1 Y 2, ZONA INDUSTRIAL MERLIOT, ANTIGUO CUSCATLAN, LA LIBERTAD, C.P. 01502 EL SALVADOR"
+    },
+    "telefono": "22127300",
+    "correo": "felsv@termo.com.sv",
+    "codigoMH": null,
+    "codigo": null,
+    "puntoVentaMH": null,
+    "puntoVenta": null
+  },
+  "receptor": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTO, S.A.DE.C.V.",
+    "codActividad": "47593",
+    "descActividad": "Venta al por menor de aparatos electrodomésticos, repuestos y accesorios",
+    "nombreComercial": "CENTRAL DE RODAMIENTO, S.A.DE.C.V.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "BOULEVARD VENEZUELA Nº3077  "
+    },
+    "telefono": "22230331",
+    "correo": "silvia.arce@cerosa.com"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDte": "03",
+      "tipoDoc": 2,
+      "numDocumento": "92141B81-67DA-448A-A0AE-5CACF6EAF8DE",
+      "fechaEmision": "2025-10-21",
+      "montoSujetoGrav": 265.5,
+      "codigoRetencionMH": "22",
+      "ivaRetenido": 2.66,
+      "descripcion": "CR-19815-25"
+    }
+  ],
+  "resumen": {
+    "totalSujetoRetencion": 265.5,
+    "totalIVAretenido": 2.66,
+    "totalIVAretenidoLetras": "DOS CON 66/100 USD"
+  },
+  "extension": {
+    "nombEntrega": "ANDREA REYES",
+    "docuEntrega": "056164632",
+    "nombRecibe": "CENTRAL DE RODAMIENTO, S.A.DE.C.V.",
+    "docuRecibe": "06141511770020",
+    "observaciones": ""
+  },
+  "apendice": [
+    {
+      "campo": "Reenvio",
+      "etiqueta": "Reenvio",
+      "valor": "felsvret@termo.com.sv"
+    },
+    {
+      "campo": "COMPROBANTE_ID",
+      "etiqueta": "COMPROBANTE_ID",
+      "valor": "CR-19815-25"
+    }
+  ],
+  "respuestaHacienda": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": "2",
+    "estado": "PROCESADO",
+    "codigoGeneracion": "FD8A1F21-5EB1-4BDC-A301-23872CFC7BDB",
+    "selloRecibido": "20256903E55287A2410EB671683C375667964OUI",
+    "fhProcesamiento": "04/11/2025 14:22:47",
+    "clasificaMsg": "10",
+    "codigoMsg": "002",
+    "descripcionMsg": "RECIBIDO CON OBSERVACIONES",
+    "observaciones": null
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.ew0KICAiaWRlbnRpZmljYWNpb24iOiB7DQogICAgInZlcnNpb24iOiAxLA0KICAgICJhbWJpZW50ZSI6ICIwMSIsDQogICAgInRpcG9EdGUiOiAiMDciLA0KICAgICJudW1lcm9Db250cm9sIjogIkRURS0wNy1NMDAxUDAwMS0wMDAwMDAwMDAwMDQ3MzUiLA0KICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIkZEOEExRjIxLTVFQjEtNEJEQy1BMzAxLTIzODcyQ0ZDN0JEQiIsDQogICAgInRpcG9Nb2RlbG8iOiAxLA0KICAgICJ0aXBvT3BlcmFjaW9uIjogMSwNCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiI6IG51bGwsDQogICAgImZlY0VtaSI6ICIyMDI1LTExLTA0IiwNCiAgICAiaG9yRW1pIjogIjE0OjIxOjI3IiwNCiAgICAidGlwb01vbmVkYSI6ICJVU0QiDQogIH0sDQogICJlbWlzb3IiOiB7DQogICAgIm5pdCI6ICIwNjE0MDQwMjcxMDAxMiIsDQogICAgIm5yYyI6ICI3NjAiLA0KICAgICJub21icmUiOiAiVEVSTU9FTkNPR0lCTEVTLCBTLkEuIERFIEMuVi4iLA0KICAgICJjb2RBY3RpdmlkYWQiOiAiMjIyMDkiLA0KICAgICJkZXNjQWN0aXZpZGFkIjogIkZhYnJpY2FjacOzbiBkZSBwcm9kdWN0b3MgcGzDoXN0aWNvcyBuLmMucC4iLA0KICAgICJub21icmVDb21lcmNpYWwiOiAiVEVSTk9WQSIsDQogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iOiAiMDIiLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMTQiLA0KICAgICAgImNvbXBsZW1lbnRvIjogIkNBTExFIEwtMyBQT0xJR09OTyBELCBMT1RFUyAxIFkgMiwgWk9OQSBJTkRVU1RSSUFMIE1FUkxJT1QsIEFOVElHVU8gQ1VTQ0FUTEFOLCBMQSBMSUJFUlRBRCwgQy5QLiAwMTUwMiBFTCBTQUxWQURPUiINCiAgICB9LA0KICAgICJ0ZWxlZm9ubyI6ICIyMjEyNzMwMCIsDQogICAgImNvcnJlbyI6ICJmZWxzdkB0ZXJtby5jb20uc3YiLA0KICAgICJjb2RpZ29NSCI6IG51bGwsDQogICAgImNvZGlnbyI6IG51bGwsDQogICAgInB1bnRvVmVudGFNSCI6IG51bGwsDQogICAgInB1bnRvVmVudGEiOiBudWxsDQogIH0sDQogICJyZWNlcHRvciI6IHsNCiAgICAidGlwb0RvY3VtZW50byI6ICIzNiIsDQogICAgIm51bURvY3VtZW50byI6ICIwNjE0MTUxMTc3MDAyMCIsDQogICAgIm5yYyI6ICIxNjEyOCIsDQogICAgIm5vbWJyZSI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE8sIFMuQS5ERS5DLlYuIiwNCiAgICAiY29kQWN0aXZpZGFkIjogIjQ3NTkzIiwNCiAgICAiZGVzY0FjdGl2aWRhZCI6ICJWZW50YSBhbCBwb3IgbWVub3IgZGUgYXBhcmF0b3MgZWxlY3Ryb2RvbcOpc3RpY29zLCByZXB1ZXN0b3MgeSBhY2Nlc29yaW9zIiwNCiAgICAibm9tYnJlQ29tZXJjaWFsIjogIkNFTlRSQUwgREUgUk9EQU1JRU5UTywgUy5BLkRFLkMuVi4iLA0KICAgICJkaXJlY2Npb24iOiB7DQogICAgICAiZGVwYXJ0YW1lbnRvIjogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iOiAiMTQiLA0KICAgICAgImNvbXBsZW1lbnRvIjogIkJPVUxFVkFSRCBWRU5FWlVFTEEgTsK6MzA3NyAgIg0KICAgIH0sDQogICAgInRlbGVmb25vIjogIjIyMjMwMzMxIiwNCiAgICAiY29ycmVvIjogInNpbHZpYS5hcmNlQGNlcm9zYS5jb20iDQogIH0sDQogICJjdWVycG9Eb2N1bWVudG8iOiBbDQogICAgew0KICAgICAgIm51bUl0ZW0iOiAxLA0KICAgICAgInRpcG9EdGUiOiAiMDMiLA0KICAgICAgInRpcG9Eb2MiOiAyLA0KICAgICAgIm51bURvY3VtZW50byI6ICI5MjE0MUI4MS02N0RBLTQ0OEEtQTBBRS01Q0FDRjZFQUY4REUiLA0KICAgICAgImZlY2hhRW1pc2lvbiI6ICIyMDI1LTEwLTIxIiwNCiAgICAgICJtb250b1N1amV0b0dyYXYiOiAyNjUuNSwNCiAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsDQogICAgICAiaXZhUmV0ZW5pZG8iOiAyLjY2LA0KICAgICAgImRlc2NyaXBjaW9uIjogIkNSLTE5ODE1LTI1Ig0KICAgIH0NCiAgXSwNCiAgInJlc3VtZW4iOiB7DQogICAgInRvdGFsU3VqZXRvUmV0ZW5jaW9uIjogMjY1LjUsDQogICAgInRvdGFsSVZBcmV0ZW5pZG8iOiAyLjY2LA0KICAgICJ0b3RhbElWQXJldGVuaWRvTGV0cmFzIjogIkRPUyBDT04gNjYvMTAwIFVTRCINCiAgfSwNCiAgImV4dGVuc2lvbiI6IHsNCiAgICAibm9tYkVudHJlZ2EiOiAiQU5EUkVBIFJFWUVTIiwNCiAgICAiZG9jdUVudHJlZ2EiOiAiMDU2MTY0NjMyIiwNCiAgICAibm9tYlJlY2liZSI6ICJDRU5UUkFMIERFIFJPREFNSUVOVE8sIFMuQS5ERS5DLlYuIiwNCiAgICAiZG9jdVJlY2liZSI6ICIwNjE0MTUxMTc3MDAyMCIsDQogICAgIm9ic2VydmFjaW9uZXMiOiAiIg0KICB9LA0KICAiYXBlbmRpY2UiOiBbDQogICAgew0KICAgICAgImNhbXBvIjogIlJlZW52aW8iLA0KICAgICAgImV0aXF1ZXRhIjogIlJlZW52aW8iLA0KICAgICAgInZhbG9yIjogImZlbHN2cmV0QHRlcm1vLmNvbS5zdiINCiAgICB9LA0KICAgIHsNCiAgICAgICJjYW1wbyI6ICJDT01QUk9CQU5URV9JRCIsDQogICAgICAiZXRpcXVldGEiOiAiQ09NUFJPQkFOVEVfSUQiLA0KICAgICAgInZhbG9yIjogIkNSLTE5ODE1LTI1Ig0KICAgIH0NCiAgXQ0KfQ.RO4COc_zPJ7rg7vTYMFmJ5pO7xqbIHH377t9Sy2L7StZvWMoVLSbn1a_eYC-cw-eOq1lrsUfxk7onhKJNY2uKPWS9vnXjg4pU4yJKmf6U941rrTba6ulJHjlCprh0POfSBoE9m8p4CIl3y77jYMZ7zTkbtqB9O7tGonVd7WdtFwP34_bQsxnKFMYr_OjPz8076ihKa12j3l8XPpYkr7O4I6jkJ9VO8lnl7anWOdmOiPiQRpE7_oU72fewtFr887ojwONjGPWQKE8UiAbxRVhhOxSz7ETI6Gxb0p9QGjbj6mm5KhqT_Vm1qrMPahv0TRuQz8hbyj-m3rhIfqnOKXCPA",
+  "selloRecibido": "20256903E55287A2410EB671683C375667964OUI"
+}
