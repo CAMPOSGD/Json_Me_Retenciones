@@ -1,0 +1,125 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "01",
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-M001P001-000000000005361",
+    "codigoGeneracion": "933A63F8-FD8A-4595-97F4-93FFDEA88CE3",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-12-10",
+    "horEmi": "18:18:40",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "05012602981017",
+    "nrc": "1046713",
+    "nombre": "Proyección y Administración Empresarial de El Salvador, Limitada de Capital Variable",
+    "codActividad": "70200",
+    "descActividad": "Actividades de consultoría en gestión empresarial",
+    "nombreComercial": "PAE EL Salvador",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "28",
+      "complemento": "Calle Chiltiupan y 17 av. Norte, Distrito de Santa Tecla "
+    },
+    "telefono": "25306020",
+    "codEstableMH": "M001",
+    "codEstable": "M001",
+    "codPuntoVentaMH": "P001",
+    "codPuntoVenta": "P001",
+    "correo": "idalma.garcia@archlatam.com"
+  },
+  "receptor": {
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46596",
+    "descActividad": "Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria de la alimentación",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "CALLE BLVD. VENEZUELA, COL. ROMA, #3077, SAN SALVADOR, SAN SALVADOR"
+    },
+    "telefono": null,
+    "correo": "facturacionelectronica@cerosa.com",
+    "nit": "06141511770020",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V."
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": null,
+    "placaVehiculo": null
+  },
+  "apendice": null,
+  "ventaTercero": null,
+  "otrosDocumentos": null,
+  "cuerpoDocumento": [
+    {
+      "ventaGravada": 651.66,
+      "ventaExenta": 0,
+      "ventaNoSuj": 0,
+      "noGravado": 0,
+      "numItem": 1,
+      "tipoItem": 2,
+      "numeroDocumento": null,
+      "cantidad": 1,
+      "codigo": null,
+      "codTributo": null,
+      "uniMedida": 59,
+      "descripcion": "SERVICIO DE LIMPIEZA DEL MES DE DICIEMBRE 2025",
+      "precioUni": 651.66,
+      "montoDescu": 0,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0,
+    "totalExenta": 0,
+    "totalGravada": 651.66,
+    "subTotalVentas": 651.66,
+    "descuNoSuj": 0,
+    "descuExenta": 0,
+    "descuGravada": 0,
+    "porcentajeDescuento": 0,
+    "totalDescu": 0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado",
+        "valor": 84.72
+      }
+    ],
+    "subTotal": 651.66,
+    "ivaRete1": 0,
+    "reteRenta": 0,
+    "montoTotalOperacion": 736.38,
+    "totalNoGravado": 0,
+    "totalPagar": 736.38,
+    "totalLetras": "setecientos treinta y seis dólares con treinta y ocho centavos",
+    "saldoFavor": 0.0,
+    "condicionOperacion": 2,
+    "pagos": [
+      {
+        "codigo": "05",
+        "montoPago": 736.37,
+        "referencia": null,
+        "plazo": "01",
+        "periodo": 30
+      }
+    ],
+    "numPagoElectronico": null,
+    "ivaPerci1": 0
+  },
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJ2ZXJzaW9uIjozLCJhbWJpZW50ZSI6IjAxIiwidGlwb0R0ZSI6IjAzIiwibnVtZXJvQ29udHJvbCI6IkRURS0wMy1NMDAxUDAwMS0wMDAwMDAwMDAwMDUzNjEiLCJjb2RpZ29HZW5lcmFjaW9uIjoiOTMzQTYzRjgtRkQ4QS00NTk1LTk3RjQtOTNGRkRFQTg4Q0UzIiwidGlwb01vZGVsbyI6MSwidGlwb09wZXJhY2lvbiI6MSwidGlwb0NvbnRpbmdlbmNpYSI6bnVsbCwibW90aXZvQ29udGluIjpudWxsLCJmZWNFbWkiOiIyMDI1LTEyLTEwIiwiaG9yRW1pIjoiMTg6MTg6NDAiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImRvY3VtZW50b1JlbGFjaW9uYWRvIjpudWxsLCJlbWlzb3IiOnsibml0IjoiMDUwMTI2MDI5ODEwMTciLCJucmMiOiIxMDQ2NzEzIiwibm9tYnJlIjoiUHJveWVjY2nDs24geSBBZG1pbmlzdHJhY2nDs24gRW1wcmVzYXJpYWwgZGUgRWwgU2FsdmFkb3IsIExpbWl0YWRhIGRlIENhcGl0YWwgVmFyaWFibGUiLCJjb2RBY3RpdmlkYWQiOiI3MDIwMCIsImRlc2NBY3RpdmlkYWQiOiJBY3RpdmlkYWRlcyBkZSBjb25zdWx0b3LDrWEgZW4gZ2VzdGnDs24gZW1wcmVzYXJpYWwiLCJub21icmVDb21lcmNpYWwiOiJQQUUgRUwgU2FsdmFkb3IiLCJ0aXBvRXN0YWJsZWNpbWllbnRvIjoiMDIiLCJkaXJlY2Npb24iOnsiZGVwYXJ0YW1lbnRvIjoiMDUiLCJtdW5pY2lwaW8iOiIyOCIsImNvbXBsZW1lbnRvIjoiQ2FsbGUgQ2hpbHRpdXBhbiB5IDE3IGF2LiBOb3J0ZSwgRGlzdHJpdG8gZGUgU2FudGEgVGVjbGEgIn0sInRlbGVmb25vIjoiMjUzMDYwMjAiLCJjb2RFc3RhYmxlTUgiOiJNMDAxIiwiY29kRXN0YWJsZSI6Ik0wMDEiLCJjb2RQdW50b1ZlbnRhTUgiOiJQMDAxIiwiY29kUHVudG9WZW50YSI6IlAwMDEiLCJjb3JyZW8iOiJpZGFsbWEuZ2FyY2lhQGFyY2hsYXRhbS5jb20ifSwicmVjZXB0b3IiOnsibnJjIjoiMTYxMjgiLCJub21icmUiOiJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiI0NjU5NiIsImRlc2NBY3RpdmlkYWQiOiJWZW50YSBhbCBwb3IgbWF5b3IgZGUgbWFxdWluYXJpYSwgZXF1aXBvLCBhY2Nlc29yaW9zIHkgcGFydGVzIHBhcmEgbGEgaW5kdXN0cmlhIGRlIGxhIGFsaW1lbnRhY2nDs24iLCJkaXJlY2Npb24iOnsiZGVwYXJ0YW1lbnRvIjoiMDYiLCJtdW5pY2lwaW8iOiIyMyIsImNvbXBsZW1lbnRvIjoiQ0FMTEUgQkxWRC4gVkVORVpVRUxBLCBDT0wuIFJPTUEsICMzMDc3LCBTQU4gU0FMVkFET1IsIFNBTiBTQUxWQURPUiJ9LCJ0ZWxlZm9ubyI6bnVsbCwiY29ycmVvIjoiZmFjdHVyYWNpb25lbGVjdHJvbmljYUBjZXJvc2EuY29tIiwibml0IjoiMDYxNDE1MTE3NzAwMjAiLCJub21icmVDb21lcmNpYWwiOiJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4ifSwiZXh0ZW5zaW9uIjp7Im5vbWJFbnRyZWdhIjpudWxsLCJkb2N1RW50cmVnYSI6bnVsbCwibm9tYlJlY2liZSI6bnVsbCwiZG9jdVJlY2liZSI6bnVsbCwib2JzZXJ2YWNpb25lcyI6bnVsbCwicGxhY2FWZWhpY3VsbyI6bnVsbH0sImFwZW5kaWNlIjpudWxsLCJ2ZW50YVRlcmNlcm8iOm51bGwsIm90cm9zRG9jdW1lbnRvcyI6bnVsbCwiY3VlcnBvRG9jdW1lbnRvIjpbeyJ2ZW50YUdyYXZhZGEiOjY1MS42NiwidmVudGFFeGVudGEiOjAsInZlbnRhTm9TdWoiOjAsIm5vR3JhdmFkbyI6MCwibnVtSXRlbSI6MSwidGlwb0l0ZW0iOjIsIm51bWVyb0RvY3VtZW50byI6bnVsbCwiY2FudGlkYWQiOjEsImNvZGlnbyI6bnVsbCwiY29kVHJpYnV0byI6bnVsbCwidW5pTWVkaWRhIjo1OSwiZGVzY3JpcGNpb24iOiJTRVJWSUNJTyBERSBMSU1QSUVaQSBERUwgTUVTIERFIERJQ0lFTUJSRSAyMDI1IiwicHJlY2lvVW5pIjo2NTEuNjYsIm1vbnRvRGVzY3UiOjAsInRyaWJ1dG9zIjpbIjIwIl0sInBzdiI6MH1dLCJyZXN1bWVuIjp7InRvdGFsTm9TdWoiOjAsInRvdGFsRXhlbnRhIjowLCJ0b3RhbEdyYXZhZGEiOjY1MS42Niwic3ViVG90YWxWZW50YXMiOjY1MS42NiwiZGVzY3VOb1N1aiI6MCwiZGVzY3VFeGVudGEiOjAsImRlc2N1R3JhdmFkYSI6MCwicG9yY2VudGFqZURlc2N1ZW50byI6MCwidG90YWxEZXNjdSI6MCwidHJpYnV0b3MiOlt7ImNvZGlnbyI6IjIwIiwiZGVzY3JpcGNpb24iOiJJbXB1ZXN0byBhbCBWYWxvciBBZ3JlZ2FkbyIsInZhbG9yIjo4NC43Mn1dLCJzdWJUb3RhbCI6NjUxLjY2LCJpdmFSZXRlMSI6MCwicmV0ZVJlbnRhIjowLCJtb250b1RvdGFsT3BlcmFjaW9uIjo3MzYuMzgsInRvdGFsTm9HcmF2YWRvIjowLCJ0b3RhbFBhZ2FyIjo3MzYuMzgsInRvdGFsTGV0cmFzIjoic2V0ZWNpZW50b3MgdHJlaW50YSB5IHNlaXMgZMOzbGFyZXMgY29uIHRyZWludGEgeSBvY2hvIGNlbnRhdm9zIiwic2FsZG9GYXZvciI6MC4wLCJjb25kaWNpb25PcGVyYWNpb24iOjIsInBhZ29zIjpbeyJjb2RpZ28iOiIwNSIsIm1vbnRvUGFnbyI6NzM2LjM3LCJyZWZlcmVuY2lhIjpudWxsLCJwbGF6byI6IjAxIiwicGVyaW9kbyI6MzB9XSwibnVtUGFnb0VsZWN0cm9uaWNvIjpudWxsLCJpdmFQZXJjaTEiOjB9fQ.zbKf70aHZ3M8Mvx70ZBFBC4PO2nQOInhQBTBMQyiLr8UGeMWEMcxD3Fes2G2BpEKUYnxoshQxWG498O04nfjhOlmr94PSEza6ChDrSFnKwO8iEWSb2oRqogcHksquopVbRqDY9FW0MYX_ujcb08pQeuaBwmeZxDSEEqr5aUpTExYbmj5-qdLoavuQMVYV8I6tkQgF4H64VgpzFlzh5dFJYah_DJVItwaGB492X5DdPMJA4jJGiJLjOck2U48sb9U7HkZFLtGXsbWRMdLn26J-dINYBXNatW0Ssa5koSWyXKcxoCHa5BySBKgX1YaDl2x0w9PxwnhxIGJExZuXcfTPQ",
+  "selloRecibido": "2025FA94D9A9D7DB4CF38FE65F187DE5B77E32OB"
+}
