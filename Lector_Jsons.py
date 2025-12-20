@@ -9,7 +9,8 @@ import logging
 # -------------------------------------------------------------------------------------------
 # Declaraciones
 
-ruta = r"C:\Users\gcampos\OneDrive\Development\Json-Me\Json"
+#ruta = r"C:\Users\gcampos\OneDrive\Development\Json-Me\Json"
+ruta = r"C:\Users\gabri\Downloads\Json_Me_Retenciones\Json"
 
 
 # -------------------------------------------------------------------------------------------
@@ -58,12 +59,12 @@ def informacion_receptor(data):
     }
      
 def identificacion_y_emisor(data, nombre_archivo):
-    identificacion = data.get("identificacion", {})
+    identificacion = data.get("identificacion") or {}
     
-    if not identificacion.get("fecEmi") and data.get("json", {}).get("identificacion"):
-        identificacion = data.get("json", {}).get("identificacion", {})
+    if not identificacion.get("fecEmi") and (data.get("json") or {}).get("identificacion"):
+        identificacion = (data.get("json") or {}).get("identificacion") or {}
 
-    emisor = data.get("emisor", {})
+    emisor = data.get("emisor") or {}
 
     tipo_dte = identificacion.get("tipoDte")
     nombres_dte = {
@@ -93,7 +94,7 @@ def identificacion_y_emisor(data, nombre_archivo):
     }       
 
 def items_detalle(data_json, fila_base):
-    items = data_json.get("cuerpoDocumento", [])
+    items = data_json.get("cuerpoDocumento") or []
     
     lista_de_filas = [] 
     
@@ -133,11 +134,15 @@ def items_detalle(data_json, fila_base):
     return lista_de_filas
      
 def resumen(data):
+    resumen_data = data.get("resumen") or {}
+    
+    tributos = resumen_data.get("tributos") or []
+    total_iva = sum(t.get("valor", 0) for t in tributos)
+
     return {
-        "Sub Total CCF": data.get("subTotalVentas"),
-        "Total IVA": data.get("totalIva"),
-        #"Total Retenido": data.get("totalRetenido"),
-        "Total CCF": data.get("totalPagar")
+        "Sub Total CCF": resumen_data.get("subTotalVentas"),
+        "Total IVA": total_iva,
+        "Total CCF": resumen_data.get("totalPagar")
     }
 
 # 5596.166836
@@ -159,6 +164,7 @@ for nombre in os.listdir(ruta):
 
             fila_base = identificacion_y_emisor(data, nombre)
             fila_base.update(informacion_receptor(data))
+            fila_base.update(resumen(data))
             
             filas.extend(items_detalle(data, fila_base))
             
@@ -176,19 +182,48 @@ for nombre in os.listdir(ruta):
             logging.exception(f"Error inesperado procesando el archivo {nombre}")
             continue
 
-    df = pd.DataFrame(filas)
+df = pd.DataFrame(filas)
 
-    columnas_ordenadas = [
-        "Tipo DTE", 
-        "Fecha", "Emisor", "Nit de emisor", "NRC de emisor", 
-        "Número de control", "Código de generación", "Sello de recepción",
-        "Item #", 
-        "Doc Relacionado", "Monto Sujeto", "IVA Retenido", 
-        "Cantidad CCF", "Precio Unitario CCF", "Venta gravada CCF", 
-        "Sub total CCF", "Total CCF", 
-        "Descripción","Nombre del archivo", "Correo Receptor"
-    ]
-    df = df.reindex(columns=columnas_ordenadas)
+columnas_ordenadas = [
+    "Tipo DTE", 
+    "Fecha", "Emisor", "Nit de emisor", "NRC de emisor", 
+    "Número de control", "Código de generación", "Sello de recepción",
+    "Item #", 
+    "Doc Relacionado", "Monto Sujeto", "IVA Retenido", 
+    "Cantidad CCF", "Precio Unitario CCF", "Venta gravada CCF", 
+    "Sub Total CCF", "Total IVA", "Total CCF", 
+    "Descripción","Nombre del archivo", "Correo Receptor"
+]
+df = df.reindex(columns=columnas_ordenadas)
 
-    print(df)
-    df.to_excel("Todos_Archivos_procesados.xlsx", index=False)
+print(df)
+df.to_excel("Todos_Archivos_procesados.xlsx", index=False)
+
+# -------------------------------------------------------------------------------------------
+
+nombre_excel_separado = "Resumen_Por_Tipo_Documento.xlsx"
+
+try:
+    with pd.ExcelWriter(nombre_excel_separado) as writer:
+        tipos_unicos = df["Tipo DTE"].fillna("Sin Tipo").unique()
+        
+        for tipo in tipos_unicos:
+            df_filtrado = df[df["Tipo DTE"].fillna("Sin Tipo") == tipo]
+            
+
+            if tipo != "Comprobante de Retención":
+                cols_retencion = ["Doc Relacionado", "Monto Sujeto", "IVA Retenido"]
+                df_filtrado = df_filtrado.drop(columns=[c for c in cols_retencion if c in df_filtrado.columns])
+            else:
+                cols_ccf = ["Cantidad CCF", "Precio Unitario CCF", "Venta gravada CCF", "Sub Total CCF", "Total IVA", "Total CCF"]
+                df_filtrado = df_filtrado.drop(columns=[c for c in cols_ccf if c in df_filtrado.columns])
+
+            nombre_hoja = str(tipo)[:31].replace(":", "").replace("/", "-").replace("\\", "").replace("?", "").replace("*", "").replace("[", "").replace("]", "")
+            
+            df_filtrado.to_excel(writer, sheet_name=nombre_hoja, index=False)
+            
+    print(f"Se generó exitosamente el archivo separado: {nombre_excel_separado}")
+
+except Exception as e:
+    logging.error(f"No se pudo crear el archivo separado por hojas: {e}")
+    print(f"Error creando el archivo separado: {e}")
