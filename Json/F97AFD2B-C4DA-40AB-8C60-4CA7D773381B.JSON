@@ -1,0 +1,142 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "01",
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-S004P001-000000000046392",
+    "codigoGeneracion": "F97AFD2B-C4DA-40AB-8C60-4CA7D773381B",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-12-04",
+    "horEmi": "09:27:51",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "06141912141092",
+    "nrc": "2430809",
+    "nombre": "GRUPO FE EL SALVADOR, S.A. DE C.V...",
+    "codActividad": "47300",
+    "descActividad": "VENTA DE COMBUSTIBLES, LUBRICANTES Y OTROS (GASOLINERAS)",
+    "nombreComercial": "TEXACO VENEZUELA",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "20",
+      "complemento": "BLVD. VENEZUELA, FTE. TERM. DE BUSES OCCIDENTE, SAN SALVADOR"
+    },
+    "telefono": "78569905",
+    "correo": "texacovenezueladte@grupofe.com.sv",
+    "codEstableMH": "S004",
+    "codEstable": null,
+    "codPuntoVentaMH": "P001",
+    "codPuntoVenta": null
+  },
+  "receptor": {
+    "nit": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTO S.A DE C .V.",
+    "codActividad": "46599",
+    "descActividad": "VENTA AL POR MAYOR DE OTRO TIPO DE MAQUINARIA Y EQUIPO CON SUS ACCESORIOS Y PARTES",
+    "nombreComercial": null,
+    "direccion": {
+      "departamento": "06",
+      "municipio": "20",
+      "complemento": "BLVD. VENEZUELA, COL. ROMA #3077, SAN SALVADOR"
+    },
+    "telefono": "25250800",
+    "correo": "facturacionelectronica@cerosa.com"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "cantidad": 4.451,
+      "codigo": "6",
+      "codTributo": null,
+      "uniMedida": 22,
+      "descripcion": "DIESEL AUTO",
+      "precioUni": 2.716814,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 12.09,
+      "noGravado": 0.0,
+      "tributos": [
+        "20",
+        "D1",
+        "C8"
+      ],
+      "psv": 0.0
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.0,
+    "totalExenta": 0.0,
+    "totalGravada": 12.09,
+    "subTotalVentas": 12.09,
+    "descuNoSuj": 0.0,
+    "descuExenta": 0.0,
+    "descuGravada": 0.0,
+    "porcentajeDescuento": 0.0,
+    "totalDescu": 0.0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado 13%",
+        "valor": 1.57
+      },
+      {
+        "codigo": "D1",
+        "descripcion": "FOVIAL ($0.20 Ctvs. por galón)",
+        "valor": 0.9
+      },
+      {
+        "codigo": "C8",
+        "descripcion": "COTRANS ($0.10 Ctvs. por galón)",
+        "valor": 0.44
+      }
+    ],
+    "subTotal": 12.09,
+    "ivaPerci1": 0.0,
+    "ivaRete1": 0.0,
+    "reteRenta": 0.0,
+    "montoTotalOperacion": 15.00,
+    "totalNoGravado": 0.0,
+    "totalPagar": 15.00,
+    "totalLetras": "QUINCE 00/100",
+    "saldoFavor": 0.0,
+    "condicionOperacion": 1,
+    "pagos": null,
+    "numPagoElectronico": null
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": "",
+    "placaVehiculo": null
+  },
+  "apendice": null,
+  "ResponseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "F97AFD2B-C4DA-40AB-8C60-4CA7D773381B",
+    "numeroControl": null,
+    "selloRecibido": "2025E12614986949466C941B8072D33BD229HI9Z",
+    "fhProcesamiento": "04/12/2025 09:27:54",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": []
+  },
+  "selloRecibido": "2025E12614986949466C941B8072D33BD229HI9Z",
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.ew0KICAiaWRlbnRpZmljYWNpb24iIDogew0KICAgICJ2ZXJzaW9uIiA6IDMsDQogICAgImFtYmllbnRlIiA6ICIwMSIsDQogICAgInRpcG9EdGUiIDogIjAzIiwNCiAgICAibnVtZXJvQ29udHJvbCIgOiAiRFRFLTAzLVMwMDRQMDAxLTAwMDAwMDAwMDA0NjM5MiIsDQogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkY5N0FGRDJCLUM0REEtNDBBQi04QzYwLTRDQTdENzczMzgxQiIsDQogICAgInRpcG9Nb2RlbG8iIDogMSwNCiAgICAidGlwb09wZXJhY2lvbiIgOiAxLA0KICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsDQogICAgIm1vdGl2b0NvbnRpbiIgOiBudWxsLA0KICAgICJmZWNFbWkiIDogIjIwMjUtMTItMDQiLA0KICAgICJob3JFbWkiIDogIjA5OjI3OjUxIiwNCiAgICAidGlwb01vbmVkYSIgOiAiVVNEIg0KICB9LA0KICAiZG9jdW1lbnRvUmVsYWNpb25hZG8iIDogbnVsbCwNCiAgImVtaXNvciIgOiB7DQogICAgIm5pdCIgOiAiMDYxNDE5MTIxNDEwOTIiLA0KICAgICJucmMiIDogIjI0MzA4MDkiLA0KICAgICJub21icmUiIDogIkdSVVBPIEZFIEVMIFNBTFZBRE9SLCBTLkEuIERFIEMuVi4uLiIsDQogICAgImNvZEFjdGl2aWRhZCIgOiAiNDczMDAiLA0KICAgICJkZXNjQWN0aXZpZGFkIiA6ICJWRU5UQSBERSBDT01CVVNUSUJMRVMsIExVQlJJQ0FOVEVTIFkgT1RST1MgKEdBU09MSU5FUkFTKSIsDQogICAgIm5vbWJyZUNvbWVyY2lhbCIgOiAiVEVYQUNPIFZFTkVaVUVMQSIsDQogICAgInRpcG9Fc3RhYmxlY2ltaWVudG8iIDogIjAxIiwNCiAgICAiZGlyZWNjaW9uIiA6IHsNCiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwNCiAgICAgICJtdW5pY2lwaW8iIDogIjIwIiwNCiAgICAgICJjb21wbGVtZW50byIgOiAiQkxWRC4gVkVORVpVRUxBLCBGVEUuIFRFUk0uIERFIEJVU0VTIE9DQ0lERU5URSwgU0FOIFNBTFZBRE9SIg0KICAgIH0sDQogICAgInRlbGVmb25vIiA6ICI3ODU2OTkwNSIsDQogICAgImNvcnJlbyIgOiAidGV4YWNvdmVuZXp1ZWxhZHRlQGdydXBvZmUuY29tLnN2IiwNCiAgICAiY29kRXN0YWJsZU1IIiA6ICJTMDA0IiwNCiAgICAiY29kRXN0YWJsZSIgOiBudWxsLA0KICAgICJjb2RQdW50b1ZlbnRhTUgiIDogIlAwMDEiLA0KICAgICJjb2RQdW50b1ZlbnRhIiA6IG51bGwNCiAgfSwNCiAgInJlY2VwdG9yIiA6IHsNCiAgICAibml0IiA6ICIwNjE0MTUxMTc3MDAyMCIsDQogICAgIm5yYyIgOiAiMTYxMjgiLA0KICAgICJub21icmUiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UTyBTLkEgREUgQyAuVi4iLA0KICAgICJjb2RBY3RpdmlkYWQiIDogIjQ2NTk5IiwNCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiVkVOVEEgQUwgUE9SIE1BWU9SIERFIE9UUk8gVElQTyBERSBNQVFVSU5BUklBIFkgRVFVSVBPIENPTiBTVVMgQUNDRVNPUklPUyBZIFBBUlRFUyIsDQogICAgIm5vbWJyZUNvbWVyY2lhbCIgOiBudWxsLA0KICAgICJkaXJlY2Npb24iIDogew0KICAgICAgImRlcGFydGFtZW50byIgOiAiMDYiLA0KICAgICAgIm11bmljaXBpbyIgOiAiMjAiLA0KICAgICAgImNvbXBsZW1lbnRvIiA6ICJCTFZELiBWRU5FWlVFTEEsIENPTC4gUk9NQSAjMzA3NywgU0FOIFNBTFZBRE9SIg0KICAgIH0sDQogICAgInRlbGVmb25vIiA6ICIyNTI1MDgwMCIsDQogICAgImNvcnJlbyIgOiAiZmFjdHVyYWNpb25lbGVjdHJvbmljYUBjZXJvc2EuY29tIg0KICB9LA0KICAib3Ryb3NEb2N1bWVudG9zIiA6IG51bGwsDQogICJ2ZW50YVRlcmNlcm8iIDogbnVsbCwNCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsNCiAgICAibnVtSXRlbSIgOiAxLA0KICAgICJ0aXBvSXRlbSIgOiAxLA0KICAgICJudW1lcm9Eb2N1bWVudG8iIDogbnVsbCwNCiAgICAiY2FudGlkYWQiIDogNC40NTEsDQogICAgImNvZGlnbyIgOiAiNiIsDQogICAgImNvZFRyaWJ1dG8iIDogbnVsbCwNCiAgICAidW5pTWVkaWRhIiA6IDIyLA0KICAgICJkZXNjcmlwY2lvbiIgOiAiRElFU0VMIEFVVE8iLA0KICAgICJwcmVjaW9VbmkiIDogMi43MTY4MTQsDQogICAgIm1vbnRvRGVzY3UiIDogMC4wLA0KICAgICJ2ZW50YU5vU3VqIiA6IDAuMCwNCiAgICAidmVudGFFeGVudGEiIDogMC4wLA0KICAgICJ2ZW50YUdyYXZhZGEiIDogMTIuMDksDQogICAgIm5vR3JhdmFkbyIgOiAwLjAsDQogICAgInRyaWJ1dG9zIiA6IFsgIjIwIiwgIkQxIiwgIkM4IiBdLA0KICAgICJwc3YiIDogMC4wDQogIH0gXSwNCiAgInJlc3VtZW4iIDogew0KICAgICJ0b3RhbE5vU3VqIiA6IDAuMCwNCiAgICAidG90YWxFeGVudGEiIDogMC4wLA0KICAgICJ0b3RhbEdyYXZhZGEiIDogMTIuMDksDQogICAgInN1YlRvdGFsVmVudGFzIiA6IDEyLjA5LA0KICAgICJkZXNjdU5vU3VqIiA6IDAuMCwNCiAgICAiZGVzY3VFeGVudGEiIDogMC4wLA0KICAgICJkZXNjdUdyYXZhZGEiIDogMC4wLA0KICAgICJwb3JjZW50YWplRGVzY3VlbnRvIiA6IDAuMCwNCiAgICAidG90YWxEZXNjdSIgOiAwLjAsDQogICAgInRyaWJ1dG9zIiA6IFsgew0KICAgICAgImNvZGlnbyIgOiAiMjAiLA0KICAgICAgImRlc2NyaXBjaW9uIiA6ICJJbXB1ZXN0byBhbCBWYWxvciBBZ3JlZ2FkbyAxMyUiLA0KICAgICAgInZhbG9yIiA6IDEuNTcNCiAgICB9LCB7DQogICAgICAiY29kaWdvIiA6ICJEMSIsDQogICAgICAiZGVzY3JpcGNpb24iIDogIkZPVklBTCAoJDAuMjAgQ3R2cy4gcG9yIGdhbMOzbikiLA0KICAgICAgInZhbG9yIiA6IDAuOQ0KICAgIH0sIHsNCiAgICAgICJjb2RpZ28iIDogIkM4IiwNCiAgICAgICJkZXNjcmlwY2lvbiIgOiAiQ09UUkFOUyAoJDAuMTAgQ3R2cy4gcG9yIGdhbMOzbikiLA0KICAgICAgInZhbG9yIiA6IDAuNDQNCiAgICB9IF0sDQogICAgInN1YlRvdGFsIiA6IDEyLjA5LA0KICAgICJpdmFQZXJjaTEiIDogMC4wLA0KICAgICJpdmFSZXRlMSIgOiAwLjAsDQogICAgInJldGVSZW50YSIgOiAwLjAsDQogICAgIm1vbnRvVG90YWxPcGVyYWNpb24iIDogMTUuMCwNCiAgICAidG90YWxOb0dyYXZhZG8iIDogMC4wLA0KICAgICJ0b3RhbFBhZ2FyIiA6IDE1LjAsDQogICAgInRvdGFsTGV0cmFzIiA6ICJRVUlOQ0UgMDAvMTAwIiwNCiAgICAic2FsZG9GYXZvciIgOiAwLjAsDQogICAgImNvbmRpY2lvbk9wZXJhY2lvbiIgOiAxLA0KICAgICJwYWdvcyIgOiBudWxsLA0KICAgICJudW1QYWdvRWxlY3Ryb25pY28iIDogbnVsbA0KICB9LA0KICAiZXh0ZW5zaW9uIiA6IHsNCiAgICAibm9tYkVudHJlZ2EiIDogbnVsbCwNCiAgICAiZG9jdUVudHJlZ2EiIDogbnVsbCwNCiAgICAibm9tYlJlY2liZSIgOiBudWxsLA0KICAgICJkb2N1UmVjaWJlIiA6IG51bGwsDQogICAgIm9ic2VydmFjaW9uZXMiIDogIiIsDQogICAgInBsYWNhVmVoaWN1bG8iIDogbnVsbA0KICB9LA0KICAiYXBlbmRpY2UiIDogbnVsbA0KfQ.T5tUJcsqVqE88rMtjPb3zHCJ7GHqXgTNFz3HOgBpttTsrF46BvPlzo-xbvowmeVzeB_DcwFD1_VO-G78FU_vTyUNa4P0nvWQw4FjllH1cNKpWCvrCCcpAyYfYwFcbDjaHL85ZfJx-gzLmXv5wUdY7S3aMzv5RvysAPI6H8Xz9Aqf5pbnVdpZSLRmPY8yiS0_hrG8PZ6yowuujGp_WQeh_e7P2TGq2RYCyiyN91RE2kLNRFR4lRonlAIpfkUmHS5unaahT3lmNIQUd1HUeciGS4Hel29TcYc1VS3zCMCfqteC2leggFx2Gj5SyKySArPUPwwaU0ebFlWrElTPtWnVxw"
+}

@@ -9,7 +9,9 @@ import logging
 # -------------------------------------------------------------------------------------------
 # Declaraciones
 
-ruta = r"C:\Users\gcampos\OneDrive\Development\Json-Me\Json"
+ruta = r"C:\Users\gcampos\OneDrive\Development\Json-Me\Json\poblacion"
+#ruta = r"C:\Users\gabri\Downloads\Json_Me_Retenciones\Json"
+#ruta = r"C:\Users\gcampos\Downloads"
 
 
 # -------------------------------------------------------------------------------------------
@@ -58,12 +60,12 @@ def informacion_receptor(data):
     }
      
 def identificacion_y_emisor(data, nombre_archivo):
-    identificacion = data.get("identificacion", {})
+    identificacion = data.get("identificacion") or {}
     
-    if not identificacion.get("fecEmi") and data.get("json", {}).get("identificacion"):
-        identificacion = data.get("json", {}).get("identificacion", {})
+    if not identificacion.get("fecEmi") and (data.get("json") or {}).get("identificacion"):
+        identificacion = (data.get("json") or {}).get("identificacion") or {}
 
-    emisor = data.get("emisor", {})
+    emisor = data.get("emisor") or {}
 
     tipo_dte = identificacion.get("tipoDte")
     nombres_dte = {
@@ -93,7 +95,7 @@ def identificacion_y_emisor(data, nombre_archivo):
     }       
 
 def items_detalle(data_json, fila_base):
-    items = data_json.get("cuerpoDocumento", [])
+    items = data_json.get("cuerpoDocumento") or []
     
     lista_de_filas = [] 
     
@@ -133,11 +135,15 @@ def items_detalle(data_json, fila_base):
     return lista_de_filas
      
 def resumen(data):
+    resumen_data = data.get("resumen") or {}
+    
+    tributos = resumen_data.get("tributos") or []
+    total_iva = sum(t.get("valor", 0) for t in tributos)
+
     return {
-        "Sub Total CCF": data.get("subTotalVentas"),
-        "Total IVA": data.get("totalIva"),
-        #"Total Retenido": data.get("totalRetenido"),
-        "Total CCF": data.get("totalPagar")
+        "Sub Total CCF": resumen_data.get("subTotalVentas"),
+        "Total IVA": total_iva,
+        "Total CCF": resumen_data.get("totalPagar")
     }
 
 # 5596.166836
@@ -147,48 +153,111 @@ filas = []
 for nombre in os.listdir(ruta):
     ruta_completa = os.path.join(ruta, nombre)
 
-    if os.path.isfile(ruta_completa) and nombre.endswith(".json"):
+    if os.path.isfile(ruta_completa) and nombre.lower().endswith(".json"):
         try:
-            try:
-                with open(ruta_completa, "r", encoding="utf-8-sig") as archivo:
-                    data = json.load(archivo)
-            except UnicodeDecodeError:
-                logging.warning(f"Encoding utf-8 el archivo {nombre} entró por latin-1")
-                with open(ruta_completa, "r", encoding="latin-1") as archivo:
-                    data = json.load(archivo)
+            with open(ruta_completa, "rb") as f:
+                raw_data = f.read()
+
+            if not raw_data:
+                logging.error(f"El archivo {nombre} está realmente vacío (0 bytes).")
+                print(f"   ERROR: El archivo {nombre} pesa 0 bytes.")
+                continue
+
+            data = None
+            for encoding in ["utf-8-sig", "utf-16", "latin-1", "cp1252"]:
+                try:
+                    data = json.loads(raw_data.decode(encoding))
+                    break 
+                except (UnicodeDecodeError, json.JSONDecodeError):
+                    continue
+            
+            if data is None:
+                msg = f"FALLO DECODIFICACION: {nombre}. Primeros bytes: {raw_data[:50]}"
+                logging.error(msg)
+                print(msg)
+                continue
+
+            if isinstance(data, list):
+                if len(data) > 0:
+                    logging.warning(f"El archivo {nombre} es una lista. Usando el primer elemento.")
+                    data = data[0]
+                else:
+                    msg = f"   ERROR: El archivo {nombre} es una lista vacía []."
+                    logging.error(msg)
+                    print(msg)
+                    continue
+            
+            if not isinstance(data, dict):
+                msg = f"   ERROR: El archivo {nombre} no es un objeto JSON, es {type(data)}."
+                logging.error(msg)
+                print(msg)
+                continue
 
             fila_base = identificacion_y_emisor(data, nombre)
             fila_base.update(informacion_receptor(data))
+            fila_base.update(resumen(data))
             
             filas.extend(items_detalle(data, fila_base))
             
             logging.info(f"Procesado exitosamente: {nombre}")
 
-        except json.JSONDecodeError:
-            logging.error(f"El archivo {nombre} no es un JSON válido o está vacío.")
+        except json.JSONDecodeError as e:
+            logging.error(f"JSON INVALIDO en {nombre}: {e}")
+            print(f"Error JSON en {nombre}: {e}")
             continue
             
         except KeyError as e:
-            logging.error(f"Falta una clave estructura en {nombre}: {e}")
+            logging.error(f"FALTA CAMPO en {nombre}: {e}")
+            print(f"Falta campo en {nombre}: {e}")
             continue
 
         except Exception as e:
-            logging.exception(f"Error inesperado procesando el archivo {nombre}")
+            logging.exception(f"ERROR INESPERADO en {nombre}: {e}")
+            print(f"Error inesperado en {nombre}: {e}")
             continue
 
-    df = pd.DataFrame(filas)
+df = pd.DataFrame(filas)
 
-    columnas_ordenadas = [
-        "Tipo DTE", 
-        "Fecha", "Emisor", "Nit de emisor", "NRC de emisor", 
-        "Número de control", "Código de generación", "Sello de recepción",
-        "Item #", 
-        "Doc Relacionado", "Monto Sujeto", "IVA Retenido", 
-        "Cantidad CCF", "Precio Unitario CCF", "Venta gravada CCF", 
-        "Sub total CCF", "Total CCF", 
-        "Descripción","Nombre del archivo", "Correo Receptor"
-    ]
-    df = df.reindex(columns=columnas_ordenadas)
+columnas_ordenadas = [
+    "Tipo DTE", 
+    "Fecha", "Emisor", "Nit de emisor", "NRC de emisor", 
+    "Número de control", "Código de generación", "Sello de recepción",
+    "Item #", 
+    "Doc Relacionado", "Monto Sujeto", "IVA Retenido", 
+    "Cantidad CCF", "Precio Unitario CCF", "Venta gravada CCF", 
+    "Sub Total CCF", "Total IVA", "Total CCF", 
+    "Descripción","Nombre del archivo", "Correo Receptor"
+]
+df = df.reindex(columns=columnas_ordenadas)
 
-    print(df)
-    df.to_excel("Todos_Archivos_procesados.xlsx", index=False)
+print(df)
+df.to_excel("Todos_Archivos_procesados.xlsx", index=False)
+
+# -------------------------------------------------------------------------------------------
+
+nombre_excel_separado = "Resumen_Por_Tipo_Documento.xlsx"
+
+try:
+    with pd.ExcelWriter(nombre_excel_separado) as writer:
+        tipos_unicos = df["Tipo DTE"].fillna("Sin Tipo").unique()
+        
+        for tipo in tipos_unicos:
+            df_filtrado = df[df["Tipo DTE"].fillna("Sin Tipo") == tipo]
+            
+
+            if tipo != "Comprobante de Retención":
+                cols_retencion = ["Doc Relacionado", "Monto Sujeto", "IVA Retenido"]
+                df_filtrado = df_filtrado.drop(columns=[c for c in cols_retencion if c in df_filtrado.columns])
+            else:
+                cols_ccf = ["Cantidad CCF", "Precio Unitario CCF", "Venta gravada CCF", "Sub Total CCF", "Total IVA", "Total CCF"]
+                df_filtrado = df_filtrado.drop(columns=[c for c in cols_ccf if c in df_filtrado.columns])
+
+            nombre_hoja = str(tipo)[:31].replace(":", "").replace("/", "-").replace("\\", "").replace("?", "").replace("*", "").replace("[", "").replace("]", "")
+            
+            df_filtrado.to_excel(writer, sheet_name=nombre_hoja, index=False)
+            
+    print(f"Se generó exitosamente el archivo separado: {nombre_excel_separado}")
+
+except Exception as e:
+    logging.error(f"No se pudo crear el archivo separado por hojas: {e}")
+    print(f"Error creando el archivo separado: {e}")
