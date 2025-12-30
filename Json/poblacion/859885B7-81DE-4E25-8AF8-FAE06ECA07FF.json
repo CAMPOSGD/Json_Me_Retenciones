@@ -1,0 +1,85 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "15",
+    "numeroControl": "DTE-15-M001P002-000000000000763",
+    "codigoGeneracion": "859885B7-81DE-4E25-8AF8-FAE06ECA07FF",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "fecEmi": "2025-12-15",
+    "horEmi": "08:31:58",
+    "tipoMoneda": "USD"
+  },
+  "donatario": {
+    "tipoDocumento": "36",
+    "numDocumento": "05110108740018",
+    "nrc": "621510",
+    "nombre": "ESCUELA ESPECIALIZADA EN INGENIERIA ITCA-FEPADE",
+    "codActividad": "85499",
+    "descActividad": "Enseñanza formal ",
+    "nombreComercial": "ESCUELA ESPECIALIZADA EN INGENIERIA ITCA-FEPADE",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "05",
+      "municipio": "28",
+      "complemento": "KM. 11 1/2, CARRETERA A SANTA TECLA"
+    },
+    "telefono": "21327400",
+    "correo": "facturacion.emisor@itca.edu.sv",
+    "codEstableMH": "M001",
+    "codEstable": "null",
+    "codPuntoVentaMH": "P002",
+    "codPuntoVenta": "null"
+  },
+  "donante": {
+    "tipoDocumento": "36",
+    "numDocumento": "06141511770020",
+    "nrc": null,
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus  accesorios y partes ",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BOULEVARD VENEZUELA, COL. ROMA, #3077, SAN SALVADOR"
+    },
+    "telefono": "2525 0800",
+    "correo": "facturacionelectronica@cerosa.com",
+    "codDomiciliado": 1,
+    "codPais": "SV"
+  },
+  "otrosDocumentos": [
+    {
+      "codDocAsociado": 1,
+      "descDocumento": "null",
+      "detalleDocumento": "null"
+    }
+  ],
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoDonacion": 1,
+      "codigo": null,
+      "descripcion": "CUOTAS ESTUDIANTES BECADOS",
+      "cantidad": 1.0,
+      "uniMedida": 99,
+      "valor": 169.0,
+      "valorUni": 169.0,
+      "depreciacion": 0
+    }
+  ],
+  "resumen": {
+    "valorTotal": 169.0,
+    "totalLetras": "CIENTO SESENTA Y NUEVE CON 00/100 DOLARES",
+    "pagos": [
+      {
+        "codigo": "01",
+        "montoPago": 169.0,
+        "referencia": null
+      }
+    ]
+  },
+  "apendice": null,
+  "selloRecibido": "2025B5420DF0EA6B4E6DB8DB9A91D64D7923ICIF"
+}

@@ -1,0 +1,154 @@
+{
+  "identificacion": {
+    "motivoContin": null,
+    "tipoContingencia": null,
+    "ambiente": "01",
+    "version": 3,
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-S001P001-000000000010642",
+    "codigoGeneracion": "E5A7D023-74B9-4450-8811-24E05B47AED6",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "fecEmi": "2025-12-18",
+    "horEmi": "13:27:44",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nombreComercial": "IMGRAL,SA DE CV",
+    "tipoEstablecimiento": "01",
+    "codEstableMH": "S001",
+    "codEstable": "0001",
+    "codPuntoVentaMH": "P001",
+    "codPuntoVenta": "0001",
+    "nit": "06142201071012",
+    "nrc": "1772730",
+    "nombre": "IMPORTACIONES GENERALES DE EL SALVADOR, S.A. DE C.V.",
+    "codActividad": "45301",
+    "descActividad": "Venta de partes, piezas y accesorios nuevos para vehículos automotores",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "CALLE GERARDO BARRIOS Y 33 AV. SUR, No. 8-A, COL. CUCUMACAYAN, SAN SALVADOR"
+    },
+    "telefono": "2281 7373",
+    "correo": "ventas@imgral.com"
+  },
+  "receptor": {
+    "nit": "06141511770020",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD. VENEZUELA, COL. ROMA #3077, SAN SALVADOR"
+    },
+    "telefono": "2525-0800",
+    "correo": "facturacionelectronica@cerosa.com"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "27294",
+      "codTributo": null,
+      "descripcion": "BALERO",
+      "cantidad": 3.0,
+      "uniMedida": 59,
+      "precioUni": 75.0,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 225.0,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    },
+    {
+      "numItem": 2,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "21525",
+      "codTributo": null,
+      "descripcion": "BALERO",
+      "cantidad": 10.0,
+      "uniMedida": 59,
+      "precioUni": 3.9,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 39.0,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.0,
+    "totalExenta": 0.0,
+    "totalGravada": 264.0,
+    "subTotalVentas": 264.0,
+    "descuNoSuj": 0.0,
+    "descuExenta": 0.0,
+    "descuGravada": 0.0,
+    "porcentajeDescuento": 0.0,
+    "totalDescu": 0.0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado 13%",
+        "valor": 34.32
+      }
+    ],
+    "subTotal": 264.0,
+    "ivaPerci1": 0.0,
+    "ivaRete1": 0.0,
+    "reteRenta": 0.0,
+    "montoTotalOperacion": 298.32,
+    "totalNoGravado": 0.0,
+    "totalPagar": 298.32,
+    "totalLetras": "DOSCIENTOS NOVENTA Y OCHO DOLARES CON 32/100 USD",
+    "saldoFavor": 0.0,
+    "condicionOperacion": 2,
+    "pagos": [
+      {
+        "codigo": null,
+        "montoPago": 298.32,
+        "referencia": null,
+        "plazo": "01",
+        "periodo": 30
+      }
+    ],
+    "numPagoElectronico": ""
+  },
+  "extension": null,
+  "apendice": [
+    {
+      "campo": "codigoVendedor",
+      "etiqueta": "Código Vendedor",
+      "valor": "6"
+    },
+    {
+      "campo": "codigoCliente",
+      "etiqueta": "Código Cliente",
+      "valor": "1135"
+    },
+    {
+      "campo": "observaciones",
+      "etiqueta": "Observaciones",
+      "valor": "Confirmación"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJtb3Rpdm9Db250aW4iOm51bGwsInRpcG9Db250aW5nZW5jaWEiOm51bGwsImFtYmllbnRlIjoiMDEiLCJ2ZXJzaW9uIjozLCJ0aXBvRHRlIjoiMDMiLCJudW1lcm9Db250cm9sIjoiRFRFLTAzLVMwMDFQMDAxLTAwMDAwMDAwMDAxMDY0MiIsImNvZGlnb0dlbmVyYWNpb24iOiJFNUE3RDAyMy03NEI5LTQ0NTAtODgxMS0yNEUwNUI0N0FFRDYiLCJ0aXBvTW9kZWxvIjoxLCJ0aXBvT3BlcmFjaW9uIjoxLCJmZWNFbWkiOiIyMDI1LTEyLTE4IiwiaG9yRW1pIjoiMTM6Mjc6NDQiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImRvY3VtZW50b1JlbGFjaW9uYWRvIjpudWxsLCJlbWlzb3IiOnsibm9tYnJlQ29tZXJjaWFsIjoiSU1HUkFMLFNBIERFIENWIiwidGlwb0VzdGFibGVjaW1pZW50byI6IjAxIiwiY29kRXN0YWJsZU1IIjoiUzAwMSIsImNvZEVzdGFibGUiOiIwMDAxIiwiY29kUHVudG9WZW50YU1IIjoiUDAwMSIsImNvZFB1bnRvVmVudGEiOiIwMDAxIiwibml0IjoiMDYxNDIyMDEwNzEwMTIiLCJucmMiOiIxNzcyNzMwIiwibm9tYnJlIjoiSU1QT1JUQUNJT05FUyBHRU5FUkFMRVMgREUgRUwgU0FMVkFET1IsIFMuQS4gREUgQy5WLiIsImNvZEFjdGl2aWRhZCI6IjQ1MzAxIiwiZGVzY0FjdGl2aWRhZCI6IlZlbnRhIGRlIHBhcnRlcywgcGllemFzIHkgYWNjZXNvcmlvcyBudWV2b3MgcGFyYSB2ZWjDrWN1bG9zIGF1dG9tb3RvcmVzIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjMiLCJjb21wbGVtZW50byI6IkNBTExFIEdFUkFSRE8gQkFSUklPUyBZIDMzIEFWLiBTVVIsIE5vLiA4LUEsIENPTC4gQ1VDVU1BQ0FZQU4sIFNBTiBTQUxWQURPUiJ9LCJ0ZWxlZm9ubyI6IjIyODEgNzM3MyIsImNvcnJlbyI6InZlbnRhc0BpbWdyYWwuY29tIn0sInJlY2VwdG9yIjp7Im5pdCI6IjA2MTQxNTExNzcwMDIwIiwibm9tYnJlQ29tZXJjaWFsIjoiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYuIiwibnJjIjoiMTYxMjgiLCJub21icmUiOiJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiI0NjU5OSIsImRlc2NBY3RpdmlkYWQiOiJWZW50YSBhbCBwb3IgbWF5b3IgZGUgb3RybyB0aXBvIGRlIG1hcXVpbmFyaWEgeSBlcXVpcG8gY29uIHN1cyBhY2Nlc29yaW9zIHkgcGFydGVzIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjMiLCJjb21wbGVtZW50byI6IkJMVkQuIFZFTkVaVUVMQSwgQ09MLiBST01BICMzMDc3LCBTQU4gU0FMVkFET1IifSwidGVsZWZvbm8iOiIyNTI1LTA4MDAiLCJjb3JyZW8iOiJmYWN0dXJhY2lvbmVsZWN0cm9uaWNhQGNlcm9zYS5jb20ifSwib3Ryb3NEb2N1bWVudG9zIjpudWxsLCJ2ZW50YVRlcmNlcm8iOm51bGwsImN1ZXJwb0RvY3VtZW50byI6W3sibnVtSXRlbSI6MSwidGlwb0l0ZW0iOjEsIm51bWVyb0RvY3VtZW50byI6bnVsbCwiY29kaWdvIjoiMjcyOTQiLCJjb2RUcmlidXRvIjpudWxsLCJkZXNjcmlwY2lvbiI6IkJBTEVSTyIsImNhbnRpZGFkIjozLjAwLCJ1bmlNZWRpZGEiOjU5LCJwcmVjaW9VbmkiOjc1LCJtb250b0Rlc2N1IjowLCJ2ZW50YU5vU3VqIjowLCJ2ZW50YUV4ZW50YSI6MCwidmVudGFHcmF2YWRhIjoyMjUsInRyaWJ1dG9zIjpbIjIwIl0sInBzdiI6MCwibm9HcmF2YWRvIjowfSx7Im51bUl0ZW0iOjIsInRpcG9JdGVtIjoxLCJudW1lcm9Eb2N1bWVudG8iOm51bGwsImNvZGlnbyI6IjIxNTI1IiwiY29kVHJpYnV0byI6bnVsbCwiZGVzY3JpcGNpb24iOiJCQUxFUk8iLCJjYW50aWRhZCI6MTAuMDAsInVuaU1lZGlkYSI6NTksInByZWNpb1VuaSI6My45LCJtb250b0Rlc2N1IjowLCJ2ZW50YU5vU3VqIjowLCJ2ZW50YUV4ZW50YSI6MCwidmVudGFHcmF2YWRhIjozOSwidHJpYnV0b3MiOlsiMjAiXSwicHN2IjowLCJub0dyYXZhZG8iOjB9XSwicmVzdW1lbiI6eyJ0b3RhbE5vU3VqIjowLCJ0b3RhbEV4ZW50YSI6MCwidG90YWxHcmF2YWRhIjoyNjQsInN1YlRvdGFsVmVudGFzIjoyNjQsImRlc2N1Tm9TdWoiOjAsImRlc2N1RXhlbnRhIjowLCJkZXNjdUdyYXZhZGEiOjAsInBvcmNlbnRhamVEZXNjdWVudG8iOjAsInRvdGFsRGVzY3UiOjAsInRyaWJ1dG9zIjpbeyJjb2RpZ28iOiIyMCIsImRlc2NyaXBjaW9uIjoiSW1wdWVzdG8gYWwgVmFsb3IgQWdyZWdhZG8gMTMlIiwidmFsb3IiOjM0LjMyfV0sInN1YlRvdGFsIjoyNjQsIml2YVBlcmNpMSI6MCwiaXZhUmV0ZTEiOjAsInJldGVSZW50YSI6MCwibW9udG9Ub3RhbE9wZXJhY2lvbiI6Mjk4LjMyLCJ0b3RhbE5vR3JhdmFkbyI6MCwidG90YWxQYWdhciI6Mjk4LjMyLCJ0b3RhbExldHJhcyI6IkRPU0NJRU5UT1MgTk9WRU5UQSBZIE9DSE8gRE9MQVJFUyBDT04gMzIvMTAwIFVTRCIsInNhbGRvRmF2b3IiOjAsImNvbmRpY2lvbk9wZXJhY2lvbiI6MiwicGFnb3MiOlt7ImNvZGlnbyI6bnVsbCwibW9udG9QYWdvIjoyOTguMzIsInJlZmVyZW5jaWEiOm51bGwsInBsYXpvIjoiMDEiLCJwZXJpb2RvIjozMH1dLCJudW1QYWdvRWxlY3Ryb25pY28iOiIifSwiZXh0ZW5zaW9uIjpudWxsLCJhcGVuZGljZSI6W3siY2FtcG8iOiJjb2RpZ29WZW5kZWRvciIsImV0aXF1ZXRhIjoiQ8OzZGlnbyBWZW5kZWRvciIsInZhbG9yIjoiNiJ9LHsiY2FtcG8iOiJjb2RpZ29DbGllbnRlIiwiZXRpcXVldGEiOiJDw7NkaWdvIENsaWVudGUiLCJ2YWxvciI6IjExMzUifSx7ImNhbXBvIjoib2JzZXJ2YWNpb25lcyIsImV0aXF1ZXRhIjoiT2JzZXJ2YWNpb25lcyIsInZhbG9yIjoiQ29uZmlybWFjacOzbiJ9XX0.ULJ-E3NvPZ0wmaxoVZUkXDAJAaD3gLr3CQnP1zE-cXbgGIh2eLhO-SpvdkOlU3-HNNsWtyltIKr5hvj7uNbjRffo2523cW2yloQWJPT81Hmh2CusYVK5ixlgrXw9SCCLaOqrcA5JCx3UyL_AVIvWSF9ZLkT_yW2OD-_8y8nP3nQNZBARJUtx-bCan4mb9pbOz42n3wOFT4WOfB8dKGtBvRAm12Jfs2jhikDxLclpWctRRBWNKRdd7YvGgExWNak95v_kqcLuuNuq7VmU790xavaSjN6MXXNALtNcDWEh_Cc0d7D2TdvBDYSV699THuYGz6yUUzEUUpMx8sC3UhPdtg",
+  "selloRecibido": "202586698F8F426B4560A6544CB1F0B26C8BMWT0"
+}

@@ -1,0 +1,150 @@
+{
+    "identificacion": {
+        "version": 3,
+        "ambiente": "01",
+        "tipoDte": "03",
+        "numeroControl": "DTE-03-M001P002-000000000034823",
+        "codigoGeneracion": "92C691F5-44D5-4328-A370-7AAAEC9B8C29",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2025-12-22",
+        "horEmi": "18:58:15",
+        "tipoMoneda": "USD"
+    },
+    "documentoRelacionado": null,
+    "emisor": {
+        "nit": "06141309961085",
+        "nrc": "963127",
+        "nombre": "EL SALVADOR NETWORK S.A. DE C.V.",
+        "codActividad": "61900",
+        "descActividad": "Actividades de telecomunicaci\u00f3n n.c.p.",
+        "nombreComercial": "SALNET",
+        "tipoEstablecimiento": "02",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "23",
+            "complemento": "PASEO GENERAL ESCALON #6000"
+        },
+        "telefono": "22831000",
+        "correo": "facturacion@salnet.com.sv",
+        "codEstableMH": "M001",
+        "codEstable": "0112",
+        "codPuntoVentaMH": "P002",
+        "codPuntoVenta": "0001"
+    },
+    "receptor": {
+        "nit": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+        "codActividad": "46591",
+        "descActividad": "Venta al por mayor de maquinaria equipo. accesorios y materiales para la industria de la madera y sus productos",
+        "nombreComercial": null,
+        "direccion": {
+            "departamento": "06",
+            "municipio": "23",
+            "complemento": "BOULEVARD VENEZUELA, BOULEVARD ARTURO CASTELLANOS #3077"
+        },
+        "telefono": "25250821",
+        "correo": "facturacionelectronica@cerosa.com"
+    },
+    "otrosDocumentos": null,
+    "ventaTercero": null,
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoItem": 2,
+            "numeroDocumento": null,
+            "cantidad": 1.0,
+            "codigo": "1071",
+            "codTributo": null,
+            "uniMedida": 59,
+            "descripcion": "INTERNET DEDICADO 40 MBPS",
+            "precioUni": 230.0,
+            "montoDescu": 0.0,
+            "ventaNoSuj": 0.0,
+            "ventaExenta": 0.0,
+            "ventaGravada": 230.0,
+            "tributos": [
+                "20"
+            ],
+            "psv": 0.0,
+            "noGravado": 0.0
+        }
+    ],
+    "resumen": {
+        "totalNoSuj": 0.0,
+        "totalExenta": 0.0,
+        "totalGravada": 230.0,
+        "subTotalVentas": 230.0,
+        "descuNoSuj": 0.0,
+        "descuExenta": 0.0,
+        "descuGravada": 0.0,
+        "porcentajeDescuento": 0.0,
+        "totalDescu": 0.0,
+        "tributos": [
+            {
+                "codigo": "20",
+                "descripcion": "Impuesto al Valor Agregado 13%",
+                "valor": 29.9
+            }
+        ],
+        "subTotal": 230.0,
+        "ivaPerci1": 0.0,
+        "ivaRete1": 0.0,
+        "reteRenta": 0.0,
+        "montoTotalOperacion": 259.9,
+        "totalNoGravado": 0.0,
+        "totalPagar": 259.9,
+        "totalLetras": "DOSCIENTOS CINCUENTA Y NUEVE 90/100 DOLARES",
+        "saldoFavor": 0.0,
+        "condicionOperacion": 2,
+        "pagos": null,
+        "numPagoElectronico": "2727 0259 9020 2601 1500 3213 5274"
+    },
+    "extension": {
+        "nombEntrega": null,
+        "docuEntrega": "LISROQUE",
+        "nombRecibe": null,
+        "docuRecibe": null,
+        "observaciones": null,
+        "placaVehiculo": null
+    },
+    "apendice": [
+        {
+            "campo": "cod_interno",
+            "etiqueta": "Codigo interno de factura por Salnet",
+            "valor": "FCM-C-3213527"
+        },
+        {
+            "campo": "centro_costos",
+            "etiqueta": "Centro de Costos",
+            "valor": "57440"
+        },
+        {
+            "campo": "cod_cliente",
+            "etiqueta": "Codigo Cliente",
+            "valor": "30917"
+        },
+        {
+            "campo": "npe_barra",
+            "etiqueta": "NPE Barra",
+            "valor": "415741970000272739020000025990962026011380200003213527"
+        }
+    ],
+    "respuestaHacienda": {
+        "version": 2,
+        "ambiente": "01",
+        "versionApp": 2,
+        "estado": "PROCESADO",
+        "codigoGeneracion": "92C691F5-44D5-4328-A370-7AAAEC9B8C29",
+        "selloRecibido": "2025F92270143E6E42C0ABBC87D4372FFC19OMHD",
+        "fhProcesamiento": "22/12/2025 18:58:16",
+        "clasificaMsg": "10",
+        "codigoMsg": "001",
+        "descripcionMsg": "RECIBIDO",
+        "observaciones": []
+    },
+    "firma": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAzLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDMiLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wMy1NMDAxUDAwMi0wMDAwMDAwMDAwMzQ4MjMiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIjkyQzY5MUY1LTQ0RDUtNDMyOC1BMzcwLTdBQUFFQzlCOEMyOSIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI1LTEyLTIyIiwKICAgICJob3JFbWkiIDogIjE4OjU4OjE1IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZG9jdW1lbnRvUmVsYWNpb25hZG8iIDogbnVsbCwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA2MTQxMzA5OTYxMDg1IiwKICAgICJucmMiIDogIjk2MzEyNyIsCiAgICAibm9tYnJlIiA6ICJFTCBTQUxWQURPUiBORVRXT1JLIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICI2MTkwMCIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiQWN0aXZpZGFkZXMgZGUgdGVsZWNvbXVuaWNhY2nDs24gbi5jLnAuIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIlNBTE5FVCIsCiAgICAidGlwb0VzdGFibGVjaW1pZW50byIgOiAiMDIiLAogICAgImRpcmVjY2lvbiIgOiB7CiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwKICAgICAgIm11bmljaXBpbyIgOiAiMjMiLAogICAgICAiY29tcGxlbWVudG8iIDogIlBBU0VPIEdFTkVSQUwgRVNDQUxPTiAjNjAwMCIKICAgIH0sCiAgICAidGVsZWZvbm8iIDogIjIyODMxMDAwIiwKICAgICJjb3JyZW8iIDogImZhY3R1cmFjaW9uQHNhbG5ldC5jb20uc3YiLAogICAgImNvZEVzdGFibGVNSCIgOiAiTTAwMSIsCiAgICAiY29kRXN0YWJsZSIgOiAiMDExMiIsCiAgICAiY29kUHVudG9WZW50YU1IIiA6ICJQMDAyIiwKICAgICJjb2RQdW50b1ZlbnRhIiA6ICIwMDAxIgogIH0sCiAgInJlY2VwdG9yIiA6IHsKICAgICJuaXQiIDogIjA2MTQxNTExNzcwMDIwIiwKICAgICJucmMiIDogIjE2MTI4IiwKICAgICJub21icmUiIDogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MsIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIiA6ICI0NjU5MSIsCiAgICAiZGVzY0FjdGl2aWRhZCIgOiAiVmVudGEgYWwgcG9yIG1heW9yIGRlIG1hcXVpbmFyaWEgZXF1aXBvLiBhY2Nlc29yaW9zIHkgbWF0ZXJpYWxlcyBwYXJhIGxhIGluZHVzdHJpYSBkZSBsYSBtYWRlcmEgeSBzdXMgcHJvZHVjdG9zIiwKICAgICJub21icmVDb21lcmNpYWwiIDogbnVsbCwKICAgICJkaXJlY2Npb24iIDogewogICAgICAiZGVwYXJ0YW1lbnRvIiA6ICIwNiIsCiAgICAgICJtdW5pY2lwaW8iIDogIjIzIiwKICAgICAgImNvbXBsZW1lbnRvIiA6ICJCT1VMRVZBUkQgVkVORVpVRUxBLCBCT1VMRVZBUkQgQVJUVVJPIENBU1RFTExBTk9TICMzMDc3IgogICAgfSwKICAgICJ0ZWxlZm9ubyIgOiAiMjUyNTA4MjEiLAogICAgImNvcnJlbyIgOiAiZmFjdHVyYWNpb25lbGVjdHJvbmljYUBjZXJvc2EuY29tIgogIH0sCiAgIm90cm9zRG9jdW1lbnRvcyIgOiBudWxsLAogICJ2ZW50YVRlcmNlcm8iIDogbnVsbCwKICAiY3VlcnBvRG9jdW1lbnRvIiA6IFsgewogICAgIm51bUl0ZW0iIDogMSwKICAgICJ0aXBvSXRlbSIgOiAyLAogICAgIm51bWVyb0RvY3VtZW50byIgOiBudWxsLAogICAgImNhbnRpZGFkIiA6IDEuMCwKICAgICJjb2RpZ28iIDogIjEwNzEiLAogICAgImNvZFRyaWJ1dG8iIDogbnVsbCwKICAgICJ1bmlNZWRpZGEiIDogNTksCiAgICAiZGVzY3JpcGNpb24iIDogIklOVEVSTkVUIERFRElDQURPIDQwIE1CUFMiLAogICAgInByZWNpb1VuaSIgOiAyMzAuMCwKICAgICJtb250b0Rlc2N1IiA6IDAuMCwKICAgICJ2ZW50YU5vU3VqIiA6IDAuMCwKICAgICJ2ZW50YUV4ZW50YSIgOiAwLjAsCiAgICAidmVudGFHcmF2YWRhIiA6IDIzMC4wLAogICAgInRyaWJ1dG9zIiA6IFsgIjIwIiBdLAogICAgInBzdiIgOiAwLjAsCiAgICAibm9HcmF2YWRvIiA6IDAuMAogIH0gXSwKICAicmVzdW1lbiIgOiB7CiAgICAidG90YWxOb1N1aiIgOiAwLjAsCiAgICAidG90YWxFeGVudGEiIDogMC4wLAogICAgInRvdGFsR3JhdmFkYSIgOiAyMzAuMCwKICAgICJzdWJUb3RhbFZlbnRhcyIgOiAyMzAuMCwKICAgICJkZXNjdU5vU3VqIiA6IDAuMCwKICAgICJkZXNjdUV4ZW50YSIgOiAwLjAsCiAgICAiZGVzY3VHcmF2YWRhIiA6IDAuMCwKICAgICJwb3JjZW50YWplRGVzY3VlbnRvIiA6IDAuMCwKICAgICJ0b3RhbERlc2N1IiA6IDAuMCwKICAgICJ0cmlidXRvcyIgOiBbIHsKICAgICAgImNvZGlnbyIgOiAiMjAiLAogICAgICAiZGVzY3JpcGNpb24iIDogIkltcHVlc3RvIGFsIFZhbG9yIEFncmVnYWRvIDEzJSIsCiAgICAgICJ2YWxvciIgOiAyOS45CiAgICB9IF0sCiAgICAic3ViVG90YWwiIDogMjMwLjAsCiAgICAiaXZhUGVyY2kxIiA6IDAuMCwKICAgICJpdmFSZXRlMSIgOiAwLjAsCiAgICAicmV0ZVJlbnRhIiA6IDAuMCwKICAgICJtb250b1RvdGFsT3BlcmFjaW9uIiA6IDI1OS45LAogICAgInRvdGFsTm9HcmF2YWRvIiA6IDAuMCwKICAgICJ0b3RhbFBhZ2FyIiA6IDI1OS45LAogICAgInRvdGFsTGV0cmFzIiA6ICJET1NDSUVOVE9TIENJTkNVRU5UQSBZIE5VRVZFIDkwLzEwMCBET0xBUkVTIiwKICAgICJzYWxkb0Zhdm9yIiA6IDAuMCwKICAgICJjb25kaWNpb25PcGVyYWNpb24iIDogMiwKICAgICJwYWdvcyIgOiBudWxsLAogICAgIm51bVBhZ29FbGVjdHJvbmljbyIgOiAiMjcyNyAwMjU5IDkwMjAgMjYwMSAxNTAwIDMyMTMgNTI3NCIKICB9LAogICJleHRlbnNpb24iIDogewogICAgIm5vbWJFbnRyZWdhIiA6IG51bGwsCiAgICAiZG9jdUVudHJlZ2EiIDogIkxJU1JPUVVFIiwKICAgICJub21iUmVjaWJlIiA6IG51bGwsCiAgICAiZG9jdVJlY2liZSIgOiBudWxsLAogICAgIm9ic2VydmFjaW9uZXMiIDogbnVsbCwKICAgICJwbGFjYVZlaGljdWxvIiA6IG51bGwKICB9LAogICJhcGVuZGljZSIgOiBbIHsKICAgICJjYW1wbyIgOiAiY29kX2ludGVybm8iLAogICAgImV0aXF1ZXRhIiA6ICJDb2RpZ28gaW50ZXJubyBkZSBmYWN0dXJhIHBvciBTYWxuZXQiLAogICAgInZhbG9yIiA6ICJGQ00tQy0zMjEzNTI3IgogIH0sIHsKICAgICJjYW1wbyIgOiAiY2VudHJvX2Nvc3RvcyIsCiAgICAiZXRpcXVldGEiIDogIkNlbnRybyBkZSBDb3N0b3MiLAogICAgInZhbG9yIiA6ICI1NzQ0MCIKICB9LCB7CiAgICAiY2FtcG8iIDogImNvZF9jbGllbnRlIiwKICAgICJldGlxdWV0YSIgOiAiQ29kaWdvIENsaWVudGUiLAogICAgInZhbG9yIiA6ICIzMDkxNyIKICB9LCB7CiAgICAiY2FtcG8iIDogIm5wZV9iYXJyYSIsCiAgICAiZXRpcXVldGEiIDogIk5QRSBCYXJyYSIsCiAgICAidmFsb3IiIDogIjQxNTc0MTk3MDAwMDI3MjczOTAyMDAwMDAyNTk5MDk2MjAyNjAxMTM4MDIwMDAwMzIxMzUyNyIKICB9IF0KfQ.KbVQwbGXx4Ltf3x1iz-3UUUwVFm2s--p8ApSzNI01anP-IFl0E10aotcncJSdolgId3ZvpOgDPI_QNn1J4p4DdSTEeUia1ow9z_34fQI5ov2rIPJlVt_iA39WhybqA_TxsLz_aduFPT3Z9niuzk4p1gbm_7AEmLrTVD1D9hNubNSQVnmk4G9z3ezvPZ4asbsD6qtKcLxiQzWsKW5ch6NcSWwgtd1Ubc065hHq51Fo0hzE7PRc4OJl39X3hljkyYZ7T_ZjrUJzakqfCSjYZmsQPOQ3lAh754vu_Wkl9OODXibwntr3bZ-jOKMwJdJSAMxg4EHdaGq0BMMt1L_25zZ2w"
+}

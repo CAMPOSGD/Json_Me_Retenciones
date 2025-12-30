@@ -1,0 +1,214 @@
+{
+  "identificacion": {
+    "motivoContin": null,
+    "tipoContingencia": null,
+    "ambiente": "01",
+    "version": 3,
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-S001P001-000000000010694",
+    "codigoGeneracion": "8DC78825-4EEB-4B19-A099-952E1E16F23D",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "fecEmi": "2025-12-20",
+    "horEmi": "08:47:51",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nombreComercial": "IMGRAL,SA DE CV",
+    "tipoEstablecimiento": "01",
+    "codEstableMH": "S001",
+    "codEstable": "0001",
+    "codPuntoVentaMH": "P001",
+    "codPuntoVenta": "0001",
+    "nit": "06142201071012",
+    "nrc": "1772730",
+    "nombre": "IMPORTACIONES GENERALES DE EL SALVADOR, S.A. DE C.V.",
+    "codActividad": "45301",
+    "descActividad": "Venta de partes, piezas y accesorios nuevos para vehículos automotores",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "CALLE GERARDO BARRIOS Y 33 AV. SUR, No. 8-A, COL. CUCUMACAYAN, SAN SALVADOR"
+    },
+    "telefono": "2281 7373",
+    "correo": "ventas@imgral.com"
+  },
+  "receptor": {
+    "nit": "06141511770020",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "23",
+      "complemento": "BLVD. VENEZUELA, COL. ROMA #3077, SAN SALVADOR"
+    },
+    "telefono": "2525-0800",
+    "correo": "facturacionelectronica@cerosa.com"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "1917",
+      "codTributo": null,
+      "descripcion": "RETENEDOR",
+      "cantidad": 10.0,
+      "uniMedida": 59,
+      "precioUni": 1.55,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 15.5,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    },
+    {
+      "numItem": 2,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "23667",
+      "codTributo": null,
+      "descripcion": "RETENEDOR",
+      "cantidad": 10.0,
+      "uniMedida": 59,
+      "precioUni": 1.65,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 16.5,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    },
+    {
+      "numItem": 3,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "18912",
+      "codTributo": null,
+      "descripcion": "RETENEDOR",
+      "cantidad": 10.0,
+      "uniMedida": 59,
+      "precioUni": 1.18,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 11.8,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    },
+    {
+      "numItem": 4,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "25205",
+      "codTributo": null,
+      "descripcion": "RETENEDOR",
+      "cantidad": 10.0,
+      "uniMedida": 59,
+      "precioUni": 1.25,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 12.5,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    },
+    {
+      "numItem": 5,
+      "tipoItem": 1,
+      "numeroDocumento": null,
+      "codigo": "28597",
+      "codTributo": null,
+      "descripcion": "BALERO",
+      "cantidad": 2.0,
+      "uniMedida": 59,
+      "precioUni": 10.0,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 20.0,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.0,
+    "totalExenta": 0.0,
+    "totalGravada": 76.3,
+    "subTotalVentas": 76.3,
+    "descuNoSuj": 0.0,
+    "descuExenta": 0.0,
+    "descuGravada": 0.0,
+    "porcentajeDescuento": 0.0,
+    "totalDescu": 0.0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado 13%",
+        "valor": 9.92
+      }
+    ],
+    "subTotal": 76.3,
+    "ivaPerci1": 0.0,
+    "ivaRete1": 0.0,
+    "reteRenta": 0.0,
+    "montoTotalOperacion": 86.22,
+    "totalNoGravado": 0.0,
+    "totalPagar": 86.22,
+    "totalLetras": "OCHENTA Y SEIS DOLARES CON 22/100 USD",
+    "saldoFavor": 0.0,
+    "condicionOperacion": 2,
+    "pagos": [
+      {
+        "codigo": null,
+        "montoPago": 86.22,
+        "referencia": null,
+        "plazo": "01",
+        "periodo": 30
+      }
+    ],
+    "numPagoElectronico": ""
+  },
+  "extension": null,
+  "apendice": [
+    {
+      "campo": "codigoVendedor",
+      "etiqueta": "Código Vendedor",
+      "valor": "6"
+    },
+    {
+      "campo": "codigoCliente",
+      "etiqueta": "Código Cliente",
+      "valor": "1135"
+    },
+    {
+      "campo": "observaciones",
+      "etiqueta": "Observaciones",
+      "valor": "Confirmación"
+    }
+  ],
+  "firmaElectronica": "eyJhbGciOiJSUzUxMiJ9.eyJpZGVudGlmaWNhY2lvbiI6eyJtb3Rpdm9Db250aW4iOm51bGwsInRpcG9Db250aW5nZW5jaWEiOm51bGwsImFtYmllbnRlIjoiMDEiLCJ2ZXJzaW9uIjozLCJ0aXBvRHRlIjoiMDMiLCJudW1lcm9Db250cm9sIjoiRFRFLTAzLVMwMDFQMDAxLTAwMDAwMDAwMDAxMDY5NCIsImNvZGlnb0dlbmVyYWNpb24iOiI4REM3ODgyNS00RUVCLTRCMTktQTA5OS05NTJFMUUxNkYyM0QiLCJ0aXBvTW9kZWxvIjoxLCJ0aXBvT3BlcmFjaW9uIjoxLCJmZWNFbWkiOiIyMDI1LTEyLTIwIiwiaG9yRW1pIjoiMDg6NDc6NTEiLCJ0aXBvTW9uZWRhIjoiVVNEIn0sImRvY3VtZW50b1JlbGFjaW9uYWRvIjpudWxsLCJlbWlzb3IiOnsibm9tYnJlQ29tZXJjaWFsIjoiSU1HUkFMLFNBIERFIENWIiwidGlwb0VzdGFibGVjaW1pZW50byI6IjAxIiwiY29kRXN0YWJsZU1IIjoiUzAwMSIsImNvZEVzdGFibGUiOiIwMDAxIiwiY29kUHVudG9WZW50YU1IIjoiUDAwMSIsImNvZFB1bnRvVmVudGEiOiIwMDAxIiwibml0IjoiMDYxNDIyMDEwNzEwMTIiLCJucmMiOiIxNzcyNzMwIiwibm9tYnJlIjoiSU1QT1JUQUNJT05FUyBHRU5FUkFMRVMgREUgRUwgU0FMVkFET1IsIFMuQS4gREUgQy5WLiIsImNvZEFjdGl2aWRhZCI6IjQ1MzAxIiwiZGVzY0FjdGl2aWRhZCI6IlZlbnRhIGRlIHBhcnRlcywgcGllemFzIHkgYWNjZXNvcmlvcyBudWV2b3MgcGFyYSB2ZWjDrWN1bG9zIGF1dG9tb3RvcmVzIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjMiLCJjb21wbGVtZW50byI6IkNBTExFIEdFUkFSRE8gQkFSUklPUyBZIDMzIEFWLiBTVVIsIE5vLiA4LUEsIENPTC4gQ1VDVU1BQ0FZQU4sIFNBTiBTQUxWQURPUiJ9LCJ0ZWxlZm9ubyI6IjIyODEgNzM3MyIsImNvcnJlbyI6InZlbnRhc0BpbWdyYWwuY29tIn0sInJlY2VwdG9yIjp7Im5pdCI6IjA2MTQxNTExNzcwMDIwIiwibm9tYnJlQ29tZXJjaWFsIjoiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BLiBERSBDLlYuIiwibnJjIjoiMTYxMjgiLCJub21icmUiOiJDRU5UUkFMIERFIFJPREFNSUVOVE9TLCBTLkEuIERFIEMuVi4iLCJjb2RBY3RpdmlkYWQiOiI0NjU5OSIsImRlc2NBY3RpdmlkYWQiOiJWZW50YSBhbCBwb3IgbWF5b3IgZGUgb3RybyB0aXBvIGRlIG1hcXVpbmFyaWEgeSBlcXVpcG8gY29uIHN1cyBhY2Nlc29yaW9zIHkgcGFydGVzIiwiZGlyZWNjaW9uIjp7ImRlcGFydGFtZW50byI6IjA2IiwibXVuaWNpcGlvIjoiMjMiLCJjb21wbGVtZW50byI6IkJMVkQuIFZFTkVaVUVMQSwgQ09MLiBST01BICMzMDc3LCBTQU4gU0FMVkFET1IifSwidGVsZWZvbm8iOiIyNTI1LTA4MDAiLCJjb3JyZW8iOiJmYWN0dXJhY2lvbmVsZWN0cm9uaWNhQGNlcm9zYS5jb20ifSwib3Ryb3NEb2N1bWVudG9zIjpudWxsLCJ2ZW50YVRlcmNlcm8iOm51bGwsImN1ZXJwb0RvY3VtZW50byI6W3sibnVtSXRlbSI6MSwidGlwb0l0ZW0iOjEsIm51bWVyb0RvY3VtZW50byI6bnVsbCwiY29kaWdvIjoiMTkxNyIsImNvZFRyaWJ1dG8iOm51bGwsImRlc2NyaXBjaW9uIjoiUkVURU5FRE9SIiwiY2FudGlkYWQiOjEwLjAwLCJ1bmlNZWRpZGEiOjU5LCJwcmVjaW9VbmkiOjEuNTUsIm1vbnRvRGVzY3UiOjAsInZlbnRhTm9TdWoiOjAsInZlbnRhRXhlbnRhIjowLCJ2ZW50YUdyYXZhZGEiOjE1LjUsInRyaWJ1dG9zIjpbIjIwIl0sInBzdiI6MCwibm9HcmF2YWRvIjowfSx7Im51bUl0ZW0iOjIsInRpcG9JdGVtIjoxLCJudW1lcm9Eb2N1bWVudG8iOm51bGwsImNvZGlnbyI6IjIzNjY3IiwiY29kVHJpYnV0byI6bnVsbCwiZGVzY3JpcGNpb24iOiJSRVRFTkVET1IiLCJjYW50aWRhZCI6MTAuMDAsInVuaU1lZGlkYSI6NTksInByZWNpb1VuaSI6MS42NSwibW9udG9EZXNjdSI6MCwidmVudGFOb1N1aiI6MCwidmVudGFFeGVudGEiOjAsInZlbnRhR3JhdmFkYSI6MTYuNSwidHJpYnV0b3MiOlsiMjAiXSwicHN2IjowLCJub0dyYXZhZG8iOjB9LHsibnVtSXRlbSI6MywidGlwb0l0ZW0iOjEsIm51bWVyb0RvY3VtZW50byI6bnVsbCwiY29kaWdvIjoiMTg5MTIiLCJjb2RUcmlidXRvIjpudWxsLCJkZXNjcmlwY2lvbiI6IlJFVEVORURPUiIsImNhbnRpZGFkIjoxMC4wMCwidW5pTWVkaWRhIjo1OSwicHJlY2lvVW5pIjoxLjE4LCJtb250b0Rlc2N1IjowLCJ2ZW50YU5vU3VqIjowLCJ2ZW50YUV4ZW50YSI6MCwidmVudGFHcmF2YWRhIjoxMS44LCJ0cmlidXRvcyI6WyIyMCJdLCJwc3YiOjAsIm5vR3JhdmFkbyI6MH0seyJudW1JdGVtIjo0LCJ0aXBvSXRlbSI6MSwibnVtZXJvRG9jdW1lbnRvIjpudWxsLCJjb2RpZ28iOiIyNTIwNSIsImNvZFRyaWJ1dG8iOm51bGwsImRlc2NyaXBjaW9uIjoiUkVURU5FRE9SIiwiY2FudGlkYWQiOjEwLjAwLCJ1bmlNZWRpZGEiOjU5LCJwcmVjaW9VbmkiOjEuMjUsIm1vbnRvRGVzY3UiOjAsInZlbnRhTm9TdWoiOjAsInZlbnRhRXhlbnRhIjowLCJ2ZW50YUdyYXZhZGEiOjEyLjUsInRyaWJ1dG9zIjpbIjIwIl0sInBzdiI6MCwibm9HcmF2YWRvIjowfSx7Im51bUl0ZW0iOjUsInRpcG9JdGVtIjoxLCJudW1lcm9Eb2N1bWVudG8iOm51bGwsImNvZGlnbyI6IjI4NTk3IiwiY29kVHJpYnV0byI6bnVsbCwiZGVzY3JpcGNpb24iOiJCQUxFUk8iLCJjYW50aWRhZCI6Mi4wMCwidW5pTWVkaWRhIjo1OSwicHJlY2lvVW5pIjoxMCwibW9udG9EZXNjdSI6MCwidmVudGFOb1N1aiI6MCwidmVudGFFeGVudGEiOjAsInZlbnRhR3JhdmFkYSI6MjAsInRyaWJ1dG9zIjpbIjIwIl0sInBzdiI6MCwibm9HcmF2YWRvIjowfV0sInJlc3VtZW4iOnsidG90YWxOb1N1aiI6MCwidG90YWxFeGVudGEiOjAsInRvdGFsR3JhdmFkYSI6NzYuMywic3ViVG90YWxWZW50YXMiOjc2LjMsImRlc2N1Tm9TdWoiOjAsImRlc2N1RXhlbnRhIjowLCJkZXNjdUdyYXZhZGEiOjAsInBvcmNlbnRhamVEZXNjdWVudG8iOjAsInRvdGFsRGVzY3UiOjAsInRyaWJ1dG9zIjpbeyJjb2RpZ28iOiIyMCIsImRlc2NyaXBjaW9uIjoiSW1wdWVzdG8gYWwgVmFsb3IgQWdyZWdhZG8gMTMlIiwidmFsb3IiOjkuOTJ9XSwic3ViVG90YWwiOjc2LjMsIml2YVBlcmNpMSI6MCwiaXZhUmV0ZTEiOjAsInJldGVSZW50YSI6MCwibW9udG9Ub3RhbE9wZXJhY2lvbiI6ODYuMjIsInRvdGFsTm9HcmF2YWRvIjowLCJ0b3RhbFBhZ2FyIjo4Ni4yMiwidG90YWxMZXRyYXMiOiJPQ0hFTlRBIFkgU0VJUyBET0xBUkVTIENPTiAyMi8xMDAgVVNEIiwic2FsZG9GYXZvciI6MCwiY29uZGljaW9uT3BlcmFjaW9uIjoyLCJwYWdvcyI6W3siY29kaWdvIjpudWxsLCJtb250b1BhZ28iOjg2LjIyLCJyZWZlcmVuY2lhIjpudWxsLCJwbGF6byI6IjAxIiwicGVyaW9kbyI6MzB9XSwibnVtUGFnb0VsZWN0cm9uaWNvIjoiIn0sImV4dGVuc2lvbiI6bnVsbCwiYXBlbmRpY2UiOlt7ImNhbXBvIjoiY29kaWdvVmVuZGVkb3IiLCJldGlxdWV0YSI6IkPDs2RpZ28gVmVuZGVkb3IiLCJ2YWxvciI6IjYifSx7ImNhbXBvIjoiY29kaWdvQ2xpZW50ZSIsImV0aXF1ZXRhIjoiQ8OzZGlnbyBDbGllbnRlIiwidmFsb3IiOiIxMTM1In0seyJjYW1wbyI6Im9ic2VydmFjaW9uZXMiLCJldGlxdWV0YSI6Ik9ic2VydmFjaW9uZXMiLCJ2YWxvciI6IkNvbmZpcm1hY2nDs24ifV19.cPdbOJas5tzzWs410pEu6wAf4tcN8QHG_Gd53V-RYQLYOcd-dViwdTZ7OKGaSHPtz7gBqTbFVbW08EhQdnSHP5M5N9BoQBMU59-pStz9oKO07-JtQiJ-jAgNCg8KVaSzQJJGXBZPzCm1ka50do8h2dc83VO0BpSXtJoizadjNqrHxsQxwAB81t1QActfs9yerwtTDtZgBCyUSqN2fl7X0LtrZAOkKzZRopSEQJ7tXZKjjSoDIb8CzY6GuifVDM70j7dcA0lOD3jL1YemCWusBYe-pXnVhLmN5azF-wmeQg0kdtmkQFxC1m5ZsJItvv1Zbt-hX6_XCCL9CnE84_o3_g",
+  "selloRecibido": "2025F69EDBDAE67744179572DC0C64557F6DMFIV"
+}

@@ -1,0 +1,144 @@
+{
+  "responseMH": {
+    "version": 2,
+    "ambiente": "01",
+    "versionApp": 2,
+    "estado": "PROCESADO",
+    "codigoGeneracion": "672D6737-AFC6-4935-B41C-445903423A39",
+    "selloRecibido": "20252A0E12D34C0241BE8FC2B3F2BB529195WYUM",
+    "fhProcesamiento": "10/12/2025 09:56:17",
+    "clasificaMsg": "10",
+    "codigoMsg": "001",
+    "descripcionMsg": "RECIBIDO",
+    "observaciones": []
+  },
+  "identificacion": {
+    "version": 3,
+    "ambiente": "01",
+    "tipoDte": "03",
+    "numeroControl": "DTE-03-M001P001-000000000001987",
+    "codigoGeneracion": "672D6737-AFC6-4935-B41C-445903423A39",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": null,
+    "motivoContin": null,
+    "fecEmi": "2025-12-10",
+    "horEmi": "09:56:16",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": null,
+  "emisor": {
+    "nit": "06142810991047",
+    "nrc": "1163945",
+    "nombre": "INCAPRO, S.A DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes)",
+    "nombreComercial": "INCAPRO, S.A DE C.V.",
+    "tipoEstablecimiento": "02",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "AV. VISTA HERMOSA BLOCK A, URB. VISTA HERMOSA, #110"
+    },
+    "telefono": "2242-4862",
+    "correo": "dte@incaprosa.com.sv",
+    "codEstableMH": null,
+    "codEstable": null,
+    "codPuntoVentaMH": null,
+    "codPuntoVenta": null
+  },
+  "receptor": {
+    "nit": "06141511770020",
+    "nrc": "16128",
+    "nombre": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "codActividad": "46599",
+    "descActividad": "Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes (46599)",
+    "nombreComercial": "CENTRAL DE RODAMIENTOS, S.A. DE C.V.",
+    "direccion": {
+      "departamento": "06",
+      "municipio": "14",
+      "complemento": "BLVD. VENEZUELA, COL. ROMA. # 3077, SAN SALVADOR, SAN SALVADOR"
+    },
+    "telefono": "25250800",
+    "correo": "Facturacionelectronica@cerosa.com"
+  },
+  "otrosDocumentos": null,
+  "ventaTercero": null,
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 3,
+      "numeroDocumento": null,
+      "codigo": null,
+      "codTributo": null,
+      "descripcion": "FAJA B75 BANDO",
+      "cantidad": 1.0,
+      "uniMedida": 99,
+      "precioUni": 10.3893,
+      "montoDescu": 0.0,
+      "ventaNoSuj": 0.0,
+      "ventaExenta": 0.0,
+      "ventaGravada": 10.39,
+      "tributos": [
+        "20"
+      ],
+      "psv": 0.0,
+      "noGravado": 0.0
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.0,
+    "totalExenta": 0.0,
+    "totalGravada": 10.39,
+    "subTotalVentas": 10.39,
+    "descuNoSuj": 0.0,
+    "descuExenta": 0.0,
+    "descuGravada": 0.0,
+    "porcentajeDescuento": 0.0,
+    "totalDescu": 0.0,
+    "tributos": [
+      {
+        "codigo": "20",
+        "descripcion": "Impuesto al Valor Agregado 13%",
+        "valor": 1.35
+      }
+    ],
+    "subTotal": 10.39,
+    "ivaPerci1": 0.0,
+    "ivaRete1": 0.0,
+    "reteRenta": 0.0,
+    "montoTotalOperacion": 11.74,
+    "totalNoGravado": 0.0,
+    "totalPagar": 11.74,
+    "totalLetras": "ONCE CON 74/100 DÓLARES US.",
+    "saldoFavor": 0.0,
+    "condicionOperacion": 2,
+    "pagos": null,
+    "numPagoElectronico": null
+  },
+  "extension": {
+    "nombEntrega": null,
+    "docuEntrega": null,
+    "nombRecibe": null,
+    "docuRecibe": null,
+    "observaciones": "OC 18173 / DESPACHO / SOL GUSTAVO ARIAS",
+    "placaVehiculo": null
+  },
+  "apendice": [
+    {
+      "campo": "NumInterno",
+      "etiqueta": "NumInterno",
+      "valor": "1987"
+    },
+    {
+      "campo": "Vendedor",
+      "etiqueta": "Vendedor",
+      "valor": "vindustrials6"
+    },
+    {
+      "campo": "codigoSucursal",
+      "etiqueta": "Código de Sucursal",
+      "valor": "67c7410156fa6772f96635aa"
+    }
+  ]
+}
