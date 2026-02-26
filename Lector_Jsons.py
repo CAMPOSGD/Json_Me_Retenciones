@@ -14,26 +14,38 @@ import logging
 # Funciones
 
 def sello_recepcion(data):
-    if data.get("selloRecibido"):
-        return data.get("selloRecibido")
-    
-    if data.get("selloRecepcion"):
-        return data.get("selloRecepcion")
-        
-    if data.get("respuestaHacienda",{}).get("selloRecibido"):
-        return data.get("respuestaHacienda",{}).get("selloRecibido")   
+    # Las tuplas representan ["llave_padre", "llave_hija"]
+    rutas = [
+        ("selloRecibido",),                      
+        ("SelloRecibido",),                      # raíz (Mayúscula)
+        ("selloMH",),
+        ("selloRecepcion", "selloRecibido"),     
+        ("respuestaHacienda", "selloRecibido"),
+        ("respuesta", "selloRecepcion"),
+        ("responseMH", "selloRecibido"),
+        ("acuseMH", "numValidacion"),
+        ("respuestamh", "selloRecibido"),
+        ("selloMH", "selloRecibido"),
+        ("response", "selloRecibido")
+    ]
 
-    if data.get("respuesta",{}).get("selloRecepcion"):
-        return data.get("respuesta",{}).get("selloRecepcion")
-    
-    if data.get("responseMH",{}).get("selloRecibido"):
-        return data.get("responseMH",{}).get("selloRecibido")
-    
-    if data.get("acuseMH",{}).get("numValidacion"):
-        return data.get("acuseMH",{}).get("numValidacion")
-    
-    else :
-        return "No se encotró sello de recepción :v"
+    for ruta in rutas:
+        valor = data
+        for llave in ruta:
+            if isinstance(valor, dict):
+                valor = valor.get(llave)
+            else:
+                valor = None
+                break
+        
+        if valor and isinstance(valor, str):
+            return valor
+
+    fallback = data.get("selloRecepcion")
+    if isinstance(fallback, str):
+        return fallback
+
+    return "No se encontró sello de recepción :v"
  
 def informacion_receptor(data):  
     receptor = data.get("receptor", {})

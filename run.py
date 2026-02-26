@@ -50,6 +50,9 @@ def main():
         def flush(self):
             pass
 
+        def isatty(self):
+            return False
+
     # Redirigir stdout y stderr
     sys.stdout = StreamToLogger(logging.getLogger('STDOUT'), logging.INFO)
     sys.stderr = StreamToLogger(logging.getLogger('STDERR'), logging.ERROR)
