@@ -1,0 +1,143 @@
+{
+    "identificacion": {
+        "version": 3,
+        "ambiente": "01",
+        "tipoDte": "03",
+        "numeroControl": "DTE-03-M001P001-000000000000075",
+        "codigoGeneracion": "ED922FB7-BDA3-C301-6736-017778000075",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2026-01-16",
+        "horEmi": "11:02:16",
+        "tipoMoneda": "USD"
+    },
+    "documentoRelacionado": null,
+    "emisor": {
+        "nit": "05122307111019",
+        "nrc": "2105016",
+        "nombre": "TRIBOLOGÍA Y COMBUSTIBLE, S.A. DE C.V.",
+        "codActividad": "46900",
+        "descActividad": "Venta al por mayor de otros productos",
+        "nombreComercial": "TRIBOLOGÍA Y COMBUSTIBLE, S.A. DE C.V.",
+        "tipoEstablecimiento": "01",
+        "direccion": {
+            "departamento": "05",
+            "municipio": "11",
+            "complemento": "1A AV SUR BARRIO CANDELARIA #4-6, SANTA TECLA"
+        },
+        "codPuntoVentaMH": "P001",
+        "codPuntoVenta": "P001",
+        "codEstableMH": "M001",
+        "codEstable": "M001",
+        "telefono": "22292200",
+        "correo": "lderuiz@tricombus.com"
+    },
+    "receptor": {
+        "nit": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS, S.A DE C.V -",
+        "codActividad": "46530",
+        "descActividad": "Venta al por mayor de maquinaria y equipo agropecuario, accesorios, partes y suministros",
+        "nombreComercial": "-",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "14",
+            "complemento": "BLVD. VENEZUELA, COL ROMA #3077 "
+        },
+        "telefono": "7851 6206",
+        "correo": "facturacionelectronica@cerosa.com"
+    },
+    "otrosDocumentos": null,
+    "ventaTercero": null,
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoItem": 1,
+            "numeroDocumento": null,
+            "codigo": "ICPAW100-G",
+            "codTributo": null,
+            "descripcion": "GXOIL HYDRAULIC FLUID AW 100",
+            "cantidad": 5,
+            "uniMedida": 22,
+            "precioUni": 15,
+            "montoDescu": 0,
+            "ventaNoSuj": 0,
+            "ventaExenta": 0,
+            "ventaGravada": 75,
+            "tributos": [
+                "20"
+            ],
+            "psv": 0,
+            "noGravado": 0
+        }
+    ],
+    "resumen": {
+        "totalNoSuj": 0,
+        "totalExenta": 0,
+        "totalGravada": 75,
+        "subTotalVentas": 75,
+        "descuExenta": 0,
+        "descuGravada": 0,
+        "porcentajeDescuento": 0,
+        "totalDescu": 0,
+        "tributos": [
+            {
+                "codigo": "20",
+                "descripcion": "Impuesto al Valor Agregado 13%",
+                "valor": 9.75
+            }
+        ],
+        "subTotal": 75,
+        "ivaRete1": 0,
+        "ivaPerci1": 0,
+        "reteRenta": 0,
+        "descuNoSuj": 0,
+        "montoTotalOperacion": 84.75,
+        "totalNoGravado": 0,
+        "totalPagar": 84.75,
+        "totalLetras": "OCHENTA Y CUATRO  75/100 DOLARES",
+        "saldoFavor": 0,
+        "condicionOperacion": 1,
+        "pagos": null,
+        "numPagoElectronico": null
+    },
+    "extension": {
+        "nombEntrega": null,
+        "docuEntrega": null,
+        "nombRecibe": null,
+        "docuRecibe": null,
+        "observaciones": null,
+        "placaVehiculo": null
+    },
+    "apendice": [
+        {
+            "campo": "Nombre",
+            "etiqueta": "Nombre del usuario que genera el proceso",
+            "valor": "FACTURACIÓN"
+        },
+        {
+            "campo": "NIT",
+            "etiqueta": "Nit del usuario que genera el proceso",
+            "valor": "00000000000000"
+        },
+        {
+            "campo": "Dui",
+            "etiqueta": "Dui del usuario que genera el proceso",
+            "valor": "000000000"
+        },
+        {
+            "campo": "Correo",
+            "etiqueta": "correo del usuario que genera el proceso",
+            "valor": "facturacion@tricombus.com"
+        },
+        {
+            "campo": "telefono",
+            "etiqueta": "telefono del usuario que genera el proceso",
+            "valor": "22292200"
+        }
+    ],
+    "SelloRecepcion": "20264982C6ADD3F046E9AEC93B1F1CE448A4V1W2",
+    "FirmaDigital": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiIgOiB7CiAgICAidmVyc2lvbiIgOiAzLAogICAgImFtYmllbnRlIiA6ICIwMSIsCiAgICAidGlwb0R0ZSIgOiAiMDMiLAogICAgIm51bWVyb0NvbnRyb2wiIDogIkRURS0wMy1NMDAxUDAwMS0wMDAwMDAwMDAwMDAwNzUiLAogICAgImNvZGlnb0dlbmVyYWNpb24iIDogIkVEOTIyRkI3LUJEQTMtQzMwMS02NzM2LTAxNzc3ODAwMDA3NSIsCiAgICAidGlwb01vZGVsbyIgOiAxLAogICAgInRpcG9PcGVyYWNpb24iIDogMSwKICAgICJ0aXBvQ29udGluZ2VuY2lhIiA6IG51bGwsCiAgICAibW90aXZvQ29udGluIiA6IG51bGwsCiAgICAiZmVjRW1pIiA6ICIyMDI2LTAxLTE2IiwKICAgICJob3JFbWkiIDogIjExOjAyOjE2IiwKICAgICJ0aXBvTW9uZWRhIiA6ICJVU0QiCiAgfSwKICAiZG9jdW1lbnRvUmVsYWNpb25hZG8iIDogbnVsbCwKICAiZW1pc29yIiA6IHsKICAgICJuaXQiIDogIjA1MTIyMzA3MTExMDE5IiwKICAgICJucmMiIDogIjIxMDUwMTYiLAogICAgIm5vbWJyZSIgOiAiVFJJQk9MT0fDjUEgWSBDT01CVVNUSUJMRSwgUy5BLiBERSBDLlYuIiwKICAgICJjb2RBY3RpdmlkYWQiIDogIjQ2OTAwIiwKICAgICJkZXNjQWN0aXZpZGFkIiA6ICJWZW50YSBhbCBwb3IgbWF5b3IgZGUgb3Ryb3MgcHJvZHVjdG9zIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIlRSSUJPTE9Hw41BIFkgQ09NQlVTVElCTEUsIFMuQS4gREUgQy5WLiIsCiAgICAidGlwb0VzdGFibGVjaW1pZW50byIgOiAiMDEiLAogICAgImRpcmVjY2lvbiIgOiB7CiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA1IiwKICAgICAgIm11bmljaXBpbyIgOiAiMTEiLAogICAgICAiY29tcGxlbWVudG8iIDogIjFBIEFWIFNVUiBCQVJSSU8gQ0FOREVMQVJJQSAjNC02LCBTQU5UQSBURUNMQSIKICAgIH0sCiAgICAiY29kUHVudG9WZW50YU1IIiA6ICJQMDAxIiwKICAgICJjb2RQdW50b1ZlbnRhIiA6ICJQMDAxIiwKICAgICJjb2RFc3RhYmxlTUgiIDogIk0wMDEiLAogICAgImNvZEVzdGFibGUiIDogIk0wMDEiLAogICAgInRlbGVmb25vIiA6ICIyMjI5MjIwMCIsCiAgICAiY29ycmVvIiA6ICJsZGVydWl6QHRyaWNvbWJ1cy5jb20iCiAgfSwKICAicmVjZXB0b3IiIDogewogICAgIm5pdCIgOiAiMDYxNDE1MTE3NzAwMjAiLAogICAgIm5yYyIgOiAiMTYxMjgiLAogICAgIm5vbWJyZSIgOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUywgUy5BIERFIEMuViAtIiwKICAgICJjb2RBY3RpdmlkYWQiIDogIjQ2NTMwIiwKICAgICJkZXNjQWN0aXZpZGFkIiA6ICJWZW50YSBhbCBwb3IgbWF5b3IgZGUgbWFxdWluYXJpYSB5IGVxdWlwbyBhZ3JvcGVjdWFyaW8sIGFjY2Vzb3Jpb3MsIHBhcnRlcyB5IHN1bWluaXN0cm9zIiwKICAgICJub21icmVDb21lcmNpYWwiIDogIi0iLAogICAgImRpcmVjY2lvbiIgOiB7CiAgICAgICJkZXBhcnRhbWVudG8iIDogIjA2IiwKICAgICAgIm11bmljaXBpbyIgOiAiMTQiLAogICAgICAiY29tcGxlbWVudG8iIDogIkJMVkQuIFZFTkVaVUVMQSwgQ09MIFJPTUEgIzMwNzcgIgogICAgfSwKICAgICJ0ZWxlZm9ubyIgOiAiNzg1MSA2MjA2IiwKICAgICJjb3JyZW8iIDogImZhY3R1cmFjaW9uZWxlY3Ryb25pY2FAY2Vyb3NhLmNvbSIKICB9LAogICJvdHJvc0RvY3VtZW50b3MiIDogbnVsbCwKICAidmVudGFUZXJjZXJvIiA6IG51bGwsCiAgImN1ZXJwb0RvY3VtZW50byIgOiBbIHsKICAgICJudW1JdGVtIiA6IDEsCiAgICAidGlwb0l0ZW0iIDogMSwKICAgICJudW1lcm9Eb2N1bWVudG8iIDogbnVsbCwKICAgICJjb2RpZ28iIDogIklDUEFXMTAwLUciLAogICAgImNvZFRyaWJ1dG8iIDogbnVsbCwKICAgICJkZXNjcmlwY2lvbiIgOiAiR1hPSUwgSFlEUkFVTElDIEZMVUlEIEFXIDEwMCIsCiAgICAiY2FudGlkYWQiIDogNSwKICAgICJ1bmlNZWRpZGEiIDogMjIsCiAgICAicHJlY2lvVW5pIiA6IDE1LAogICAgIm1vbnRvRGVzY3UiIDogMCwKICAgICJ2ZW50YU5vU3VqIiA6IDAsCiAgICAidmVudGFFeGVudGEiIDogMCwKICAgICJ2ZW50YUdyYXZhZGEiIDogNzUsCiAgICAidHJpYnV0b3MiIDogWyAiMjAiIF0sCiAgICAicHN2IiA6IDAsCiAgICAibm9HcmF2YWRvIiA6IDAKICB9IF0sCiAgInJlc3VtZW4iIDogewogICAgInRvdGFsTm9TdWoiIDogMCwKICAgICJ0b3RhbEV4ZW50YSIgOiAwLAogICAgInRvdGFsR3JhdmFkYSIgOiA3NSwKICAgICJzdWJUb3RhbFZlbnRhcyIgOiA3NSwKICAgICJkZXNjdUV4ZW50YSIgOiAwLAogICAgImRlc2N1R3JhdmFkYSIgOiAwLAogICAgInBvcmNlbnRhamVEZXNjdWVudG8iIDogMCwKICAgICJ0b3RhbERlc2N1IiA6IDAsCiAgICAidHJpYnV0b3MiIDogWyB7CiAgICAgICJjb2RpZ28iIDogIjIwIiwKICAgICAgImRlc2NyaXBjaW9uIiA6ICJJbXB1ZXN0byBhbCBWYWxvciBBZ3JlZ2FkbyAxMyUiLAogICAgICAidmFsb3IiIDogOS43NQogICAgfSBdLAogICAgInN1YlRvdGFsIiA6IDc1LAogICAgIml2YVJldGUxIiA6IDAsCiAgICAiaXZhUGVyY2kxIiA6IDAsCiAgICAicmV0ZVJlbnRhIiA6IDAsCiAgICAiZGVzY3VOb1N1aiIgOiAwLAogICAgIm1vbnRvVG90YWxPcGVyYWNpb24iIDogODQuNzUsCiAgICAidG90YWxOb0dyYXZhZG8iIDogMCwKICAgICJ0b3RhbFBhZ2FyIiA6IDg0Ljc1LAogICAgInRvdGFsTGV0cmFzIiA6ICJPQ0hFTlRBIFkgQ1VBVFJPICA3NS8xMDAgRE9MQVJFUyIsCiAgICAic2FsZG9GYXZvciIgOiAwLAogICAgImNvbmRpY2lvbk9wZXJhY2lvbiIgOiAxLAogICAgInBhZ29zIiA6IG51bGwsCiAgICAibnVtUGFnb0VsZWN0cm9uaWNvIiA6IG51bGwKICB9LAogICJleHRlbnNpb24iIDogewogICAgIm5vbWJFbnRyZWdhIiA6IG51bGwsCiAgICAiZG9jdUVudHJlZ2EiIDogbnVsbCwKICAgICJub21iUmVjaWJlIiA6IG51bGwsCiAgICAiZG9jdVJlY2liZSIgOiBudWxsLAogICAgIm9ic2VydmFjaW9uZXMiIDogbnVsbCwKICAgICJwbGFjYVZlaGljdWxvIiA6IG51bGwKICB9LAogICJhcGVuZGljZSIgOiBbIHsKICAgICJjYW1wbyIgOiAiTm9tYnJlIiwKICAgICJldGlxdWV0YSIgOiAiTm9tYnJlIGRlbCB1c3VhcmlvIHF1ZSBnZW5lcmEgZWwgcHJvY2VzbyIsCiAgICAidmFsb3IiIDogIkZBQ1RVUkFDScOTTiIKICB9LCB7CiAgICAiY2FtcG8iIDogIk5JVCIsCiAgICAiZXRpcXVldGEiIDogIk5pdCBkZWwgdXN1YXJpbyBxdWUgZ2VuZXJhIGVsIHByb2Nlc28iLAogICAgInZhbG9yIiA6ICIwMDAwMDAwMDAwMDAwMCIKICB9LCB7CiAgICAiY2FtcG8iIDogIkR1aSIsCiAgICAiZXRpcXVldGEiIDogIkR1aSBkZWwgdXN1YXJpbyBxdWUgZ2VuZXJhIGVsIHByb2Nlc28iLAogICAgInZhbG9yIiA6ICIwMDAwMDAwMDAiCiAgfSwgewogICAgImNhbXBvIiA6ICJDb3JyZW8iLAogICAgImV0aXF1ZXRhIiA6ICJjb3JyZW8gZGVsIHVzdWFyaW8gcXVlIGdlbmVyYSBlbCBwcm9jZXNvIiwKICAgICJ2YWxvciIgOiAiZmFjdHVyYWNpb25AdHJpY29tYnVzLmNvbSIKICB9LCB7CiAgICAiY2FtcG8iIDogInRlbGVmb25vIiwKICAgICJldGlxdWV0YSIgOiAidGVsZWZvbm8gZGVsIHVzdWFyaW8gcXVlIGdlbmVyYSBlbCBwcm9jZXNvIiwKICAgICJ2YWxvciIgOiAiMjIyOTIyMDAiCiAgfSBdCn0.bt_fIZPyQJkpufhKtksHUv6DkrSU2gVDT9e6kBrQHOvboVRI-X8qfc2pASkfuH6BXRL8r5KvvyIYYBgD53vg75olMWqHgBAHNBoqRRDPByFMYf25ydRBQSFU25SqY2CzA7IsRIyPbBCjzdwscR-GMw7xb5rpHh1FqZmlMsE2BvCB3hCx27pHwHzYK-3CmAvc2RjPv1bFmkBNvEGZJ8GAzpTpcv5ycHDBXBjdcQUfSY-8EaQM_kl8L8c6HcJOIBZf1z2lcpUQKtF7W4JytJLXtxIm5GYGEWkiytc2iVHXAriqtvcsTLolNCtm8ubqMV4r3w9ko7KLMXa0Nu2vyoOuEg"
+}

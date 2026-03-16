@@ -3,6 +3,9 @@ import os
 import logging
 import traceback
 
+# Aumentar el límite de recursión para evitar errores de PyInstaller con Pandas/Streamlit
+sys.setrecursionlimit(5000)
+
 def main():
     # 1. Configurar log de emergencia inmediatamente (junto al ejecutable)
     if getattr(sys, 'frozen', False):
@@ -76,8 +79,8 @@ def main():
         logging.info(f"Ruta del script principal: {app_path}")
 
         logging.info("Lanzando Streamlit...")
-        # Quitamos headless para que abra el navegador y forzamos localhost para evitar firewall
-        sys.argv = ["streamlit", "run", app_path, "--global.developmentMode=false", "--server.address=127.0.0.1"]
+        # Forzamos explícitamente a que abra el navegador (headless=false) y evitamos bloqueos
+        sys.argv = ["streamlit", "run", app_path, "--global.developmentMode=false", "--server.address=127.0.0.1", "--server.headless=false", "--browser.gatherUsageStats=false"]
         
         sys.exit(stcli.main())
         

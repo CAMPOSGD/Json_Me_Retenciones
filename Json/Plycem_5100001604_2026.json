@@ -1,0 +1,148 @@
+{
+    "identificacion": {
+        "version": 1,
+        "ambiente": "01",
+        "tipoDte": "07",
+        "numeroControl": "DTE-07-M001P000-000000000000178",
+        "codigoGeneracion": "C2DA3881-E602-1FD1-84D7-E4A0633FC039",
+        "tipoModelo": 1,
+        "tipoOperacion": 1,
+        "tipoContingencia": null,
+        "motivoContin": null,
+        "fecEmi": "2026-02-25",
+        "horEmi": "20:59:19",
+        "tipoMoneda": "USD"
+    },
+    "emisor": {
+        "nit": "06140707041020",
+        "nrc": "1576076",
+        "nombre": "PLYCEM CONSTRUSISTEMAS EL SALVADOR, S.A. DE C.V.",
+        "codActividad": "43901",
+        "descActividad": "Fabricación de techos y materiales diversos",
+        "nombreComercial": "PLYCEM CONSTRUSISTEMAS EL SALVADOR, S.A. DE C.V.",
+        "tipoEstablecimiento": "02",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "07",
+            "complemento": "CARRETERA PANAMERICANA KM 12.5, ILOPANGO, SAN SALVADOR, EL SALVADOR"
+        },
+        "telefono": "22519300",
+        "correo": "facturacionplySV@elementia.com",
+        "codigoMH": "M001",
+        "codigo": null,
+        "puntoVentaMH": "P000",
+        "puntoVenta": null
+    },
+    "receptor": {
+        "tipoDocumento": "36",
+        "numDocumento": "06141511770020",
+        "nrc": "16128",
+        "nombre": "CENTRAL DE RODAMIENTOS S.A. DE C.V.",
+        "codActividad": "45301",
+        "descActividad": "VENTA DE PARTES, PIEZAS Y ACCESORIOS NUEVOS PARA VEHÍCULOS AUTOMOTORES",
+        "nombreComercial": "CENTRAL DE RODAMIENTOS S.A. DE C.V.",
+        "direccion": {
+            "departamento": "06",
+            "municipio": "14",
+            "complemento": "BLVD. VENEZUELA # 3077"
+        },
+        "telefono": "25250832",
+        "correo": "raul.guevara@cerosa.com"
+    },
+    "cuerpoDocumento": [
+        {
+            "numItem": 3,
+            "tipoDte": "01",
+            "tipoDoc": 1,
+            "numDocumento": "698",
+            "fechaEmision": "2026-02-02",
+            "montoSujetoGrav": 2992.2,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 29.92,
+            "descripcion": "RETENCIÓN IVA 1%"
+        },
+        {
+            "numItem": 2,
+            "tipoDte": "01",
+            "tipoDoc": 1,
+            "numDocumento": "782",
+            "fechaEmision": "2026-02-04",
+            "montoSujetoGrav": 1395.0,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 13.95,
+            "descripcion": "RETENCIÓN IVA 1%"
+        },
+        {
+            "numItem": 1,
+            "tipoDte": "01",
+            "tipoDoc": 1,
+            "numDocumento": "790",
+            "fechaEmision": "2026-02-04",
+            "montoSujetoGrav": 7780.0,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 77.8,
+            "descripcion": "RETENCIÓN IVA 1%"
+        },
+        {
+            "numItem": 5,
+            "tipoDte": "01",
+            "tipoDoc": 1,
+            "numDocumento": "936",
+            "fechaEmision": "2026-02-11",
+            "montoSujetoGrav": 506.54,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 5.07,
+            "descripcion": "RETENCIÓN IVA 1%"
+        },
+        {
+            "numItem": 4,
+            "tipoDte": "01",
+            "tipoDoc": 1,
+            "numDocumento": "937",
+            "fechaEmision": "2026-02-11",
+            "montoSujetoGrav": 149.66,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 1.5,
+            "descripcion": "RETENCIÓN IVA 1%"
+        },
+        {
+            "numItem": 6,
+            "tipoDte": "01",
+            "tipoDoc": 1,
+            "numDocumento": "939",
+            "fechaEmision": "2026-02-11",
+            "montoSujetoGrav": 1991.85,
+            "codigoRetencionMH": "22",
+            "ivaRetenido": 19.92,
+            "descripcion": "RETENCIÓN IVA 1%"
+        }
+    ],
+    "resumen": {
+        "totalSujetoRetencion": 14815.25,
+        "totalIVAretenido": 148.16,
+        "totalIVAretenidoLetras": "CIENTO CUARENTA Y OCHO CON 16/100 USD"
+    },
+    "extension": {
+        "nombEntrega": "EDUARDO BAÑOS MORENO",
+        "docuEntrega": null,
+        "nombRecibe": null,
+        "observaciones": [],
+        "docuRecibe": null
+    },
+    "apendice": null,
+    "responseMH": {
+        "version": 2,
+        "ambiente": "01",
+        "versionApp": 2,
+        "estado": "PROCESADO",
+        "codigoGeneracion": "C2DA3881-E602-1FD1-84D7-E4A0633FC039",
+        "numeroControl": "DTE-07-M001P000-000000000000178",
+        "selloRecibido": "20263D464177D580461F9D1FE4587FAEAD2F0LQN",
+        "fhProcesamiento": "25/02/2026 20:59:27",
+        "codigoMsg": "001",
+        "descripcionMsg": "RECIBIDO",
+        "observaciones": []
+    },
+    "codigoEmpresa": "PLYCEM",
+    "token": "eyJhbGciOiJSUzUxMiJ9.ewogICJpZGVudGlmaWNhY2lvbiI6IHsKICAgICJ2ZXJzaW9uIjogMSwKICAgICJhbWJpZW50ZSI6ICIwMSIsCiAgICAidGlwb0R0ZSI6ICIwNyIsCiAgICAibnVtZXJvQ29udHJvbCI6ICJEVEUtMDctTTAwMVAwMDAtMDAwMDAwMDAwMDAwMTc4IiwKICAgICJjb2RpZ29HZW5lcmFjaW9uIjogIkMyREEzODgxLUU2MDItMUZEMS04NEQ3LUU0QTA2MzNGQzAzOSIsCiAgICAidGlwb01vZGVsbyI6IDEsCiAgICAidGlwb09wZXJhY2lvbiI6IDEsCiAgICAidGlwb0NvbnRpbmdlbmNpYSI6IG51bGwsCiAgICAibW90aXZvQ29udGluIjogbnVsbCwKICAgICJmZWNFbWkiOiAiMjAyNi0wMi0yNSIsCiAgICAiaG9yRW1pIjogIjIwOjU5OjE5IiwKICAgICJ0aXBvTW9uZWRhIjogIlVTRCIKICB9LAogICJlbWlzb3IiOiB7CiAgICAibml0IjogIjA2MTQwNzA3MDQxMDIwIiwKICAgICJucmMiOiAiMTU3NjA3NiIsCiAgICAibm9tYnJlIjogIlBMWUNFTSBDT05TVFJVU0lTVEVNQVMgRUwgU0FMVkFET1IsIFMuQS4gREUgQy5WLiIsCiAgICAiY29kQWN0aXZpZGFkIjogIjQzOTAxIiwKICAgICJkZXNjQWN0aXZpZGFkIjogIkZhYnJpY2FjacOzbiBkZSB0ZWNob3MgeSBtYXRlcmlhbGVzIGRpdmVyc29zIiwKICAgICJub21icmVDb21lcmNpYWwiOiAiUExZQ0VNIENPTlNUUlVTSVNURU1BUyBFTCBTQUxWQURPUiwgUy5BLiBERSBDLlYuIiwKICAgICJ0aXBvRXN0YWJsZWNpbWllbnRvIjogIjAyIiwKICAgICJkaXJlY2Npb24iOiB7CiAgICAgICJkZXBhcnRhbWVudG8iOiAiMDYiLAogICAgICAibXVuaWNpcGlvIjogIjA3IiwKICAgICAgImNvbXBsZW1lbnRvIjogIkNBUlJFVEVSQSBQQU5BTUVSSUNBTkEgS00gMTIuNSwgSUxPUEFOR08sIFNBTiBTQUxWQURPUiwgRUwgU0FMVkFET1IiCiAgICB9LAogICAgInRlbGVmb25vIjogIjIyNTE5MzAwIiwKICAgICJjb3JyZW8iOiAiZmFjdHVyYWNpb25wbHlTVkBlbGVtZW50aWEuY29tIiwKICAgICJjb2RpZ29NSCI6ICJNMDAxIiwKICAgICJjb2RpZ28iOiBudWxsLAogICAgInB1bnRvVmVudGFNSCI6ICJQMDAwIiwKICAgICJwdW50b1ZlbnRhIjogbnVsbAogIH0sCiAgInJlY2VwdG9yIjogewogICAgInRpcG9Eb2N1bWVudG8iOiAiMzYiLAogICAgIm51bURvY3VtZW50byI6ICIwNjE0MTUxMTc3MDAyMCIsCiAgICAibnJjIjogIjE2MTI4IiwKICAgICJub21icmUiOiAiQ0VOVFJBTCBERSBST0RBTUlFTlRPUyBTLkEuIERFIEMuVi4iLAogICAgImNvZEFjdGl2aWRhZCI6ICI0NTMwMSIsCiAgICAiZGVzY0FjdGl2aWRhZCI6ICJWRU5UQSBERSBQQVJURVMsIFBJRVpBUyBZIEFDQ0VTT1JJT1MgTlVFVk9TIFBBUkEgVkVIw41DVUxPUyBBVVRPTU9UT1JFUyIsCiAgICAibm9tYnJlQ29tZXJjaWFsIjogIkNFTlRSQUwgREUgUk9EQU1JRU5UT1MgUy5BLiBERSBDLlYuIiwKICAgICJkaXJlY2Npb24iOiB7CiAgICAgICJkZXBhcnRhbWVudG8iOiAiMDYiLAogICAgICAibXVuaWNpcGlvIjogIjE0IiwKICAgICAgImNvbXBsZW1lbnRvIjogIkJMVkQuIFZFTkVaVUVMQSAjIDMwNzciCiAgICB9LAogICAgInRlbGVmb25vIjogIjI1MjUwODMyIiwKICAgICJjb3JyZW8iOiAicmF1bC5ndWV2YXJhQGNlcm9zYS5jb20iCiAgfSwKICAiY3VlcnBvRG9jdW1lbnRvIjogWwogICAgewogICAgICAibnVtSXRlbSI6IDMsCiAgICAgICJ0aXBvRHRlIjogIjAxIiwKICAgICAgInRpcG9Eb2MiOiAxLAogICAgICAibnVtRG9jdW1lbnRvIjogIjY5OCIsCiAgICAgICJmZWNoYUVtaXNpb24iOiAiMjAyNi0wMi0wMiIsCiAgICAgICJtb250b1N1amV0b0dyYXYiOiAyOTkyLjIsCiAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsCiAgICAgICJpdmFSZXRlbmlkbyI6IDI5LjkyLAogICAgICAiZGVzY3JpcGNpb24iOiAiUkVURU5DScOTTiBJVkEgMSUiCiAgICB9LAogICAgewogICAgICAibnVtSXRlbSI6IDIsCiAgICAgICJ0aXBvRHRlIjogIjAxIiwKICAgICAgInRpcG9Eb2MiOiAxLAogICAgICAibnVtRG9jdW1lbnRvIjogIjc4MiIsCiAgICAgICJmZWNoYUVtaXNpb24iOiAiMjAyNi0wMi0wNCIsCiAgICAgICJtb250b1N1amV0b0dyYXYiOiAxMzk1LjAsCiAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsCiAgICAgICJpdmFSZXRlbmlkbyI6IDEzLjk1LAogICAgICAiZGVzY3JpcGNpb24iOiAiUkVURU5DScOTTiBJVkEgMSUiCiAgICB9LAogICAgewogICAgICAibnVtSXRlbSI6IDEsCiAgICAgICJ0aXBvRHRlIjogIjAxIiwKICAgICAgInRpcG9Eb2MiOiAxLAogICAgICAibnVtRG9jdW1lbnRvIjogIjc5MCIsCiAgICAgICJmZWNoYUVtaXNpb24iOiAiMjAyNi0wMi0wNCIsCiAgICAgICJtb250b1N1amV0b0dyYXYiOiA3NzgwLjAsCiAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsCiAgICAgICJpdmFSZXRlbmlkbyI6IDc3LjgsCiAgICAgICJkZXNjcmlwY2lvbiI6ICJSRVRFTkNJw5NOIElWQSAxJSIKICAgIH0sCiAgICB7CiAgICAgICJudW1JdGVtIjogNSwKICAgICAgInRpcG9EdGUiOiAiMDEiLAogICAgICAidGlwb0RvYyI6IDEsCiAgICAgICJudW1Eb2N1bWVudG8iOiAiOTM2IiwKICAgICAgImZlY2hhRW1pc2lvbiI6ICIyMDI2LTAyLTExIiwKICAgICAgIm1vbnRvU3VqZXRvR3JhdiI6IDUwNi41NCwKICAgICAgImNvZGlnb1JldGVuY2lvbk1IIjogIjIyIiwKICAgICAgIml2YVJldGVuaWRvIjogNS4wNywKICAgICAgImRlc2NyaXBjaW9uIjogIlJFVEVOQ0nDk04gSVZBIDElIgogICAgfSwKICAgIHsKICAgICAgIm51bUl0ZW0iOiA0LAogICAgICAidGlwb0R0ZSI6ICIwMSIsCiAgICAgICJ0aXBvRG9jIjogMSwKICAgICAgIm51bURvY3VtZW50byI6ICI5MzciLAogICAgICAiZmVjaGFFbWlzaW9uIjogIjIwMjYtMDItMTEiLAogICAgICAibW9udG9TdWpldG9HcmF2IjogMTQ5LjY2LAogICAgICAiY29kaWdvUmV0ZW5jaW9uTUgiOiAiMjIiLAogICAgICAiaXZhUmV0ZW5pZG8iOiAxLjUsCiAgICAgICJkZXNjcmlwY2lvbiI6ICJSRVRFTkNJw5NOIElWQSAxJSIKICAgIH0sCiAgICB7CiAgICAgICJudW1JdGVtIjogNiwKICAgICAgInRpcG9EdGUiOiAiMDEiLAogICAgICAidGlwb0RvYyI6IDEsCiAgICAgICJudW1Eb2N1bWVudG8iOiAiOTM5IiwKICAgICAgImZlY2hhRW1pc2lvbiI6ICIyMDI2LTAyLTExIiwKICAgICAgIm1vbnRvU3VqZXRvR3JhdiI6IDE5OTEuODUsCiAgICAgICJjb2RpZ29SZXRlbmNpb25NSCI6ICIyMiIsCiAgICAgICJpdmFSZXRlbmlkbyI6IDE5LjkyLAogICAgICAiZGVzY3JpcGNpb24iOiAiUkVURU5DScOTTiBJVkEgMSUiCiAgICB9CiAgXSwKICAicmVzdW1lbiI6IHsKICAgICJ0b3RhbFN1amV0b1JldGVuY2lvbiI6IDE0ODE1LjI1LAogICAgInRvdGFsSVZBcmV0ZW5pZG8iOiAxNDguMTYsCiAgICAidG90YWxJVkFyZXRlbmlkb0xldHJhcyI6ICJDSUVOVE8gQ1VBUkVOVEEgWSBPQ0hPIENPTiAxNi8xMDAgVVNEIgogIH0sCiAgImV4dGVuc2lvbiI6IHsKICAgICJub21iRW50cmVnYSI6ICJFRFVBUkRPIEJBw5FPUyBNT1JFTk8iLAogICAgImRvY3VFbnRyZWdhIjogbnVsbCwKICAgICJub21iUmVjaWJlIjogbnVsbCwKICAgICJvYnNlcnZhY2lvbmVzIjogbnVsbCwKICAgICJkb2N1UmVjaWJlIjogbnVsbAogIH0sCiAgImFwZW5kaWNlIjogbnVsbAp9.GquTnMzgIbOeTwIF5UTmuZmCugJ2w7fN8fkwrExWkjmp53BB2yfwvoKajUz_qA8t6Fjvt8s81wKcL-7NKtCd9nujMfart92Ow924seiCAJxD-LExCfIKx_NWBddLO6ssu2cLqhW75AbQRc47m3BwtbyQdB4xTdYkGtNwIA3-JGFAD-6Zn9RCLsFogT2UnHn1eOJzi1XEA9DcomKTvXWkpu4pY2PvfU5WxoiV7Y6lSPUMsv9UakgqOxo0gEY3tvH6rsbHIpjtQmtYf3xSspBu9AS0FVKH-HBeB6Ryw-hFbKC2r1bXxMx92-54B1QRQYBnBs7V0hMJCJn0oPoQn5k9rA"
+}              
