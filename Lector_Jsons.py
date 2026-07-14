@@ -178,6 +178,18 @@ def procesar_bytes_json(raw_data, nombre):
             msg = f"   ERROR: El archivo {nombre} no tiene un formato válido, es {type(data)}."
             logging.error(msg)
             return []
+        
+        respuesta_hacienda = {}
+
+        for obj in data:
+
+            if (
+                isinstance(obj, dict)
+                and obj.get("selloRecibido")
+            ):
+
+                respuesta_hacienda = obj
+                break
 
         for elemento in data:
             if not isinstance(elemento, dict):
@@ -191,6 +203,10 @@ def procesar_bytes_json(raw_data, nombre):
 
             if "identificacion" not in elemento and "emisor" not in elemento:
                 continue
+
+            if respuesta_hacienda:
+                elemento = elemento.copy()
+                elemento.update(respuesta_hacienda)
 
             fila_base = identificacion_y_emisor(elemento, nombre)
             fila_base.update(informacion_receptor(elemento))
@@ -236,19 +252,33 @@ def crear_dataframe_desde_filas(filas):
         df = df.reindex(columns=columnas_ordenadas)
     return df
 
-def procesar_directorio(ruta_directorio):
+def procesar_directorio(ruta_directorio, progreso=None):
+    
     filas = []
 
 
     if not os.path.exists(ruta_directorio):
         logging.error(f"La ruta no existe: {ruta_directorio}")
         return pd.DataFrame()
+    
+    archivos = [
+    nombre
+    for nombre in os.listdir(ruta_directorio)
+    if os.path.isfile(os.path.join(ruta_directorio, nombre))
+    and nombre.lower().endswith(".json")
+]
 
-    for nombre in os.listdir(ruta_directorio):
+    total_archivos = len(archivos)
+
+    for indice, nombre in enumerate(archivos, start=1):
         ruta_completa = os.path.join(ruta_directorio, nombre)
 
         if os.path.isfile(ruta_completa) and nombre.lower().endswith(".json"):
             logging.info(f"-> Archivo detectado: {nombre}")
+
+            if progreso:
+                progreso(indice, total_archivos, nombre)
+
             try:
                 with open(ruta_completa, "rb") as f:
                     raw_data = f.read()
